@@ -1,0 +1,2204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ekaterina Novitskaia — Digital Marketing Manager</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #FAF8F3;
+  --cream-mid: #F2EFE8;
+  --cream-dark: #E8E3D8;
+  --ink: #1C1A16;
+  --ink-mid: #4A4640;
+  --ink-light: #8A847A;
+  --accent: oklch(68% 0.09 68);
+  --accent-hover: oklch(58% 0.11 68);
+  --serif: 'DM Serif Display', Georgia, serif;
+  --mono: 'Space Mono', monospace;
+  --sans: 'DM Sans', system-ui, sans-serif;
+}
+
+html, body { overflow-x: hidden; max-width: 100%; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── NAV ─── */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: 0 48px;
+  height: 64px;
+  background: rgba(250, 248, 243, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--cream-dark);
+}
+
+.nav-name {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 36px;
+  margin-left: auto;
+  list-style: none;
+}
+
+.nav-links a {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover { color: var(--ink); }
+
+.nav-lang {
+  display: flex;
+  gap: 4px;
+  margin-left: 32px;
+}
+
+/* ─── HERO ─── */
+#hero {
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border-bottom: 1px solid var(--cream-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-left {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-photo {
+  position: relative;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: top center;
+  max-height: 90vh;
+  display: block;
+}
+
+.hero-eyebrow {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 28px;
+}
+
+.hero-name {
+  font-family: var(--serif);
+  font-size: clamp(64px, 9vw, 136px);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 40px;
+}
+
+.hero-name em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-tagline {
+  font-family: var(--serif);
+  font-size: clamp(18px, 2.2vw, 26px);
+  line-height: 1.35;
+  color: var(--ink-mid);
+  max-width: 520px;
+  font-style: italic;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.lang-strip {
+  display: flex;
+  gap: 6px;
+}
+
+.lang-pill {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border: 1px solid var(--cream-dark);
+  color: var(--ink-light);
+}
+
+.lang-btn {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border: 1px solid var(--cream-dark);
+  color: var(--ink-light);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.lang-btn.active {
+  background: var(--ink);
+  color: var(--cream);
+  border-color: var(--ink);
+}
+
+.btn-primary {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  background: var(--ink);
+  color: var(--cream);
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* ─── SECTION BASE ─── */
+section {
+  padding: 100px 48px;
+  border-bottom: 1px solid var(--cream-dark);
+}
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 56px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--cream-dark);
+  max-width: 80px;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(36px, 4.5vw, 64px);
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+/* ─── ABOUT ─── */
+#about { background: var(--cream-mid); }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+  margin-top: 56px;
+}
+
+.about-bio {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--ink-mid);
+  font-weight: 300;
+}
+
+.about-bio strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.about-aside {
+  padding-top: 8px;
+}
+
+.aside-block {
+  margin-bottom: 40px;
+}
+
+.aside-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 12px;
+}
+
+.aside-value {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+/* ─── BRANDS ─── */
+#brands {}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--cream-dark);
+  border: 1px solid var(--cream-dark);
+  margin-top: 56px;
+}
+
+.brand-cell {
+  background: var(--cream);
+  padding: 32px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.brand-cell:hover { background: var(--cream-mid); }
+
+.brand-name {
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+/* ─── SERVICES ─── */
+#services { background: var(--ink); }
+
+#services .section-label { color: #5a5650; }
+#services .section-label::after { background: #3a3632; }
+#services .section-title { color: var(--cream); }
+
+.services-list {
+  margin-top: 64px;
+  border-top: 1px solid #3a3632;
+}
+
+.service-item { border-bottom: 1px solid #2e2c28; }
+
+.service-row {
+  display: grid;
+  grid-template-columns: 48px 1fr auto auto;
+  align-items: center;
+  gap: 32px;
+  padding: 28px 0;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.service-row:hover { background: rgba(255,255,255,0.02); }
+
+.service-num {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: #5a5650;
+  letter-spacing: 0.1em;
+}
+
+.service-name {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.8vw, 36px);
+  color: var(--cream);
+  line-height: 1.1;
+}
+
+.service-tag {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.service-toggle {
+  width: 36px; height: 36px;
+  background: transparent;
+  border: 1px solid #3a3632;
+  color: var(--cream);
+  font-family: var(--mono);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.3s ease, border-color 0.2s, color 0.2s;
+  padding: 0;
+}
+.service-item.open .service-toggle {
+  transform: rotate(45deg);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.service-body {
+  display: none;
+  background: #2e2c28;
+  padding: 36px 48px 44px 80px;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 64px;
+}
+.service-item.open .service-body { display: grid; }
+
+.service-tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.35;
+  color: var(--cream);
+  margin-bottom: 20px;
+}
+
+.service-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #c8c2b8;
+  font-weight: 300;
+}
+
+.service-includes-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.service-includes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-includes-list li {
+  font-size: 14px;
+  color: #c8c2b8;
+  line-height: 1.45;
+  padding-left: 16px;
+  position: relative;
+}
+.service-includes-list li::before {
+  content: '·';
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+/* ─── CASES ─── */
+#cases { background: var(--cream-mid); }
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: var(--cream-dark);
+  border: 1px solid var(--cream-dark);
+  margin-top: 56px;
+}
+
+.case-card {
+  background: var(--cream);
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.case-brand {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.case-title {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: var(--ink);
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.case-block {
+  margin-bottom: 20px;
+  padding-left: 16px;
+  border-left: 2px solid var(--cream-dark);
+}
+
+.case-block:last-child { margin-bottom: 0; }
+
+.case-block-label {
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 5px;
+}
+
+.case-block-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-mid);
+  font-weight: 300;
+}
+
+.case-block.outcome { border-left-color: var(--accent); }
+.case-block.outcome .case-block-label { color: var(--accent); }
+.case-block.outcome .case-block-text { color: var(--ink); font-weight: 500; }
+
+/* ─── CONTACT ─── */
+#contact {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: none;
+}
+
+.contact-inner {
+  max-width: 720px;
+}
+
+.contact-title {
+  font-family: var(--serif);
+  font-size: clamp(40px, 6vw, 88px);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 48px;
+}
+
+.contact-title em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  group: true;
+}
+
+.contact-link-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.contact-link-value {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: var(--ink);
+  transition: color 0.2s;
+}
+
+.contact-link:hover .contact-link-value { color: var(--accent); }
+
+/* ─── FOOTER ─── */
+footer {
+  padding: 24px 48px;
+  border-top: 1px solid var(--cream-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copy {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: var(--ink-light);
+}
+
+/* ─── SCROLL REVEAL ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ─── CASE CARD FLEX ─── */
+.case-card {
+  display: flex;
+  flex-direction: column;
+}
+.case-content { flex: 1; }
+
+/* ─── GALLERY GRID ─── */
+.case-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--cream-dark);
+}
+
+.gal-thumb {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-in;
+  transition: opacity 0.18s, transform 0.18s;
+}
+.gal-thumb:hover { opacity: 0.82; transform: scale(1.02); }
+
+/* Gallery photos: uniform 2/3 aspect so they form a clean top row */
+.gallery-item[data-case="gallery"] .gal-thumb {
+  aspect-ratio: 2/3;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gal-video-wrap {
+  width: 100%;
+  aspect-ratio: 4/5;
+  position: relative;
+  cursor: zoom-in;
+  overflow: hidden;
+}
+.gal-video-wrap video {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+.gal-video-wrap .play-badge {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.28);
+  transition: background 0.15s;
+}
+.gal-video-wrap:hover .play-badge { background: rgba(0,0,0,0.1); }
+.play-badge svg { width: 28px; height: 28px; opacity: 0.9; }
+
+/* ─── GALLERY CAPTION ─── */
+.gallery-caption {
+  padding: 10px 12px;
+  background: var(--cream);
+  border-top: 1px solid var(--cream-dark);
+}
+.gallery-caption-brand {
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 3px;
+}
+.gallery-caption-text {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  color: var(--ink-light);
+  line-height: 1.4;
+}
+.gallery-caption-ai {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  border: 1px solid var(--cream-dark);
+  padding: 2px 6px;
+}
+
+/* ─── LIGHTBOX ─── */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(20,18,14,0.95);
+  z-index: 500;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: min(88vw, 600px);
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.5);
+}
+.lightbox video {
+  max-width: min(50vw, 380px);
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.5);
+}
+.lb-close {
+  position: absolute;
+  top: 28px; right: 36px;
+  color: rgba(255,255,255,0.7);
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: color 0.15s;
+}
+.lb-close:hover { color: white; }
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,0.5);
+  font-size: 28px;
+  cursor: pointer;
+  padding: 16px;
+  user-select: none;
+  transition: color 0.15s;
+  font-family: var(--mono);
+}
+.lb-nav:hover { color: white; }
+.lb-prev { left: 16px; }
+.lb-next { right: 16px; }
+.lb-counter {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+}
+
+/* ─── CAROUSEL ─── */
+.carousel { position: relative; width: 100%; overflow: hidden; }
+.carousel-track { display: flex; width: 100%; transition: transform 0.4s ease; }
+.carousel-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  display: block;
+}
+.carousel-btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(28,26,22,0.55); color: #FAF8F3;
+  border: none; cursor: pointer; font-size: 18px;
+  padding: 10px 14px; z-index: 2; transition: background 0.2s;
+}
+.carousel-btn:hover { background: rgba(28,26,22,0.85); }
+.carousel-btn.prev { left: 0; }
+.carousel-btn.next { right: 0; }
+.carousel-counter {
+  position: absolute; bottom: 8px; right: 10px;
+  font-family: var(--mono); font-size: 9px;
+  color: rgba(250,248,243,0.8); letter-spacing: 0.1em;
+  background: rgba(0,0,0,0.3); padding: 2px 7px;
+}
+
+/* ─── GALLERY FILTERS ─── */
+.gallery-filters {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px;
+}
+.gf-btn {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em;
+  text-transform: uppercase; padding: 8px 16px;
+  border: 1px solid var(--cream-dark); background: var(--cream);
+  color: var(--ink-light); cursor: pointer; transition: all 0.2s;
+}
+.gf-btn.active, .gf-btn:hover {
+  background: var(--ink); color: var(--cream); border-color: var(--ink);
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 4px;
+  gap: 4px;
+  visibility: hidden;
+}
+.gallery-grid.is-laid-out { visibility: visible; }
+.gallery-grid .gallery-item {
+  width: 100%;
+  align-self: start;
+}
+.gallery-item.hidden { display: none; }
+
+@media (max-width: 1200px) {
+  .gallery-grid { grid-template-columns: repeat(4, 1fr); }
+}
+@media (max-width: 700px) {
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ─── PRICING ─── */
+#pricing { background: var(--cream); }
+.pricing-list { margin-top: 56px; }
+.pricing-group { margin-bottom: 2px; }
+.pricing-item { }
+.pricing-row {
+  display: grid;
+  grid-template-columns: 60px 1fr auto 28px;
+  align-items: center;
+  gap: 24px;
+  padding: 22px 28px;
+  border: 1px solid var(--cream-dark);
+  border-bottom: none;
+  cursor: pointer;
+  background: var(--cream);
+  user-select: none;
+  transition: background 0.18s;
+}
+.pricing-row:hover { background: var(--cream-mid); }
+.pricing-item:last-child .pricing-row { border-bottom: 1px solid var(--cream-dark); }
+.pricing-item.open:last-child .pricing-row { border-bottom: none; }
+.pricing-item.open:last-child .pricing-body { border-bottom: 1px solid var(--cream-dark); }
+.pricing-code { font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em; color: var(--ink-light); }
+.pricing-name { font-family: var(--serif); font-size: clamp(18px, 2.2vw, 28px); color: var(--ink); line-height: 1.1; }
+.pricing-price { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; color: var(--ink-mid); white-space: nowrap; text-align: right; }
+.pricing-toggle {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--ink); color: var(--cream);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; flex-shrink: 0;
+  transition: transform 0.2s;
+  font-family: var(--mono);
+}
+.pricing-item.open .pricing-toggle { transform: rotate(45deg); }
+.pricing-body {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 32px 28px 36px;
+  border: 1px solid var(--cream-dark);
+  border-top: none; border-bottom: none;
+}
+.pricing-item.open .pricing-body { display: grid; }
+.pricing-group-a .pricing-item.open .pricing-row { background: #EEF2EE; border-color: #d8e0d8; }
+.pricing-group-a .pricing-item.open .pricing-body { background: #EEF2EE; border-color: #d8e0d8; }
+.pricing-group-b .pricing-item.open .pricing-row { background: #EEEDF4; border-color: #dddbe8; }
+.pricing-group-b .pricing-item.open .pricing-body { background: #EEEDF4; border-color: #dddbe8; }
+.pricing-desc { font-size: 14px; line-height: 1.7; color: var(--ink-mid); font-weight: 300; }
+.pricing-includes-label { font-family: var(--mono); font-size: 8px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 14px; }
+.pricing-includes-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.pricing-includes-list li { font-size: 13px; color: var(--ink-mid); display: flex; align-items: baseline; gap: 10px; font-weight: 300; }
+.pricing-includes-list li::before { content: '—'; font-family: var(--mono); font-size: 10px; color: var(--ink-light); flex-shrink: 0; }
+@media (max-width: 900px) {
+  .pricing-row { grid-template-columns: 48px 1fr auto 28px; gap: 12px; padding: 18px 16px; }
+  .pricing-body { grid-template-columns: 1fr; gap: 24px; padding: 24px 16px; }
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 900px) {
+  nav { padding: 0 24px; }
+  .nav-links { gap: 20px; }
+  section { padding: 72px 24px; }
+  #hero { grid-template-columns: 1fr; max-height: none; }
+  .hero-left { padding: 100px 24px 64px; }
+  .hero-photo { height: 60vh; }
+  .hero-bottom { flex-direction: column; align-items: flex-start; }
+  .hero-right { align-items: flex-start; }
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+  .brands-grid { grid-template-columns: repeat(2, 1fr); }
+  .cases-grid { grid-template-columns: 1fr; }
+  footer { padding: 20px 24px; flex-direction: column; gap: 8px; }
+  .service-row { grid-template-columns: 32px 1fr auto; gap: 16px; }
+  .service-tag { display: none; }
+  .service-body { grid-template-columns: 1fr; padding: 24px 24px 32px 48px; gap: 28px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <ul class="nav-links">
+    <li><a href="#about" data-en="About" data-ru="Обо мне" data-es="Sobre mí">About</a></li>
+    <li><a href="#services" data-en="Services" data-ru="Услуги" data-es="Servicios">Services</a></li>
+    <li><a href="#cases" data-en="Work" data-ru="Работы" data-es="Trabajos">Work</a></li>
+    <li><a href="#pricing" data-en="Pricing" data-ru="Цены" data-es="Precios">Pricing</a></li>
+    <li><a href="#gallery" data-en="Gallery" data-ru="Галерея" data-es="Galería">Gallery</a></li>
+    <li><a href="#contact" data-en="Contact" data-ru="Контакт" data-es="Contacto">Contact</a></li>
+  </ul>
+  <div class="nav-lang">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="ru">RU</button>
+    <button class="lang-btn" data-lang="es">ES</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" data-screen-label="Hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow"
+      data-en="Brand Strategist &amp; Content Systems · Based in Europe"
+      data-ru="Бренд-стратег · Контент-системы · Европа"
+      data-es="Estratega de marca · Sistemas de contenido · Europa">
+      Brand Strategist &amp; Content Systems · Based in Europe
+    </div>
+    <h1 class="hero-name">Ekaterina<br/><em>Novitskaia</em></h1>
+    <div class="hero-bottom">
+      <p class="hero-tagline"
+        data-en="I don't manage social media.<br/>I build the system behind it."
+        data-ru="Я не веду соцсети.<br/>Я строю систему, которая за ними стоит."
+        data-es="No gestiono redes sociales.<br/>Construyo el sistema que hay detrás.">
+        I don't manage social media.<br/>I build the system behind it.
+      </p>
+      <div class="hero-right">
+        <a href="#contact" class="btn-primary"
+          data-en="Get in touch"
+          data-ru="Написать"
+          data-es="Contactar">Get in touch</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="assets/img/hero/KatWB.webp" alt="Ekaterina Novitskaia">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-screen-label="About">
+  <div class="section-label"
+    data-en="About me"
+    data-ru="Обо мне"
+    data-es="Sobre mí">About me</div>
+  <div class="about-grid reveal">
+    <p class="about-bio"
+      data-en="I helped House of Sustainable Brands in Hamburg — an e-commerce company behind Thiocyn and other digital-native brands — build complete content systems for three brands from scratch: competitor analysis, brand manifestos, positioning, 12-month masterplans, format libraries, production calendars, briefs, copy frameworks — and the assets themselves: posts, carousels, reels.<br/><br/>Before I write a single brief I map the competitive landscape: what every rival owns emotionally, what angles they repeat, what gap they leave open. That gap becomes the brand's territory.<br/><br/>I work in <strong>Russian, English, Spanish, Italian and Belarusian</strong> — which means I don't translate content, I rebuild it for each market from the ground up."
+      data-ru="Я помогла House of Sustainable Brands в Гамбурге — e-commerce-компании, которая стоит за Thiocyn и другими digital-native брендами — выстроить полные контент-системы для трёх брендов с нуля: анализ конкурентов, бренд-манифесты, позиционирование, мастер-планы на 12 месяцев, библиотеки форматов, производственные календари, брифы, структуры для текстов — и сами материалы: посты, карусели, рилсы.<br/><br/>Прежде чем написать первый бриф, я изучаю конкурентную среду: что каждый конкурент уже занял эмоционально, какие подходы повторяют, какой пробел оставляют открытым. Этот пробел становится территорией бренда.<br/><br/>Я работаю на <strong>русском, английском, испанском, итальянском и белорусском</strong> — это значит, я не перевожу контент, я перестраиваю его под каждый рынок с нуля."
+      data-es="Ayudé a House of Sustainable Brands en Hamburgo — una compañía de e-commerce detrás de Thiocyn y otras marcas nativas digitales — a construir sistemas de contenido completos para tres marcas desde cero: análisis competitivo, manifiestos de marca, posicionamiento, planes de contenido a 12 meses, bibliotecas de formatos, calendarios de producción, briefs, estructuras de copywriting — y los propios activos: posts, carruseles y reels.<br/><br/>Antes de escribir un solo brief, analizo el panorama competitivo: qué territorio emocional ocupa cada competidor, qué enfoques repiten y qué espacio dejan libre. Ese espacio se convierte en el territorio de la marca.<br/><br/>Trabajo en <strong>ruso, inglés, español, italiano y bielorruso</strong> — lo que significa que no traduzco el contenido, lo reconstruyo para cada mercado desde cero.">
+      I helped House of Sustainable Brands in Hamburg — an e-commerce company behind Thiocyn and other digital-native brands — build complete content systems for three brands from scratch: competitor analysis, brand manifestos, positioning, 12-month masterplans, format libraries, production calendars, briefs, copy frameworks — and the assets themselves: posts, carousels, reels.
+    </p>
+    <div class="about-aside">
+      <div class="aside-block">
+        <div class="aside-label"
+          data-en="Specialisation"
+          data-ru="Специализация"
+          data-es="Especialización">Specialisation</div>
+        <div class="aside-value"
+          data-en="Brand Strategy<br/>Content Systems<br/>Competitor Intelligence<br/>Creative Production"
+          data-ru="Бренд-стратегия<br/>Контент-системы<br/>Анализ конкурентов<br/>Креативный продакшн"
+          data-es="Estrategia de marca<br/>Sistemas de contenido<br/>Inteligencia competitiva<br/>Producción creativa">Brand Strategy<br/>Content Systems<br/>Competitor Intelligence<br/>Creative Production</div>
+      </div>
+      <div class="aside-block">
+        <div class="aside-label"
+          data-en="Location"
+          data-ru="Локация"
+          data-es="Ubicación">Location</div>
+        <div class="aside-value"
+          data-en="Europe<br/><span style='font-size:14px;font-family:var(--mono);color:var(--ink-light)'>Available for remote projects</span>"
+          data-ru="Европа<br/><span style='font-size:14px;font-family:var(--mono);color:var(--ink-light)'>Доступна для удалённых проектов</span>"
+          data-es="Europa<br/><span style='font-size:14px;font-family:var(--mono);color:var(--ink-light)'>Disponible para proyectos remotos</span>">Europe<br/><span style="font-size:14px;font-family:var(--mono);color:var(--ink-light)">Available for remote projects</span></div>
+      </div>
+      <div class="aside-block">
+        <div class="aside-label"
+          data-en="Languages"
+          data-ru="Языки"
+          data-es="Idiomas">Languages</div>
+        <div class="aside-value">RU · EN · ES · IT · BY</div>
+      </div>
+      <div class="aside-block">
+        <div class="aside-label"
+          data-en="AI Tools"
+          data-ru="ИИ-инструменты"
+          data-es="Herramientas IA">AI Tools</div>
+        <div class="aside-value" style="font-size:15px; line-height:1.8">
+          Midjourney · Runway<br/>
+          Claude · ChatGPT<br/>
+          ElevenLabs · Sora
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" data-screen-label="Services">
+  <div class="section-label"
+    data-en="What I do"
+    data-ru="Что я делаю"
+    data-es="Lo que hago">What I do</div>
+  <h2 class="section-title" style="color:var(--cream)"
+    data-en="Full-stack<br/>marketing."
+    data-ru="Полный цикл<br/>маркетинга."
+    data-es="Marketing<br/>integral.">Full-stack<br/>marketing.</h2>
+  <div class="services-list reveal">
+
+    <div class="service-item" data-service="01">
+      <div class="service-row">
+        <span class="service-num">01</span>
+        <span class="service-name"
+          data-en="Social Media Management"
+          data-ru="Управление соцсетями"
+          data-es="Gestión de redes sociales">Social Media Management</span>
+        <span class="service-tag">Instagram · TikTok · LinkedIn</span>
+        <button class="service-toggle" aria-label="Expand">+</button>
+      </div>
+      <div class="service-body">
+        <div class="service-body-text">
+          <p class="service-tagline"
+            data-en="Running accounts is easy. Building a system that compounds is not."
+            data-ru="Вести аккаунты несложно. Построить систему, которая работает на рост — другое дело."
+            data-es="Gestionar cuentas es fácil. Construir un sistema que escale, no tanto."><em>Running accounts is easy. Building a system that compounds is not.</em></p>
+          <p class="service-desc"
+            data-en="I manage Instagram, TikTok and LinkedIn as interconnected channels — not separate feeds. Each platform gets its own format logic, cadence and tone, but all serve one brand narrative. I track what performs, document what works, and iterate every month."
+            data-ru="Я веду Instagram, TikTok и LinkedIn как единую систему, а не отдельные ленты. У каждой платформы своя логика форматов, ритм и тон — но все они работают на одну бренд-нарративку. Отслеживаю что работает, фиксирую, улучшаю каждый месяц."
+            data-es="Gestiono Instagram, TikTok y LinkedIn como canales interconectados, no como feeds separados. Cada plataforma tiene su propia lógica de formatos, cadencia y tono, pero todas sirven a una misma narrativa de marca. Analizo qué funciona, lo documento y lo itero cada mes.">I manage Instagram, TikTok and LinkedIn as interconnected channels — not separate feeds. Each platform gets its own format logic, cadence and tone, but all serve one brand narrative. I track what performs, document what works, and iterate every month.</p>
+        </div>
+        <div class="service-body-includes">
+          <div class="service-includes-label">Includes</div>
+          <ul class="service-includes-list">
+            <li data-en="Monthly content calendar &amp; posting cadence" data-ru="Ежемесячный контент-календарь и ритм публикаций" data-es="Calendario de contenido mensual y cadencia de publicación">Monthly content calendar &amp; posting cadence</li>
+            <li data-en="Caption writing in EN / RU / ES" data-ru="Тексты для постов на EN / RU / ES" data-es="Redacción de copys en EN / RU / ES">Caption writing in EN / RU / ES</li>
+            <li data-en="Community management" data-ru="Управление комьюнити" data-es="Gestión de comunidad">Community management</li>
+            <li data-en="Monthly analytics report" data-ru="Ежемесячный аналитический отчёт" data-es="Informe mensual de analítica">Monthly analytics report</li>
+            <li data-en="Format testing &amp; iteration" data-ru="Тестирование форматов и итерации" data-es="Pruebas de formatos e iteración">Format testing &amp; iteration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-item" data-service="02">
+      <div class="service-row">
+        <span class="service-num">02</span>
+        <span class="service-name"
+          data-en="Content Strategy"
+          data-ru="Контент-стратегия"
+          data-es="Estrategia de contenido">Content Strategy</span>
+        <span class="service-tag">Editorial systems · Masterplans</span>
+        <button class="service-toggle" aria-label="Expand">+</button>
+      </div>
+      <div class="service-body">
+        <div class="service-body-text">
+          <p class="service-tagline"
+            data-en="A strategy that sits in a folder is not a strategy."
+            data-ru="Стратегия, которая лежит в папке — не стратегия."
+            data-es="Una estrategia que se queda en una carpeta no es una estrategia."><em>A strategy that sits in a folder is not a strategy.</em></p>
+          <p class="service-desc"
+            data-en="Before I write a single brief, I spend time inside the competitive landscape — mapping what every rival already owns emotionally and visually, and what gap the brand can step into. The output is a system: formats, rhythms, pillars, and a 12-month roadmap that a team can actually use."
+            data-ru="Прежде чем написать первый бриф, я изучаю конкурентную среду — что каждый конкурент уже занял эмоционально и визуально, и какой пробел открыт для бренда. Результат — система: форматы, ритмы, столпы контента и 12-месячный план, который реально работает."
+            data-es="Antes de escribir un solo brief, analizo el panorama competitivo — qué territorio emocional y visual ocupa cada competidor, y qué hueco puede ocupar la marca. El resultado es un sistema: formatos, ritmos, pilares y una hoja de ruta de 12 meses que un equipo puede usar de verdad.">Before I write a single brief, I spend time inside the competitive landscape — mapping what every rival already owns emotionally and visually, and what gap the brand can step into. The output is a system: formats, rhythms, pillars, and a 12-month roadmap that a team can actually use.</p>
+        </div>
+        <div class="service-body-includes">
+          <div class="service-includes-label">Includes</div>
+          <ul class="service-includes-list">
+            <li data-en="Competitor analysis (10–15 brands)" data-ru="Анализ конкурентов (10–15 брендов)" data-es="Análisis competitivo (10–15 marcas)">Competitor analysis (10–15 brands)</li>
+            <li data-en="Audience portrait development" data-ru="Разработка портретов целевой аудитории" data-es="Desarrollo de perfiles de audiencia">Audience portrait development</li>
+            <li data-en="Brand positioning &amp; voice document" data-ru="Документ позиционирования и голоса бренда" data-es="Documento de posicionamiento y voz de marca">Brand positioning &amp; voice document</li>
+            <li data-en="Content matrix with pillars &amp; formats" data-ru="Контент-матрица со столпами и форматами" data-es="Matriz de contenido con pilares y formatos">Content matrix with pillars &amp; formats</li>
+            <li data-en="12-month strategic masterplan" data-ru="Стратегический мастер-план на 12 месяцев" data-es="Plan maestro estratégico de 12 meses">12-month strategic masterplan</li>
+            <li data-en="Monthly content plans — every post mapped out" data-ru="Ежемесячные контент-планы — каждый пост прописан" data-es="Planes de contenido mensuales — cada post planificado">Monthly content plans — every post mapped out</li>
+            <li data-en="Story briefs &amp; post templates" data-ru="Брифы для Stories и шаблоны постов" data-es="Briefs de Stories y plantillas de posts">Story briefs &amp; post templates</li>
+            <li data-en="Seasonal &amp; cultural calendar" data-ru="Сезонный и культурный календарь" data-es="Calendario estacional y cultural">Seasonal &amp; cultural calendar</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-item" data-service="04">
+      <div class="service-row">
+        <span class="service-num">04</span>
+        <span class="service-name"
+          data-en="Brand Operations"
+          data-ru="Бренд-процессы"
+          data-es="Operaciones de marca">Brand Operations</span>
+        <span class="service-tag">Reporting · Workflows · Ops</span>
+        <button class="service-toggle" aria-label="Expand">+</button>
+      </div>
+      <div class="service-body">
+        <div class="service-body-text">
+          <p class="service-tagline"
+            data-en="Good marketing breaks down without someone running the backend."
+            data-ru="Хороший маркетинг разваливается без человека который управляет процессами."
+            data-es="El buen marketing se derrumba sin alguien que gestione el backend."><em>Good marketing breaks down without someone running the backend.</em></p>
+          <p class="service-desc"
+            data-en="I handle the operational layer that keeps content moving — workflows, reporting, vendor coordination, and the systems that make a small team feel larger than it is."
+            data-ru="Я беру на себя операционный слой который держит контент в движении — рабочие процессы, отчётность, координацию подрядчиков и системы которые делают небольшую команду эффективнее."
+            data-es="Me encargo de la capa operativa que mantiene el contenido en movimiento — flujos de trabajo, reportes, coordinación de proveedores y los sistemas que hacen que un equipo pequeño rinda como uno grande.">I handle the operational layer that keeps content moving — workflows, reporting, vendor coordination, and the systems that make a small team feel larger than it is.</p>
+        </div>
+        <div class="service-body-includes">
+          <div class="service-includes-label">Includes</div>
+          <ul class="service-includes-list">
+            <li data-en="Content workflow design" data-ru="Проектирование рабочих процессов" data-es="Diseño de flujos de trabajo de contenido">Content workflow design</li>
+            <li data-en="Editorial calendar management" data-ru="Управление редакционным календарём" data-es="Gestión del calendario editorial">Editorial calendar management</li>
+            <li data-en="Vendor &amp; creator coordination" data-ru="Координация подрядчиков и креаторов" data-es="Coordinación de proveedores y creadores">Vendor &amp; creator coordination</li>
+            <li data-en="KPI dashboard setup" data-ru="Настройка дашборда KPI" data-es="Configuración de dashboard de KPIs">KPI dashboard setup</li>
+            <li data-en="Weekly &amp; monthly reporting" data-ru="Еженедельная и ежемесячная отчётность" data-es="Reportes semanales y mensuales">Weekly &amp; monthly reporting</li>
+            <li data-en="Process documentation" data-ru="Документирование процессов" data-es="Documentación de procesos">Process documentation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-item" data-service="05">
+      <div class="service-row">
+        <span class="service-num">05</span>
+        <span class="service-name"
+          data-en="Localization"
+          data-ru="Локализация"
+          data-es="Localización">Localization</span>
+        <span class="service-tag">RU · EN · IT · ES · BY</span>
+        <button class="service-toggle" aria-label="Expand">+</button>
+      </div>
+      <div class="service-body">
+        <div class="service-body-text">
+          <p class="service-tagline"
+            data-en="Translation gets the words right. Localization gets the meaning right."
+            data-ru="Перевод передаёт слова. Локализация передаёт смысл."
+            data-es="La traducción acierta con las palabras. La localización acierta con el significado."><em>Translation gets the words right. Localization gets the meaning right.</em></p>
+          <p class="service-desc"
+            data-en="I work natively in Russian, English, Spanish, Italian and Belarusian. I don't translate posts — I rewrite them for the platform, the audience, and the cultural context. A caption that works in Moscow reads differently than one that works in Madrid or Milan."
+            data-ru="Я работаю на русском, английском, испанском, итальянском и белорусском как на родных языках. Я не перевожу посты — я переписываю их под платформу, аудиторию и культурный контекст. Текст который работает в Москве читается иначе чем тот что работает в Мадриде или Милане."
+            data-es="Trabajo de forma nativa en ruso, inglés, español, italiano y bielorruso. No traduzco posts — los reescribo para la plataforma, la audiencia y el contexto cultural. Un caption que funciona en Moscú se lee de forma diferente al que funciona en Madrid o Milán.">I work natively in Russian, English, Spanish, Italian and Belarusian. I don't translate posts — I rewrite them for the platform, the audience, and the cultural context. A caption that works in Moscow reads differently than one that works in Madrid or Milan.</p>
+        </div>
+        <div class="service-body-includes">
+          <div class="service-includes-label">Includes</div>
+          <ul class="service-includes-list">
+            <li data-en="Copy adaptation RU / EN / ES / IT / BY" data-ru="Адаптация текстов RU / EN / ES / IT / BY" data-es="Adaptación de copy RU / EN / ES / IT / BY">Copy adaptation RU / EN / ES / IT / BY</li>
+            <li data-en="Platform-native rewriting — not literal translation" data-ru="Переписывание под платформу — не дословный перевод" data-es="Reescritura nativa para cada plataforma, no traducción literal">Platform-native rewriting — not literal translation</li>
+            <li data-en="Cultural tone calibration per market" data-ru="Калибровка тона под каждый рынок" data-es="Calibración del tono cultural por mercado">Cultural tone calibration per market</li>
+            <li data-en="Caption &amp; hook reformatting per language" data-ru="Переформатирование подписей и хуков под каждый язык" data-es="Reformateo de captions y hooks por idioma">Caption &amp; hook reformatting per language</li>
+            <li data-en="Hashtag &amp; keyword localisation" data-ru="Локализация хештегов и ключевых слов" data-es="Localización de hashtags y palabras clave">Hashtag &amp; keyword localisation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CASES -->
+<section id="cases" data-screen-label="Case Studies">
+  <div class="section-label"
+    data-en="Selected work"
+    data-ru="Избранные работы"
+    data-es="Trabajos seleccionados">Selected work</div>
+  <h2 class="section-title"
+    data-en="Case studies."
+    data-ru="Кейсы."
+    data-es="Casos de estudio.">Case studies.</h2>
+  <div class="cases-grid reveal">
+
+    <!-- Case 1: Thiocyn -->
+    <div class="case-card">
+      <div class="case-content">
+      <div class="case-brand"
+        data-en="Hair Care · HSB / Thiocyn GmbH · Hamburg, 2026"
+        data-ru="Hair Care · HSB / Thiocyn GmbH · Гамбург, 2026"
+        data-es="Hair Care · HSB / Thiocyn GmbH · Hamburgo, 2026">Hair Care · HSB / Thiocyn GmbH · Hamburg, 2026</div>
+      <div class="case-title">Full Content System for a Science-Backed Hair Care Brand. DACH Market.</div>
+      <div class="case-block">
+        <div class="case-block-label"
+          data-en="The brief"
+          data-ru="Задача"
+          data-es="El encargo">The brief</div>
+        <div class="case-block-text"
+        data-en="Thiocyn had a clinically proven product and 30 years of research — but no system for communicating it without sounding like every other fear-driven hair loss brand on the market."
+        data-ru="У Thiocyn был клинически доказанный продукт и 30 лет исследований — но не было системы для коммуникации без страха и давления как у всех остальных брендов против выпадения волос."
+        data-es="Thiocyn tenía un producto clínicamente probado y 30 años de investigación — pero ningún sistema para comunicarlo sin sonar como cualquier otra marca de caída de cabello basada en el miedo.">Thiocyn had a clinically proven product and 30 years of research — but no system for communicating it without sounding like every other fear-driven hair loss brand on the market.</div>
+      </div>
+      <div class="case-block">
+        <div class="case-block-label"
+          data-en="What was built"
+          data-ru="Что было сделано"
+          data-es="Qué se construyó">What was built</div>
+        <div class="case-block-text"
+        data-en="Competitor Intelligence Report — 8 brands (Alpecin, Plantur, Regaine, Hims, Nutrafol and others), ad library analysis, psychological trigger mapping. Brand Manifesto with communication rules — what we say, what we never say. 2026 Masterplan across four quarterly phases. Weekly content rhythm: 4 pillars, 5 formats. Evergreen Formats Library. Highlights Architecture. HWG-compliance guidelines for DACH. Monthly content calendars with every post mapped out. Story briefs, caption frameworks, hook library. Posts, carousels, reels — first full production cycle."
+        data-ru="Отчёт по конкурентной разведке — 8 брендов (Alpecin, Plantur, Regaine, Hims, Nutrafol и другие), анализ рекламных библиотек, карта психологических триггеров. Бренд-манифест с правилами коммуникации — что говорим, что никогда не говорим. Мастер-план 2026 по четырём квартальным фазам. Еженедельный ритм контента: 4 столпа, 5 форматов. Библиотека вечнозелёных форматов. Архитектура Highlights. Требования HWG-compliance для рынка DACH. Ежемесячные контент-календари с каждым постом. Брифы для Stories, фреймворки для подписей, библиотека хуков. Посты, карусели, рилсы — первый полный производственный цикл."
+        data-es="Informe de inteligencia competitiva — 8 marcas (Alpecin, Plantur, Regaine, Hims, Nutrafol y otras), análisis de biblioteca de anuncios, mapeo de disparadores psicológicos. Manifiesto de marca con reglas de comunicación — qué decimos, qué nunca decimos. Plan maestro 2026 en cuatro fases trimestrales. Ritmo de contenido semanal: 4 pilares, 5 formatos. Biblioteca de formatos evergreen. Arquitectura de Highlights. Directrices de cumplimiento HWG para DACH. Calendarios de contenido mensuales con cada post planificado. Briefs de Stories, frameworks de captions, biblioteca de hooks. Posts, carruseles, reels — primer ciclo completo de producción.">Competitor Intelligence Report — 8 brands (Alpecin, Plantur, Regaine, Hims, Nutrafol and others), ad library analysis, psychological trigger mapping. Brand Manifesto with communication rules — what we say, what we never say. 2026 Masterplan across four quarterly phases. Weekly content rhythm: 4 pillars, 5 formats. Evergreen Formats Library. Highlights Architecture. HWG-compliance guidelines for DACH. Monthly content calendars with every post mapped out. Story briefs, caption frameworks, hook library. Posts, carousels, reels — first full production cycle.</div>
+      </div>
+      <div class="case-block outcome">
+        <div class="case-block-label"
+          data-en="Outcome"
+          data-ru="Результат"
+          data-es="Resultado">Outcome</div>
+        <div class="case-block-text"
+        data-en="Found the white space between Alpecin's aggression and Hims' lifestyle aesthetics. Clinical credibility without fear. The brand speaks like a doctor who also happens to care."
+        data-ru="Нашли белое пространство между агрессией Alpecin и лайфстайл-эстетикой Hims. Клиническое доверие без страха. Бренд говорит как врач, которому ещё и не всё равно."
+        data-es="Encontramos el espacio en blanco entre la agresividad de Alpecin y la estética lifestyle de Hims. Credibilidad clínica sin miedo. La marca habla como un médico al que además le importa.">Found the white space between Alpecin's aggression and Hims' lifestyle aesthetics. Clinical credibility without fear. The brand speaks like a doctor who also happens to care.</div>
+      </div>
+      <div class="case-block" style="border-left-color: var(--ink-light); margin-top: 8px;">
+        <div class="case-block-label"
+          data-en="Reference"
+          data-ru="Рекомендация"
+          data-es="Referencia">Reference</div>
+        <div class="case-block-text" style="font-style: italic;"
+        data-en='"The assigned tasks were completed consistently to our full satisfaction."<br/><span style="font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink-light)">— Peter Hart, CEO · House of Sustainable Brands / Thiocyn GmbH</span>'
+        data-ru='"Поставленные задачи выполнялись неизменно в полном соответствии с нашими ожиданиями."<br/><span style="font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink-light)">— Peter Hart, CEO · House of Sustainable Brands / Thiocyn GmbH</span>'
+        data-es='"Las tareas asignadas se completaron de manera consistente a nuestra entera satisfacción."<br/><span style="font-style:normal;font-family:var(--mono);font-size:11px;color:var(--ink-light)">— Peter Hart, CEO · House of Sustainable Brands / Thiocyn GmbH</span>'>"The assigned tasks were completed consistently to our full satisfaction."<br/><span style="font-style:normal; font-family: var(--mono); font-size: 11px; color: var(--ink-light);">— Peter Hart, CEO · House of Sustainable Brands / Thiocyn GmbH</span></div>
+      </div>
+      </div><!-- /case-content -->
+    </div>
+
+    <!-- Case 2: Take a Shot -->
+    <div class="case-card">
+      <div class="case-content">
+      <div class="case-brand"
+        data-en="Sunglasses · Leipzig, Germany · 43,000+ customers · 2026"
+        data-ru="Солнцезащитные очки · Лейпциг, Германия · 43,000+ клиентов · 2026"
+        data-es="Gafas de sol · Leipzig, Alemania · 43,000+ clientes · 2026">Sunglasses · Leipzig, Germany · 43,000+ customers · 2026</div>
+      <div class="case-title">Brand Narrative &amp; Content System for a Lifestyle Sunglasses Label.</div>
+      <div class="case-block">
+        <div class="case-block-label"
+          data-en="The brief"
+          data-ru="Задача"
+          data-es="El encargo">The brief</div>
+        <div class="case-block-text"
+        data-en="A German sunglasses brand built on wood, stone and bamboo — with a genuine founding story and 43,000+ customers — but no coherent content system and no articulated identity beyond 'we make cool glasses.'"
+        data-ru="Немецкий бренд солнцезащитных очков из дерева, камня и бамбука — с настоящей историей основания и 43 000+ клиентами — но без связной контент-системы и без сформулированной идентичности кроме 'мы делаем крутые очки'."
+        data-es="Una marca alemana de gafas de sol fabricadas en madera, piedra y bambú — con una historia de fundación genuina y más de 43.000 clientes — pero sin un sistema de contenido coherente ni una identidad articulada más allá de 'hacemos gafas guays'.">A German sunglasses brand built on wood, stone and bamboo — with a genuine founding story and 43,000+ customers — but no coherent content system and no articulated identity beyond "we make cool glasses."</div>
+      </div>
+      <div class="case-block">
+        <div class="case-block-label"
+          data-en="What was built"
+          data-ru="Что было сделано"
+          data-es="Qué se construyó">What was built</div>
+        <div class="case-block-text"
+        data-en="Competitor analysis across 10+ lifestyle and sustainable accessory brands. Brand Manifesto with origin story — turning the city itself into a brand asset. Tone of Voice guide with before/after language rewrites. Content Strategy: 5 pillars, weekly rhythm (3 feed posts + 1 Reel + Stories). Visual Identity guidelines. Full hashtag architecture. KPI framework. Target audience portraits. 100 hooks for reels and captions. Monthly content calendar. Posts, carousels, reels — first production cycle."
+        data-ru="Анализ конкурентов — 10+ лайфстайл и sustainable-брендов. Бренд-манифест с историей основания — город стал активом бренда. Гайд по голосу бренда с примерами до/после. Контент-стратегия: 5 столпов, еженедельный ритм (3 поста + 1 Reel + Stories). Гайдлайны визуальной идентичности. Полная хештег-архитектура. KPI-фреймворк. Портреты целевой аудитории. 100 хуков для рилсов и подписей. Ежемесячный контент-календарь. Посты, карусели, рилсы — первый производственный цикл."
+        data-es="Análisis competitivo de más de 10 marcas de lifestyle y accesorios sostenibles. Manifiesto de marca con historia de origen — convirtiendo la ciudad en un activo de marca. Guía de tono de voz con reescrituras antes/después. Estrategia de contenido: 5 pilares, ritmo semanal (3 posts + 1 Reel + Stories). Directrices de identidad visual. Arquitectura completa de hashtags. Framework de KPIs. Perfiles de audiencia objetivo. 100 hooks para reels y captions. Calendario de contenido mensual. Posts, carruseles, reels — primer ciclo de producción.">Competitor analysis across 10+ lifestyle and sustainable accessory brands. Brand Manifesto with origin story — turning the city itself into a brand asset. Tone of Voice guide with before/after language rewrites. Content Strategy: 5 pillars, weekly rhythm (3 feed posts + 1 Reel + Stories). Visual Identity guidelines. Full hashtag architecture. KPI framework. Target audience portraits. 100 hooks for reels and captions. Monthly content calendar. Posts, carousels, reels — first production cycle.</div>
+      </div>
+      <div class="case-block outcome">
+        <div class="case-block-label"
+          data-en="Outcome"
+          data-ru="Результат"
+          data-es="Resultado">Outcome</div>
+        <div class="case-block-text"
+        data-en="Repositioned from 'sustainable accessory brand' to cultural brand with a city identity. The founding city stopped being a location and became a story no competitor could copy."
+        data-ru="Перепозиционирование от 'sustainable аксессуар-бренда' к культурному бренду с городской идентичностью. Город основания перестал быть локацией и стал историей которую не скопирует ни один конкурент."
+        data-es="Reposicionamiento de 'marca de accesorios sostenibles' a marca cultural con identidad urbana. La ciudad de fundación dejó de ser una ubicación y se convirtió en una historia que ningún competidor puede copiar.">Repositioned from "sustainable accessory brand" to cultural brand with a city identity. The founding city stopped being a location and became a story no competitor could copy.</div>
+      </div>
+      </div><!-- /case-content -->
+    </div>
+
+    <!-- Case 3: Timber & John -->
+    <div class="case-card">
+      <div class="case-content">
+      <div class="case-brand"
+        data-en="Slow Fashion · Europe · 2026"
+        data-ru="Slow fashion · Европа · 2026"
+        data-es="Slow fashion · Europa · 2026">Slow Fashion · Europe · 2026</div>
+      <div class="case-title">World-Building Content System for a Slow Fashion Brand.</div>
+      <div class="case-block">
+        <div class="case-block-label"
+          data-en="The brief"
+          data-ru="Задача"
+          data-es="El encargo">The brief</div>
+        <div class="case-block-text"
+        data-en="A slow fashion brand with strong product and clear values — but content that looked like every other 'nature + softness' lifestyle account. No distinct world, no reason to follow."
+        data-ru="Slow fashion бренд с сильным продуктом и чёткими ценностями — но контент выглядел как у любого другого лайфстайл-аккаунта про 'природу и мягкость'. Нет отличительного мира, нет причины подписаться."
+        data-es="Una marca de slow fashion con un producto sólido y valores claros — pero con un contenido que parecía el de cualquier otra cuenta lifestyle de 'naturaleza y suavidad'. Sin mundo propio, sin razón para seguirla.">A slow fashion brand with strong product and clear values — but content that looked like every other "nature + softness" lifestyle account. No distinct world, no reason to follow.</div>
+      </div>
+      <div class="case-block">
+        <div class="case-block-label"
+          data-en="What was built"
+          data-ru="Что было сделано"
+          data-es="Qué se construyó">What was built</div>
+        <div class="case-block-text"
+        data-en="Competitor analysis of 10+ slow fashion and lifestyle brands. Audience portrait development. Seasonal brand narrative — nature as a living character, not a backdrop. Brand positioning and communication rules. Content matrix: 5 pillars, formats, cadence — each choice justified. 12-month strategic masterplan. Monthly production plan with every post mapped out. Story briefs and post templates. Posts, carousels, reels — first full content cycle."
+        data-ru="Анализ конкурентов — 10+ slow fashion и лайфстайл-брендов. Разработка портретов аудитории. Сезонный бренд-нарратив — природа как живой персонаж, не декорация. Позиционирование бренда и правила коммуникации. Контент-матрица: 5 столпов, форматы, каденция — каждый выбор обоснован. Стратегический мастер-план на 12 месяцев. Ежемесячный производственный план с каждым постом. Брифы для Stories и шаблоны постов. Посты, карусели, рилсы — первый полный контент-цикл."
+        data-es="Análisis competitivo de más de 10 marcas de slow fashion y lifestyle. Desarrollo de perfiles de audiencia. Narrativa de marca estacional — la naturaleza como personaje vivo, no como decorado. Posicionamiento de marca y reglas de comunicación. Matriz de contenido: 5 pilares, formatos, cadencia — cada elección justificada. Plan maestro estratégico de 12 meses. Plan de producción mensual con cada post planificado. Briefs de Stories y plantillas de posts. Posts, carruseles, reels — primer ciclo completo de contenido.">Competitor analysis of 10+ slow fashion and lifestyle brands. Audience portrait development. Seasonal brand narrative — nature as a living character, not a backdrop. Brand positioning and communication rules. Content matrix: 5 pillars, formats, cadence — each choice justified. 12-month strategic masterplan. Monthly production plan with every post mapped out. Story briefs and post templates. Posts, carousels, reels — first full content cycle.</div>
+      </div>
+      <div class="case-block outcome">
+        <div class="case-block-label"
+          data-en="Outcome"
+          data-ru="Результат"
+          data-es="Resultado">Outcome</div>
+        <div class="case-block-text"
+        data-en="Moved the brand from 'aesthetic clothing account' to emotional world — warmth, memory, protection. Nature became a story, not just a visual filter."
+        data-ru="Переместили бренд от 'аккаунта с красивой одеждой' к эмоциональному миру — тепло, память, защита. Природа стала историей, а не просто визуальным фильтром."
+        data-es="Trasladamos la marca de 'cuenta de ropa estética' a un mundo emocional — calidez, memoria, protección. La naturaleza se convirtió en una historia, no solo en un filtro visual.">Moved the brand from "aesthetic clothing account" to emotional world — warmth, memory, protection. Nature became a story, not just a visual filter.</div>
+      </div>
+      </div><!-- /case-content -->
+    </div>
+
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" data-screen-label="Pricing">
+  <div class="section-label"
+    data-en="Packages"
+    data-ru="Пакеты"
+    data-es="Paquetes">Packages</div>
+  <h2 class="section-title"
+    data-en="What's included."
+    data-ru="Что входит."
+    data-es="Qué incluye.">What's<br/>included.</h2>
+  <div class="pricing-list reveal">
+
+    <div class="pricing-group pricing-group-a">
+      <div class="pricing-item" data-pricing>
+        <div class="pricing-row">
+          <span class="pricing-code">A · 01</span>
+          <span class="pricing-name"
+            data-en="Quick Visual Pack"
+            data-ru="Быстрый визуальный пакет"
+            data-es="Pack Visual Rápido">Quick Visual Pack</span>
+          <span class="pricing-price">€149</span>
+          <span class="pricing-toggle">+</span>
+        </div>
+        <div class="pricing-body">
+          <p class="pricing-desc"
+            data-en="You need assets by next week — not a strategy session. A one-shot creative drop built on top of your existing brand, delivered in 5 working days."
+            data-ru="Вам нужны материалы к следующей неделе — не стратегическая сессия. Разовый креативный дроп на основе вашего существующего бренда, доставка за 5 рабочих дней."
+            data-es="Necesitas activos para la semana que viene, no una sesión de estrategia. Un paquete creativo puntual construido sobre tu marca existente, entregado en 5 días laborables.">You need assets by next week — not a strategy session. A one-shot creative drop built on top of your existing brand, delivered in 5 working days.</p>
+          <div>
+            <div class="pricing-includes-label"
+              data-en="What's included"
+              data-ru="Что включено"
+              data-es="Qué incluye">What's included</div>
+            <ul class="pricing-includes-list">
+              <li data-en="6 feed posts, fully designed" data-ru="6 постов для ленты, полностью готовых" data-es="6 posts para el feed, totalmente diseñados">6 feed posts, fully designed</li>
+              <li data-en="3 story templates, editable" data-ru="3 редактируемых шаблона для Stories" data-es="3 plantillas de Stories editables">3 story templates, editable</li>
+              <li data-en="1 reels cover system" data-ru="1 система обложек для Reels" data-es="1 sistema de portadas para Reels">1 reels cover system</li>
+              <li data-en="Delivered in 5 working days" data-ru="Готово за 5 рабочих дней" data-es="Entregado en 5 días laborables">Delivered in 5 working days</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-item" data-pricing>
+        <div class="pricing-row">
+          <span class="pricing-code">A · 02</span>
+          <span class="pricing-name"
+            data-en="Monthly Content Pack"
+            data-ru="Ежемесячный контент-пакет"
+            data-es="Pack de Contenido Mensual">Monthly Content Pack</span>
+          <span class="pricing-price">€399 / mo</span>
+          <span class="pricing-toggle">+</span>
+        </div>
+        <div class="pricing-body">
+          <p class="pricing-desc"
+            data-en="A full month of content, planned and produced as a unit. A predictable cadence of brand-right material — the most popular retainer."
+            data-ru="Полный месяц контента, спланированного и произведённого как единое целое. Предсказуемый ритм материалов соответствующих бренду — самый популярный пакет."
+            data-es="Un mes completo de contenido, planificado y producido como una unidad. Una cadencia predecible de material acorde a la marca — el retainer más popular.">A full month of content, planned and produced as a unit. A predictable cadence of brand-right material — the most popular retainer.</p>
+          <div>
+            <div class="pricing-includes-label"
+              data-en="What's included"
+              data-ru="Что включено"
+              data-es="Qué incluye">What's included</div>
+            <ul class="pricing-includes-list">
+              <li data-en="Monthly content calendar &amp; pillars" data-ru="Ежемесячный контент-календарь и столпы" data-es="Calendario de contenido mensual y pilares">Monthly content calendar &amp; pillars</li>
+              <li data-en="12 feed posts + 4 reels concepts" data-ru="12 постов для ленты + 4 концепции Reels" data-es="12 posts para el feed + 4 conceptos de Reels">12 feed posts + 4 reels concepts</li>
+              <li data-en="Captions in EN / RU / ES" data-ru="Тексты на EN / RU / ES" data-es="Captions en EN / RU / ES">Captions in EN / RU / ES</li>
+              <li data-en="End-of-month performance read-out" data-ru="Отчёт по результатам в конце месяца" data-es="Informe de rendimiento a fin de mes">End-of-month performance read-out</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-group pricing-group-b" style="margin-top:2px">
+      <div class="pricing-item" data-pricing>
+        <div class="pricing-row">
+          <span class="pricing-code">B · 01</span>
+          <span class="pricing-name"
+            data-en="Brand Content Sprint"
+            data-ru="Бренд-спринт"
+            data-es="Sprint de contenido de marca">Brand Content Sprint</span>
+          <span class="pricing-price">€849</span>
+          <span class="pricing-toggle">+</span>
+        </div>
+        <div class="pricing-body">
+          <p class="pricing-desc"
+            data-en="Two weeks. Scattered to coherent. I map the competitive landscape, find the gap no competitor owns, and build the system to own it."
+            data-ru="Две недели. От хаоса к системе. Я изучаю конкурентную среду, нахожу пробел который никто не занял, и строю систему чтобы его занять."
+            data-es="Dos semanas. Del caos a la coherencia. Analizo el panorama competitivo, encuentro el hueco que ningún competidor ocupa y construyo el sistema para ocuparlo.">Two weeks. Scattered to coherent. I map the competitive landscape, find the gap no competitor owns, and build the system to own it.</p>
+          <div>
+            <div class="pricing-includes-label"
+              data-en="What's included"
+              data-ru="Что включено"
+              data-es="Qué incluye">What's included</div>
+            <ul class="pricing-includes-list">
+              <li data-en="Category gap analysis — 10–15 brands" data-ru="Анализ пробелов в категории — 10–15 брендов" data-es="Análisis de gaps de categoría — 10–15 marcas">Category gap analysis — 10–15 brands</li>
+              <li data-en="Brand manifesto &amp; positioning document" data-ru="Бренд-манифест и документ позиционирования" data-es="Manifiesto de marca y documento de posicionamiento">Brand manifesto &amp; positioning document</li>
+              <li data-en="Tone of voice guide with communication rules" data-ru="Гайд по голосу бренда с правилами коммуникации" data-es="Guía de tono de voz con reglas de comunicación">Tone of voice guide with communication rules</li>
+              <li data-en="Six-week content runway, ready to shoot" data-ru="Шестинедельный контент-план, готовый к съёмке" data-es="Runway de contenido de seis semanas, listo para producir">Six-week content runway, ready to shoot</li>
+              <li data-en="Two working sessions + full handover" data-ru="Две рабочие сессии + полная передача материалов" data-es="Dos sesiones de trabajo + entrega completa">Two working sessions + full handover</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-item" data-pricing>
+        <div class="pricing-row">
+          <span class="pricing-code">B · 02</span>
+          <span class="pricing-name"
+            data-en="Brand Content Engine"
+            data-ru="Контент-движок"
+            data-es="Motor de contenido de marca">Brand Content Engine</span>
+          <span class="pricing-price">€349 / mo</span>
+          <span class="pricing-toggle">+</span>
+        </div>
+        <div class="pricing-body">
+          <p class="pricing-desc"
+            data-en="The long game. A live operating system for your content — kept, evolved and reviewed every month. Best after a Sprint."
+            data-ru="Долгосрочная игра. Живая операционная система для вашего контента — поддерживается, развивается и пересматривается каждый месяц. Лучше всего после Sprint."
+            data-es="El juego largo. Un sistema operativo vivo para tu contenido — mantenido, evolucionado y revisado cada mes. Lo mejor tras un Sprint.">The long game. A live operating system for your content — kept, evolved and reviewed every month. Best after a Sprint.</p>
+          <div>
+            <div class="pricing-includes-label"
+              data-en="What's included"
+              data-ru="Что включено"
+              data-es="Qué incluye">What's included</div>
+            <ul class="pricing-includes-list">
+              <li data-en="Living content system &amp; brand book" data-ru="Живая контент-система и бренд-бук" data-es="Sistema de contenido vivo y brand book">Living content system &amp; brand book</li>
+              <li data-en="Monthly production oversight" data-ru="Ежемесячный контроль производства" data-es="Supervisión mensual de producción">Monthly production oversight</li>
+              <li data-en="Quarterly strategy review" data-ru="Квартальный стратегический обзор" data-es="Revisión estratégica trimestral">Quarterly strategy review</li>
+              <li data-en="Direct line to the studio" data-ru="Прямая связь со студией" data-es="Línea directa con el estudio">Direct line to the studio</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" data-screen-label="Gallery">
+  <div class="section-label"
+    data-en="Creative Work"
+    data-ru="Творческие работы"
+    data-es="Trabajos creativos">Creative Work</div>
+  <div class="gallery-filters">
+    <button class="gf-btn active" data-filter="all"
+      data-en="All" data-ru="Все" data-es="Todo">All</button>
+    <button class="gf-btn" data-filter="haircare"
+      data-en="Hair Care" data-ru="Уход за волосами" data-es="Cuidado capilar">Hair Care</button>
+    <button class="gf-btn" data-filter="sunglasses"
+      data-en="Sunglasses" data-ru="Очки" data-es="Gafas">Sunglasses</button>
+    <button class="gf-btn" data-filter="lifestyle"
+      data-en="Lifestyle" data-ru="Лайфстайл" data-es="Estilo de vida">Lifestyle</button>
+    <button class="gf-btn" data-filter="photo"
+      data-en="Photo" data-ru="Фото" data-es="Foto">Photo</button>
+    <button class="gf-btn" data-filter="video"
+      data-en="Video" data-ru="Видео" data-es="Vídeo">Video</button>
+  </div>
+  <div class="gallery-grid" id="galleryGrid">
+
+    <!-- General gallery photos (shown first) -->
+    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/gallery/1.webp" data-src="assets/img/gallery/1.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Brand Photography</div>
+        <div class="gallery-caption-text">Visual concept &amp; art direction</div>
+        <span class="gallery-caption-ai">Midjourney</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/gallery/2.webp" data-src="assets/img/gallery/2.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Brand Photography</div>
+        <div class="gallery-caption-text">Lifestyle visual · Creative direction</div>
+        <span class="gallery-caption-ai">Midjourney</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/gallery/3.webp" data-src="assets/img/gallery/3.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Brand Photography</div>
+        <div class="gallery-caption-text">Editorial concept &amp; visual narrative</div>
+        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/gallery/4.webp" data-src="assets/img/gallery/4.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Brand Photography</div>
+        <div class="gallery-caption-text">Product visual · Art direction</div>
+        <span class="gallery-caption-ai">Midjourney</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/gallery/5.webp" data-src="assets/img/gallery/5.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Brand Photography</div>
+        <div class="gallery-caption-text">Lifestyle series · Visual concept</div>
+        <span class="gallery-caption-ai">Midjourney · Runway</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/gallery/6.webp" data-src="assets/img/gallery/6.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Brand Photography</div>
+        <div class="gallery-caption-text">Brand visual · Creative direction</div>
+        <span class="gallery-caption-ai">Midjourney</span>
+      </div>
+    </div>
+
+    <!-- Hair Care -->
+    <div class="gallery-item" data-case="haircare" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-1.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-2.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-3.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 3</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
+        <div class="gallery-caption-text">Educational carousel · Content strategy &amp; art direction</div>
+        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="haircare" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-1.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-2.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-3.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-4.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-5.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-6.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 6</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
+        <div class="gallery-caption-text">Product carousel series · Visual concept &amp; copy direction</div>
+        <span class="gallery-caption-ai">Midjourney · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/ClipHearSerum.mp4">
+        <video src="assets/img/cases/hair-loss/videos/ClipHearSerum.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
+        <div class="gallery-caption-text">Reels concept · Creative direction &amp; scripting</div>
+        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/HearSerumNuar.mp4">
+        <video src="assets/img/cases/hair-loss/videos/HearSerumNuar.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
+        <div class="gallery-caption-text">Reels concept · UGC-style scripting &amp; direction</div>
+        <span class="gallery-caption-ai">Runway · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/NOT-MACRO.mp4">
+        <video src="assets/img/cases/hair-loss/videos/NOT-MACRO.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
+        <div class="gallery-caption-text">Product Reel · Visual narrative &amp; hook writing</div>
+        <span class="gallery-caption-ai">Runway · Midjourney</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/Short-lived.mp4">
+        <video src="assets/img/cases/hair-loss/videos/Short-lived.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
+        <div class="gallery-caption-text">Short-form Reel · Concept &amp; caption direction</div>
+        <span class="gallery-caption-ai">Runway · ChatGPT</span>
+      </div>
+    </div>
+
+    <!-- Sunglasses -->
+    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/6-1.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/6-2.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/6-3.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 3</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Lifestyle feed series · Visual concept &amp; copy</div>
+        <span class="gallery-caption-ai">Midjourney · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-cover.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-1.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-2.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-3.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-4.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-5.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 6</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Brand carousel · Art direction &amp; storytelling</div>
+        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/post4_slide1.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/post4_slide2.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/sunglasses/post4_slide3_v3.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 3</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Cultural identity post · Concept &amp; copy direction</div>
+        <span class="gallery-caption-ai">Midjourney · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/cases/sunglasses/99.webp" data-src="assets/img/cases/sunglasses/99.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Feed post · Visual direction &amp; caption</div>
+        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
+      <img class="gal-thumb" src="assets/img/cases/sunglasses/post3_feed.webp" data-src="assets/img/cases/sunglasses/post3_feed.webp" alt="">
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Feed post · Brand voice &amp; visual concept</div>
+        <span class="gallery-caption-ai">Midjourney · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/tas.mp4">
+        <video src="assets/img/cases/sunglasses/videos/tas.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Brand Reel · Creative direction &amp; scripting</div>
+        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/Vamp.mp4">
+        <video src="assets/img/cases/sunglasses/videos/Vamp.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Lifestyle Reel · Concept &amp; visual narrative</div>
+        <span class="gallery-caption-ai">Runway · Midjourney</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/VampBest.mp4">
+        <video src="assets/img/cases/sunglasses/videos/VampBest.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Hero Reel · Hook writing &amp; direction</div>
+        <span class="gallery-caption-ai">Runway · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/video-2.mp4">
+        <video src="assets/img/cases/sunglasses/videos/video-2.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Product Reel · UGC concept &amp; scripting</div>
+        <span class="gallery-caption-ai">Runway · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/SG-5.mp4">
+        <video src="assets/img/cases/sunglasses/videos/SG-5.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
+        <div class="gallery-caption-text">Short-form Reel · Creative concept &amp; caption</div>
+        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
+      </div>
+    </div>
+
+    <!-- Lifestyle -->
+    <div class="gallery-item" data-case="lifestyle" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/lifestyle/Holly-0.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/lifestyle/Holly-01.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/lifestyle/Holly-12.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 3</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Seasonal carousel · Brand narrative &amp; art direction</div>
+        <span class="gallery-caption-ai">Midjourney · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="photo" data-ai="true">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-1.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-2.webp" alt="">
+          <img class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-3.webp" alt="">
+        </div>
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+        <div class="carousel-counter">1 / 3</div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">World-building carousel · Visual concept &amp; copy</div>
+        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llamas_1.mp4">
+        <video src="assets/img/cases/lifestyle/videos/Llamas_1.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Brand Reel · Concept &amp; emotional scripting</div>
+        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llamas_2.mp4">
+        <video src="assets/img/cases/lifestyle/videos/Llamas_2.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Lifestyle Reel · Creative direction &amp; hook</div>
+        <span class="gallery-caption-ai">Runway · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llama_Lifestyle_1.mp4">
+        <video src="assets/img/cases/lifestyle/videos/Llama_Lifestyle_1.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Lifestyle Reel · Narrative concept &amp; scripting</div>
+        <span class="gallery-caption-ai">Runway · Midjourney</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4">
+        <video src="assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Seasonal Reel · Visual story &amp; direction</div>
+        <span class="gallery-caption-ai">Runway · ChatGPT</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/1.mp4">
+        <video src="assets/img/cases/lifestyle/videos/1.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Brand Reel · World-building concept &amp; copy</div>
+        <span class="gallery-caption-ai">Runway · Claude</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
+      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/3.mp4">
+        <video src="assets/img/cases/lifestyle/videos/3.mp4" muted playsinline preload="metadata"></video>
+        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="gallery-caption">
+        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
+        <div class="gallery-caption-text">Short-form Reel · Emotional hook &amp; direction</div>
+        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" data-screen-label="Contact">
+  <div class="contact-inner">
+    <div class="section-label"
+      data-en="Get in touch"
+      data-ru="Свяжитесь со мной"
+      data-es="Contacto">Get in touch</div>
+    <h2 class="contact-title"
+      data-en="Let's work<br/><em>together.</em>"
+      data-ru="Давайте работать<br/><em>вместе.</em>"
+      data-es="Trabajemos<br/><em>juntos.</em>">Let's work<br/><em>together.</em></h2>
+    <div class="contact-links">
+      <a href="mailto:prostokatoka@gmail.com" class="contact-link">
+        <span class="contact-link-label">Email</span>
+        <span class="contact-link-value">prostokatoka@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/katherina-novitskaia-652a2415a" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-link-label">LinkedIn</span>
+        <span class="contact-link-value">katherina-novitskaia</span>
+      </a>
+      <a href="https://wa.me/34657501973" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-link-label">WhatsApp</span>
+        <span class="contact-link-value">+34 657 501 973</span>
+      </a>
+    </div>
+    <a href="mailto:prostokatoka@gmail.com" class="btn-primary"
+      data-en="Send a message"
+      data-ru="Написать"
+      data-es="Enviar mensaje">Send a message</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-copy">© 2026 Ekaterina Novitskaia</span>
+  <span class="footer-copy"
+    data-en="Brand Strategy &amp; Content Systems · Europe"
+    data-ru="Бренд-стратегия · Контент-системы · Европа"
+    data-es="Estrategia de marca y sistemas de contenido · Europa">Brand Strategy &amp; Content Systems · Europe</span>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <div class="lb-close" id="lb-close">✕ close</div>
+  <div class="lb-nav lb-prev" id="lb-prev">&#8592;</div>
+  <div class="lb-nav lb-next" id="lb-next">&#8594;</div>
+  <img id="lb-img" alt="" style="display:none" />
+  <video id="lb-video" controls style="display:none"></video>
+  <div class="lb-counter" id="lb-counter"></div>
+</div>
+
+<!-- Tweaks root -->
+<div id="tweaks-root"></div>
+
+<script type="text/babel">
+
+const TWEAK_DEFAULS = /*EDITMODE-BEGIN*/{
+  "accentColor": "oklch(68% 0.09 68)",
+  "heroSize": 110,
+  "bodyFont": "DM Sans",
+  "darkNav": false
+}/*EDITMODE-END*/;
+
+function TweaksApp() {
+  const result = useTweaks(TWEAK_DEFAULS);
+  if (!result) return null;
+  const { tweaks, setTweak } = result;
+  if (!tweaks) return null;
+
+  React.useEffect(() => {
+    document.documentElement.style.setProperty('--accent', tweaks.accentColor);
+    document.documentElement.style.setProperty('--sans', `'${tweaks.bodyFont}', system-ui, sans-serif`);
+    const nav = document.querySelector('nav');
+    if (nav) {
+      nav.style.background = tweaks.darkNav
+        ? 'rgba(28,26,22,0.97)'
+        : 'rgba(250,248,243,0.92)';
+      nav.querySelectorAll('a').forEach(a => {
+        a.style.color = tweaks.darkNav ? (a.classList.contains('nav-name') ? '#FAF8F3' : '#8A847A') : '';
+      });
+    }
+  }, [tweaks]);
+
+  const accents = [
+    { label: 'Sand', value: 'oklch(68% 0.09 68)' },
+    { label: 'Sage', value: 'oklch(60% 0.09 155)' },
+    { label: 'Clay', value: 'oklch(62% 0.10 40)' },
+    { label: 'Slate', value: 'oklch(55% 0.07 240)' },
+  ];
+
+  return (
+    <TweaksPanel title="Tweaks">
+      <TweakSection label="Accent Colour">
+        <TweakRadio
+          value={tweaks.accentColor}
+          onChange={v => setTweak('accentColor', v)}
+          options={accents.map(a => ({ label: a.label, value: a.value }))}
+        />
+      </TweakSection>
+      <TweakSection label="Hero Name Size">
+        <TweakSlider min={70} max={150} step={5} value={tweaks.heroSize} onChange={v => {
+          setTweak('heroSize', v);
+          document.querySelector('.hero-name').style.fontSize = v + 'px';
+        }} />
+      </TweakSection>
+      <TweakSection label="Body Font">
+        <TweakRadio
+          value={tweaks.bodyFont}
+          onChange={v => setTweak('bodyFont', v)}
+          options={[
+            { label: 'DM Sans', value: 'DM Sans' },
+            { label: 'Georgia', value: 'Georgia' },
+            { label: 'Space Mono', value: 'Space Mono' },
+          ]}
+        />
+      </TweakSection>
+      <TweakSection label="Dark Nav">
+        <TweakToggle value={tweaks.darkNav} onChange={v => setTweak('darkNav', v)} label="Enable dark nav bar" />
+      </TweakSection>
+    </TweaksPanel>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('tweaks-root')).render(<TweaksApp />);
+</script>
+
+<script>
+// Scroll reveal
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Lightbox
+(function() {
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lb-img');
+  const lbVideo = document.getElementById('lb-video');
+  const lbCounter = document.getElementById('lb-counter');
+  let items = [], cur = 0;
+
+  function buildList() {
+    items = [];
+    document.querySelectorAll('#galleryGrid .gallery-item').forEach(item => {
+      if (item.classList.contains('hidden')) return;
+      const thumb = item.querySelector('.gal-thumb');
+      if (thumb) {
+        items.push({ type: 'image', src: thumb.dataset.src || thumb.src, el: thumb });
+        return;
+      }
+      const vw = item.querySelector('.gal-video-wrap');
+      if (vw) {
+        items.push({ type: 'video', src: vw.dataset.video, el: vw });
+        return;
+      }
+      item.querySelectorAll('.carousel-slide').forEach(s => {
+        items.push({ type: 'image', src: s.getAttribute('src'), el: s });
+      });
+    });
+  }
+
+  function openLbFor(el) {
+    buildList();
+    const i = items.findIndex(it => it.el === el);
+    if (i < 0) return;
+    cur = i;
+    showItem();
+    lb.classList.add('open');
+  }
+
+  function showItem() {
+    const item = items[cur];
+    if (!item) return;
+    if (item.type === 'video') {
+      lbImg.style.display = 'none';
+      lbImg.src = '';
+      lbVideo.style.display = 'block';
+      lbVideo.src = item.src;
+      lbVideo.muted = false;
+      const p = lbVideo.play();
+      if (p && typeof p.catch === 'function') p.catch(() => {});
+    } else {
+      lbVideo.pause(); lbVideo.src = '';
+      lbVideo.style.display = 'none';
+      lbImg.style.display = 'block';
+      lbImg.src = item.src;
+    }
+    lbCounter.textContent = (cur + 1) + ' / ' + items.length;
+    document.getElementById('lb-prev').style.opacity = items.length > 1 ? '1' : '0';
+    document.getElementById('lb-next').style.opacity = items.length > 1 ? '1' : '0';
+  }
+
+  function closeLb() {
+    lb.classList.remove('open');
+    lbVideo.pause(); lbVideo.src = '';
+    lbImg.src = '';
+  }
+
+  document.getElementById('lb-close').addEventListener('click', closeLb);
+  lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+  document.getElementById('lb-prev').addEventListener('click', () => {
+    if (!items.length) return;
+    cur = (cur - 1 + items.length) % items.length; showItem();
+  });
+  document.getElementById('lb-next').addEventListener('click', () => {
+    if (!items.length) return;
+    cur = (cur + 1) % items.length; showItem();
+  });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLb();
+    if (e.key === 'ArrowLeft' && items.length) { cur = (cur - 1 + items.length) % items.length; showItem(); }
+    if (e.key === 'ArrowRight' && items.length) { cur = (cur + 1) % items.length; showItem(); }
+  });
+
+  // Force first-frame thumbnail on preview videos
+  document.querySelectorAll('.gal-video-wrap video').forEach(v => {
+    const src = v.getAttribute('src');
+    if (src && !src.includes('#')) v.setAttribute('src', src + '#t=0.1');
+  });
+
+  // Wire all media in the gallery grid
+  document.querySelectorAll('#galleryGrid .gal-thumb').forEach(thumb => {
+    thumb.style.cursor = 'zoom-in';
+    thumb.addEventListener('click', () => openLbFor(thumb));
+  });
+  document.querySelectorAll('#galleryGrid .gal-video-wrap').forEach(vw => {
+    vw.style.cursor = 'zoom-in';
+    vw.addEventListener('click', () => openLbFor(vw));
+  });
+  document.querySelectorAll('#galleryGrid .carousel-slide').forEach(slide => {
+    slide.style.cursor = 'zoom-in';
+    slide.addEventListener('click', () => openLbFor(slide));
+  });
+})();
+
+// Carousel
+document.querySelectorAll('.carousel').forEach(car => {
+  const track = car.querySelector('.carousel-track');
+  const slides = car.querySelectorAll('.carousel-slide');
+  const counter = car.querySelector('.carousel-counter');
+  let cur = 0;
+  const total = slides.length;
+  function go(n) {
+    cur = (n + total) % total;
+    track.style.transform = 'translateX(-' + (cur * 100) + '%)';
+    if (counter) counter.textContent = (cur+1) + ' / ' + total;
+  }
+  car.querySelector('.prev').addEventListener('click', e => {
+    e.stopPropagation(); go(cur - 1);
+  });
+  car.querySelector('.next').addEventListener('click', e => {
+    e.stopPropagation(); go(cur + 1);
+  });
+});
+
+// Masonry row-span layout
+function setRowSpans() {
+  const grid = document.getElementById('galleryGrid');
+  if (!grid) return;
+  const cs = getComputedStyle(grid);
+  const rowH = parseFloat(cs.gridAutoRows) || 4;
+  const gap = parseFloat(cs.rowGap) || 4;
+  let anySized = false;
+  grid.querySelectorAll('.gallery-item').forEach(item => {
+    item.style.gridRowEnd = '';
+    if (item.classList.contains('hidden')) return;
+    let h = 0;
+    for (const child of item.children) h += child.getBoundingClientRect().height;
+    if (!h) return;
+    anySized = true;
+    const span = Math.max(1, Math.ceil((h + gap) / (rowH + gap)));
+    item.style.gridRowEnd = 'span ' + span;
+  });
+  if (anySized) grid.classList.add('is-laid-out');
+}
+
+// Recompute on resize and image loads
+window.addEventListener('resize', setRowSpans);
+document.querySelectorAll('#galleryGrid img').forEach(img => {
+  if (!img.complete) img.addEventListener('load', setRowSpans);
+});
+document.querySelectorAll('#galleryGrid video').forEach(v => {
+  v.addEventListener('loadedmetadata', setRowSpans);
+});
+// Initial pass + delayed pass once layout settles
+setRowSpans();
+window.addEventListener('load', setRowSpans);
+
+// Gallery filter
+function applyGalleryFilter(filter) {
+  document.querySelectorAll('#galleryGrid .gallery-item').forEach(item => {
+    let visible;
+    if (filter === 'all') {
+      visible = true;
+    } else if (filter === 'photo' || filter === 'video') {
+      visible = item.dataset.type === filter;
+    } else {
+      visible = item.dataset.case === filter;
+    }
+    item.classList.toggle('hidden', !visible);
+  });
+  setRowSpans();
+}
+
+document.querySelectorAll('.gf-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.gf-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyGalleryFilter(btn.dataset.filter);
+  });
+});
+
+// Initial state: show all
+applyGalleryFilter('all');
+
+// Services accordion
+document.querySelectorAll('.service-item').forEach(item => {
+  const row = item.querySelector('.service-row');
+  row.addEventListener('click', () => {
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.service-item.open').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+
+// Pricing accordion
+document.querySelectorAll('[data-pricing]').forEach(item => {
+  item.querySelector('.pricing-row').addEventListener('click', () => {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('[data-pricing].open').forEach(el => el.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+// Language switcher
+const langBtns = document.querySelectorAll('.lang-btn');
+let currentLang = 'en';
+
+function applyLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('[data-en]').forEach(el => {
+    const text = el.getAttribute('data-' + lang);
+    if (!text) return;
+    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+      el.value = text;
+    } else {
+      el.innerHTML = text;
+    }
+  });
+  langBtns.forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+  localStorage.setItem('lang', lang);
+}
+
+langBtns.forEach(btn => {
+  btn.addEventListener('click', () => applyLang(btn.dataset.lang));
+});
+
+// Restore saved language
+const savedLang = localStorage.getItem('lang');
+if (savedLang && savedLang !== 'en') applyLang(savedLang);
+</script>
+
+</body>
+</html>
