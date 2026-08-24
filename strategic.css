@@ -318,16 +318,19 @@ section {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1.3fr .85fr .85fr;
+  align-items: stretch;
   gap: 6px;
   margin-top: 26px;
 }
 .case-media img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 100%;
   display: block;
   object-fit: cover;
+  object-position: center;
   background: var(--dark-soft);
 }
+.case-media img:first-child { aspect-ratio: 4 / 5; }
 
 /* Reels */
 #reels { background: var(--cream); }
@@ -489,8 +492,9 @@ footer { padding: 27px var(--page-pad); }
   .case-category { margin-top: 28px; }
   .case-metrics { margin-top: 28px; }
   .case-row { grid-template-columns: 1fr; gap: 9px; }
-  .case-media { grid-template-columns: 1fr 1fr; }
-  .case-media img:first-child { grid-column: 1 / -1; aspect-ratio: 4 / 3; }
+  .case-media { grid-template-columns: 1fr 1fr; align-items: start; }
+  .case-media img { height: auto; aspect-ratio: auto; }
+  .case-media img:first-child { grid-column: 1 / -1; aspect-ratio: auto; }
   .reels-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .reel-card figcaption { display: block; min-height: 116px; }
   .reel-role { margin-top: 7px; text-align: left; }
