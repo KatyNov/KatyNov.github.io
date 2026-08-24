@@ -204,7 +204,7 @@
         </div>
       </div>
       <div class="hero-photo">
-        <img src="assets/img/hero/KatWB.webp" width="710" height="1217" fetchpriority="high" decoding="async" alt="${en.heroAlt}" data-i18n-alt="heroAlt">
+        <img src="assets/img/hero/Kat-editorial-bw.jpg" width="1086" height="1448" fetchpriority="high" decoding="async" alt="${en.heroAlt}" data-i18n-alt="heroAlt">
         ${element('span', 'heroSignature', 'hero-signature')}
       </div>`;
   }
@@ -268,7 +268,7 @@
       <section id="process">${sectionHead('processLabel','processTitle','processIntro')}<div class="process-line">${processes}</div></section>
       <section id="fit"><div class="fit-grid"><div>${element('div','fitLabel','section-label')}${element('h2','fitTitle','section-title')}</div><div class="fit-list">${fits}</div></div></section>
       <section id="services">${sectionHead('servicesLabel','servicesTitle','servicesIntro')}<div class="offers">${offers}</div></section>
-      <section id="about"><div class="about-layout"><div class="about-portrait reveal"><img src="assets/img/hero/Kat.webp" width="1400" height="1400" loading="lazy" decoding="async" alt="${en.heroAlt}" data-i18n-alt="heroAlt"></div><div class="about-copy reveal">${element('div','aboutLabel','section-label')}${element('h2','aboutTitle','')} ${element('p','aboutCopy','')}<div class="credibility-list">${[1,2,3].map(n => `<div class="credibility-item"><strong data-i18n="cred${n}Title">${en[`cred${n}Title`]}</strong><span data-i18n="cred${n}Copy">${en[`cred${n}Copy`]}</span></div>`).join('')}</div>${element('div','tools','tools-line')}</div></div></section>`;
+      <section id="about"><div class="about-layout"><div class="about-portrait reveal"><img src="assets/img/hero/Kat-editorial-bw.jpg" width="1086" height="1448" loading="lazy" decoding="async" alt="${en.heroAlt}" data-i18n-alt="heroAlt"></div><div class="about-copy reveal">${element('div','aboutLabel','section-label')}${element('h2','aboutTitle','')} ${element('p','aboutCopy','')}<div class="credibility-list">${[1,2,3].map(n => `<div class="credibility-item"><strong data-i18n="cred${n}Title">${en[`cred${n}Title`]}</strong><span data-i18n="cred${n}Copy">${en[`cred${n}Copy`]}</span></div>`).join('')}</div>${element('div','tools','tools-line')}</div></div></section>`;
     document.getElementById('hero').insertAdjacentHTML('afterend', html);
   }
 
