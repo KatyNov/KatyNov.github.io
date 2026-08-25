@@ -79,7 +79,7 @@
       tools: 'Selected production tools · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs',
       galleryLabel: 'Additional creative work', galleryTitle: 'More selected creative work.', galleryIntro: 'A broader archive of visual concepts, carousels and production experiments. The business and storytelling task stays primary; tools are supporting metadata.',
       filterAll: 'All', filterHaircare: 'Hair care', filterSunglasses: 'Sunglasses', filterLifestyle: 'Lifestyle', filterPhoto: 'Photo', filterVideo: 'Video',
-      contactLabel: 'Start a project', contactTitle: 'Have a brand idea but no content system yet? <em>Let’s build it.</em>', contactSupport: 'Tell me what you are building, where content gets stuck and what your team needs to produce consistently.', contactButton: 'Build your content system',
+      contactLabel: 'Start a project', contactTitle: 'Your brand already has a story. <em>Let’s build the system that turns it into consistent content.</em>', contactSupport: 'Tell me what you’re building, where your content is getting stuck and what you want to achieve.', contactButton: 'Start your project',
       footer: 'Content Systems · Short-form Production · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
     ru: {
@@ -104,7 +104,7 @@
       servicesLabel: 'Форматы сотрудничества', servicesTitle: 'Выберите нужный уровень системы и производства.', servicesIntro: 'Каждый проект начинается со стратегической ясности. Объём работы определяется задачами бренда, команды и реального продакшна, а не меню разрозненных услуг.', offer1Title: 'Спринт по контент-системе', offer1Copy: 'Для брендов, которым нужна ясная основа до наращивания производства: позиционирование, рубрики, форматы, хуки и практическое редакционное направление.', offer1Output: 'Подходит для · Стратегической перезагрузки', offer2Title: 'Контент-система + производство', offer2Copy: 'Для брендов, которым нужна и система, и первый цикл контента: стратегия, сценарии, руководство, Reels и поддерживающие материалы.', offer2Output: 'Подходит для · Создания и запуска', offer3Title: 'Постоянный стратегический продакшн', offer3Copy: 'Для команд с рабочей базой, которым нужен постоянный старший партнёр для развития системы и регулярного производства.', offer3Output: 'Подходит для · Ежемесячной работы',
       aboutLabel: 'Обо мне', aboutTitle: 'Сначала стратегия. Продакшн включён.', aboutCopy: 'Я помогла House of Sustainable Brands в Гамбурге — компании, стоящей за Thiocyn и другими digital-native брендами, — создать полные контент-системы: от анализа конкурентов и позиционирования до мастер-планов на 12 месяцев, библиотек форматов и готовых материалов. Я работаю удалённо по всей Европе и адаптирую стратегическое ядро для русскоязычного, англоязычного, испанского, итальянского и белорусского рынков.', cred1Title: 'Международные бренды', cred1Copy: 'Стратегия и производство для европейских рынков', cred2Title: 'Удалённая работа', cred2Copy: 'Процесс для основателей и небольших команд', cred3Title: 'От начала до результата', cred3Copy: 'От позиционирования до готового short-form контента', tools: 'Инструменты продакшна · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs',
       galleryLabel: 'Дополнительные работы', galleryTitle: 'Ещё избранные творческие проекты.', galleryIntro: 'Архив визуальных концепций, каруселей и производственных экспериментов. На первом месте — бизнес-задача и история; инструменты остаются вторичными метаданными.', filterAll: 'Все', filterHaircare: 'Уход за волосами', filterSunglasses: 'Очки', filterLifestyle: 'Лайфстайл', filterPhoto: 'Фото', filterVideo: 'Видео',
-      contactLabel: 'Начать проект', contactTitle: 'Есть идея бренда, но ещё нет контент-системы? <em>Давайте её построим.</em>', contactSupport: 'Расскажите, что вы создаёте, где останавливается производство контента и что вашей команде нужно выпускать регулярно.', contactButton: 'Построить контент-систему', footer: 'Контент-системы · Short-form продакшн · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
+      contactLabel: 'Начать проект', contactTitle: 'У вашего бренда уже есть история. <em>Давайте построим систему, которая превратит её в последовательный контент.</em>', contactSupport: 'Расскажите, что вы создаёте, где останавливается производство контента и какого результата хотите достичь.', contactButton: 'Начать проект', footer: 'Контент-системы · Short-form продакшн · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
       metaTitle: 'Ekaterina Novitskaia — Sistemas de contenido y estrategia short-form', metaDescription: 'Estrategia de contenido, Reels, storytelling y sistemas de producción escalables para marcas que crean contenido short-form constante.', skip: 'Ir al contenido', menu: 'Menú', close: 'Cerrar', navExpertise: 'Experiencia', navWork: 'Proyectos', navProcess: 'Proceso', navServices: 'Servicios', navContact: 'Contacto',
@@ -117,7 +117,7 @@
       fitLabel: 'Con quién trabajo', fitTitle: 'Para equipos que necesitan un sistema, no más ruido.', fit1Title: 'Founders', fit1Copy: 'Convertir experiencia e ideas en un motor de contenido claro.', fit2Title: 'Marcas de consumo', fit2Copy: 'Crear un mundo distintivo alrededor de un producto real.', fit3Title: 'Marcas internacionales', fit3Copy: 'Adaptar un único núcleo estratégico a varios mercados.', fit4Title: 'Equipos pequeños de marketing', fit4Copy: 'Añadir capacidad estratégica y productiva senior sin la estructura de una agencia.',
       servicesLabel: 'Formas de trabajar juntos', servicesTitle: 'Elige el nivel de sistema y producción que necesitas.', servicesIntro: 'Cada colaboración empieza con claridad estratégica. El alcance responde a la marca, al equipo y a la realidad de producción, no a un menú de entregables aislados.', offer1Title: 'Sprint de sistema de contenido', offer1Copy: 'Para marcas que necesitan una base clara antes de producir más: posicionamiento, pilares, formatos, hooks y dirección editorial aplicable.', offer1Output: 'Ideal para · Reinicio estratégico', offer2Title: 'Sistema de contenido + producción', offer2Copy: 'Para marcas que quieren construir el sistema y el primer ciclo juntos: estrategia, guiones, dirección, Reels y recursos de apoyo.', offer2Output: 'Ideal para · Crear y lanzar', offer3Title: 'Producción estratégica continua', offer3Copy: 'Para equipos con tracción que necesitan una colaboración senior constante para evolucionar el sistema y mantener la producción.', offer3Output: 'Ideal para · Continuidad mensual',
       aboutLabel: 'Sobre mí', aboutTitle: 'Primero la estrategia. Producción incluida.', aboutCopy: 'Ayudé a House of Sustainable Brands en Hamburgo — la empresa detrás de Thiocyn y otras marcas nativas digitales — a crear sistemas completos: desde inteligencia competitiva y posicionamiento hasta planes de 12 meses, bibliotecas de formatos y piezas terminadas. Trabajo en remoto en Europa y adapto el núcleo estratégico a los mercados ruso, inglés, español, italiano y bielorruso.', cred1Title: 'Marcas internacionales', cred1Copy: 'Estrategia y producción para mercados europeos', cred2Title: 'Colaboración remota', cred2Copy: 'Un proceso pensado para founders y equipos pequeños', cred3Title: 'De principio a fin', cred3Copy: 'Del posicionamiento al contenido short-form terminado', tools: 'Herramientas de producción · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs',
-      galleryLabel: 'Trabajo creativo adicional', galleryTitle: 'Más trabajo creativo seleccionado.', galleryIntro: 'Un archivo más amplio de conceptos visuales, carruseles y experimentos de producción. La tarea de negocio y la historia van primero; las herramientas son metadatos secundarios.', filterAll: 'Todo', filterHaircare: 'Cuidado capilar', filterSunglasses: 'Gafas', filterLifestyle: 'Lifestyle', filterPhoto: 'Foto', filterVideo: 'Vídeo', contactLabel: 'Iniciar un proyecto', contactTitle: '¿Tienes una idea de marca pero todavía no un sistema de contenido? <em>Construyámoslo.</em>', contactSupport: 'Cuéntame qué estás creando, dónde se atasca el contenido y qué necesita producir tu equipo con constancia.', contactButton: 'Crear tu sistema de contenido', footer: 'Sistemas de contenido · Producción short-form · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
+      galleryLabel: 'Trabajo creativo adicional', galleryTitle: 'Más trabajo creativo seleccionado.', galleryIntro: 'Un archivo más amplio de conceptos visuales, carruseles y experimentos de producción. La tarea de negocio y la historia van primero; las herramientas son metadatos secundarios.', filterAll: 'Todo', filterHaircare: 'Cuidado capilar', filterSunglasses: 'Gafas', filterLifestyle: 'Lifestyle', filterPhoto: 'Foto', filterVideo: 'Vídeo', contactLabel: 'Iniciar un proyecto', contactTitle: 'Tu marca ya tiene una historia. <em>Construyamos el sistema que la convierta en contenido constante.</em>', contactSupport: 'Cuéntame qué estás creando, dónde se atasca el contenido y qué quieres conseguir.', contactButton: 'Iniciar proyecto', footer: 'Sistemas de contenido · Producción short-form · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
       metaTitle: 'Ekaterina Novitskaia — Sistemi di contenuto e strategia short-form', metaDescription: 'Strategia dei contenuti, Reels, storytelling e sistemi di produzione scalabili per una presenza short-form costante.', skip: 'Vai al contenuto', menu: 'Menu', close: 'Chiudi', navExpertise: 'Competenze', navWork: 'Progetti', navProcess: 'Processo', navServices: 'Servizi', navContact: 'Contatti',
@@ -127,7 +127,7 @@
       reelsLabel: 'Reels e short-form', reelsTitle: 'Una strategia che si vede in movimento.', reelsIntro: 'Una selezione di lavori short-form per hair care, ottica sostenibile e slow fashion: dall’hook e dallo script alla direzione creativa e al montaggio.', reelHair1: 'La scienza in modo umano', reelHair2: 'Rituale di prodotto', reelOptics1: 'Hook culturale', reelOptics2: 'Mondo di prodotto', reelFashion1: 'Storia stagionale', reelFashion2: 'World-building emotivo', reelRoleFull: 'Hook · Script · Direzione · Montaggio', reelRoleDirection: 'Concept · Direzione · Montaggio',
       processLabel: 'Come lavoro', processTitle: 'Dalla verità del brand a una produzione ripetibile.', processIntro: 'Quattro fasi mirate: prima la chiarezza, poi contenuti che il team può davvero sostenere.', process1Title: 'Scoprire', process1Copy: 'Brand, prodotto, pubblico e panorama competitivo.', process2Title: 'Posizionare', process2Copy: 'Territorio narrativo, pillar, voce e regole di comunicazione.', process3Title: 'Sistematizzare', process3Copy: 'Formati, hook, calendari, brief e flusso di produzione.', process4Title: 'Produrre', process4Copy: 'Reels, caroselli, script, B-roll e miglioramento continuo.', fitLabel: 'Con chi lavoro', fitTitle: 'Per team che hanno bisogno di un sistema, non di altro rumore.', fit1Title: 'Founder', fit1Copy: 'Trasformare competenze e idee in un motore di contenuti chiaro.', fit2Title: 'Brand consumer', fit2Copy: 'Costruire un mondo distintivo attorno a un prodotto reale.', fit3Title: 'Brand internazionali', fit3Copy: 'Adattare un unico nucleo strategico a mercati diversi.', fit4Title: 'Piccoli team marketing', fit4Copy: 'Aggiungere capacità strategica e produttiva senior senza la struttura di un’agenzia.',
       servicesLabel: 'Come lavorare insieme', servicesTitle: 'Scegli il livello di sistema e produzione che ti serve.', servicesIntro: 'Ogni collaborazione parte dalla chiarezza strategica. Il perimetro segue il brand, il team e la realtà produttiva, non un menu di deliverable scollegati.', offer1Title: 'Content System Sprint', offer1Copy: 'Per brand che hanno bisogno di basi chiare prima di produrre di più: posizionamento, pillar, formati, hook e direzione editoriale operativa.', offer1Output: 'Ideale per · Reset strategico', offer2Title: 'Sistema di contenuto + produzione', offer2Copy: 'Per brand che vogliono costruire insieme il sistema e il primo ciclo: strategia, script, direzione, Reels e asset di supporto.', offer2Output: 'Ideale per · Costruzione e lancio', offer3Title: 'Produzione strategica continuativa', offer3Copy: 'Per team già avviati che cercano un partner senior costante per evolvere il sistema e mantenere la produzione.', offer3Output: 'Ideale per · Continuità mensile',
-      aboutLabel: 'Chi sono', aboutTitle: 'Prima la strategia. Produzione inclusa.', aboutCopy: 'Ho aiutato House of Sustainable Brands ad Amburgo — l’azienda dietro Thiocyn e altri brand digital-native — a creare sistemi completi: dall’analisi competitiva e dal posizionamento ai masterplan di 12 mesi, alle librerie di formati e agli asset finali. Lavoro da remoto in Europa e adatto il nucleo strategico ai mercati russo, inglese, spagnolo, italiano e bielorusso.', cred1Title: 'Brand internazionali', cred1Copy: 'Strategia e produzione per i mercati europei', cred2Title: 'Collaborazione da remoto', cred2Copy: 'Un processo pensato per founder e piccoli team', cred3Title: 'End-to-end', cred3Copy: 'Dal posizionamento ai contenuti short-form finiti', tools: 'Strumenti di produzione · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs', galleryLabel: 'Altri lavori creativi', galleryTitle: 'Altri lavori creativi selezionati.', galleryIntro: 'Un archivio più ampio di concept visivi, caroselli ed esperimenti produttivi. La sfida di business e la storia restano centrali; gli strumenti sono metadati secondari.', filterAll: 'Tutti', filterHaircare: 'Hair care', filterSunglasses: 'Occhiali', filterLifestyle: 'Lifestyle', filterPhoto: 'Foto', filterVideo: 'Video', contactLabel: 'Avvia un progetto', contactTitle: 'Hai un’idea di brand ma non ancora un sistema di contenuto? <em>Costruiamolo.</em>', contactSupport: 'Raccontami cosa stai costruendo, dove si blocca il contenuto e cosa il tuo team deve produrre con continuità.', contactButton: 'Costruisci il tuo sistema', footer: 'Sistemi di contenuto · Produzione short-form · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
+      aboutLabel: 'Chi sono', aboutTitle: 'Prima la strategia. Produzione inclusa.', aboutCopy: 'Ho aiutato House of Sustainable Brands ad Amburgo — l’azienda dietro Thiocyn e altri brand digital-native — a creare sistemi completi: dall’analisi competitiva e dal posizionamento ai masterplan di 12 mesi, alle librerie di formati e agli asset finali. Lavoro da remoto in Europa e adatto il nucleo strategico ai mercati russo, inglese, spagnolo, italiano e bielorusso.', cred1Title: 'Brand internazionali', cred1Copy: 'Strategia e produzione per i mercati europei', cred2Title: 'Collaborazione da remoto', cred2Copy: 'Un processo pensato per founder e piccoli team', cred3Title: 'End-to-end', cred3Copy: 'Dal posizionamento ai contenuti short-form finiti', tools: 'Strumenti di produzione · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs', galleryLabel: 'Altri lavori creativi', galleryTitle: 'Altri lavori creativi selezionati.', galleryIntro: 'Un archivio più ampio di concept visivi, caroselli ed esperimenti produttivi. La sfida di business e la storia restano centrali; gli strumenti sono metadati secondari.', filterAll: 'Tutti', filterHaircare: 'Hair care', filterSunglasses: 'Occhiali', filterLifestyle: 'Lifestyle', filterPhoto: 'Foto', filterVideo: 'Video', contactLabel: 'Avvia un progetto', contactTitle: 'Il tuo brand ha già una storia. <em>Costruiamo il sistema che la trasformi in contenuti coerenti.</em>', contactSupport: 'Raccontami cosa stai costruendo, dove si blocca il contenuto e quale risultato vuoi ottenere.', contactButton: 'Avvia il progetto', footer: 'Sistemi di contenuto · Produzione short-form · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
       metaTitle: 'Кацярына Навіцкая — кантэнт-сістэмы і short-form стратэгія', metaDescription: 'Кантэнт-стратэгія, Reels, сторытэлінг і маштабаваныя вытворчыя сістэмы для паслядоўнага short-form кантэнту.', skip: 'Перайсці да зместу', menu: 'Меню', close: 'Закрыць', navExpertise: 'Экспертыза', navWork: 'Праекты', navProcess: 'Працэс', navServices: 'Паслугі', navContact: 'Кантакты',
@@ -137,7 +137,40 @@
       reelsLabel: 'Reels і short-form', reelsTitle: 'Стратэгія, якую бачна ў руху.', reelsIntro: 'Выбраныя short-form працы для догляду валасоў, устойлівай оптыкі і slow fashion — ад хука і сцэнарыя да крэатыўнага кіраўніцтва і мантажу.', reelHair1: 'Навука чалавечай мовай', reelHair2: 'Рытуал прадукту', reelOptics1: 'Культурны хук', reelOptics2: 'Свет прадукту', reelFashion1: 'Сезонная гісторыя', reelFashion2: 'Эмацыйны свет брэнда', reelRoleFull: 'Хук · Сцэнар · Кіраўніцтва · Мантаж', reelRoleDirection: 'Канцэпцыя · Кіраўніцтва · Мантаж',
       processLabel: 'Як я працую', processTitle: 'Ад сутнасці брэнда да паўтаральнай вытворчасці.', processIntro: 'Чатыры сфакусаваныя этапы: спачатку яснасць, потым кантэнт, які каманда сапраўды можа выпускаць рэгулярна.', process1Title: 'Даследаванне', process1Copy: 'Брэнд, прадукт, аўдыторыя і канкурэнтнае асяроддзе.', process2Title: 'Пазіцыянаванне', process2Copy: 'Наратыўная тэрыторыя, рубрыкі, голас і правілы камунікацыі.', process3Title: 'Сістэма', process3Copy: 'Фарматы, хукі, календары, брыфы і вытворчы працэс.', process4Title: 'Вытворчасць', process4Copy: 'Reels, каруселі, сцэнары, B-roll і пастаяннае паляпшэнне.', fitLabel: 'З кім я працую', fitTitle: 'Для каманд, якім патрэбна сістэма, а не яшчэ больш шуму.', fit1Title: 'Заснавальнікі', fit1Copy: 'Ператварыць экспертызу і ідэі ў зразумелы кантэнт-механізм.', fit2Title: 'Спажывецкія брэнды', fit2Copy: 'Стварыць вакол рэальнага прадукту пазнавальны свет.', fit3Title: 'Міжнародныя брэнды', fit3Copy: 'Адаптаваць адзінае стратэгічнае ядро для розных рынкаў.', fit4Title: 'Невялікія маркетынгавыя каманды', fit4Copy: 'Дадаць стратэгічную і вытворчую экспертызу без агенцкай грувасткасці.',
       servicesLabel: 'Фарматы супрацоўніцтва', servicesTitle: 'Выберыце патрэбны ўзровень сістэмы і вытворчасці.', servicesIntro: 'Кожны праект пачынаецца са стратэгічнай яснасці. Аб’ём працы вызначаецца задачамі брэнда, каманды і рэальнай вытворчасці, а не меню асобных паслуг.', offer1Title: 'Спрынт па кантэнт-сістэме', offer1Copy: 'Для брэндаў, якім патрэбна ясная аснова перад ростам вытворчасці: пазіцыянаванне, рубрыкі, фарматы, хукі і практычны рэдакцыйны напрамак.', offer1Output: 'Падыходзіць для · Стратэгічнай перазагрузкі', offer2Title: 'Кантэнт-сістэма + вытворчасць', offer2Copy: 'Для брэндаў, якім патрэбны і сістэма, і першы цыкл кантэнту: стратэгія, сцэнары, кіраўніцтва, Reels і дапаможныя матэрыялы.', offer2Output: 'Падыходзіць для · Стварэння і запуску', offer3Title: 'Пастаянная стратэгічная вытворчасць', offer3Copy: 'Для каманд з рабочай базай, якім патрэбны пастаянны старэйшы партнёр для развіцця сістэмы і рэгулярнай вытворчасці.', offer3Output: 'Падыходзіць для · Штомесячнай працы',
-      aboutLabel: 'Пра мяне', aboutTitle: 'Спачатку стратэгія. Вытворчасць уключана.', aboutCopy: 'Я дапамагла House of Sustainable Brands у Гамбургу — кампаніі, якая стаіць за Thiocyn і іншымі digital-native брэндамі, — стварыць поўныя кантэнт-сістэмы: ад аналізу канкурэнтаў і пазіцыянавання да майстар-планаў на 12 месяцаў, бібліятэк фарматаў і гатовых матэрыялаў. Я працую дыстанцыйна па ўсёй Еўропе і адаптую стратэгічнае ядро для рускамоўнага, англамоўнага, іспанскага, італьянскага і беларускага рынкаў.', cred1Title: 'Міжнародныя брэнды', cred1Copy: 'Стратэгія і вытворчасць для еўрапейскіх рынкаў', cred2Title: 'Дыстанцыйная праца', cred2Copy: 'Працэс для заснавальнікаў і невялікіх каманд', cred3Title: 'Ад пачатку да выніку', cred3Copy: 'Ад пазіцыянавання да гатовага short-form кантэнту', tools: 'Інструменты вытворчасці · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs', galleryLabel: 'Дадатковыя працы', galleryTitle: 'Яшчэ выбраныя творчыя праекты.', galleryIntro: 'Архіў візуальных канцэпцый, каруселяў і вытворчых эксперыментаў. На першым месцы — бізнес-задача і гісторыя; інструменты застаюцца другаснымі метададзенымі.', filterAll: 'Усе', filterHaircare: 'Догляд валасоў', filterSunglasses: 'Акуляры', filterLifestyle: 'Лайфстайл', filterPhoto: 'Фота', filterVideo: 'Відэа', contactLabel: 'Пачаць праект', contactTitle: 'Ёсць ідэя брэнда, але яшчэ няма кантэнт-сістэмы? <em>Давайце яе створым.</em>', contactSupport: 'Раскажыце, што вы ствараеце, дзе спыняецца вытворчасць кантэнту і што вашай камандзе трэба выпускаць рэгулярна.', contactButton: 'Стварыць кантэнт-сістэму', footer: 'Кантэнт-сістэмы · Short-form вытворчасць · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
+      aboutLabel: 'Пра мяне', aboutTitle: 'Спачатку стратэгія. Вытворчасць уключана.', aboutCopy: 'Я дапамагла House of Sustainable Brands у Гамбургу — кампаніі, якая стаіць за Thiocyn і іншымі digital-native брэндамі, — стварыць поўныя кантэнт-сістэмы: ад аналізу канкурэнтаў і пазіцыянавання да майстар-планаў на 12 месяцаў, бібліятэк фарматаў і гатовых матэрыялаў. Я працую дыстанцыйна па ўсёй Еўропе і адаптую стратэгічнае ядро для рускамоўнага, англамоўнага, іспанскага, італьянскага і беларускага рынкаў.', cred1Title: 'Міжнародныя брэнды', cred1Copy: 'Стратэгія і вытворчасць для еўрапейскіх рынкаў', cred2Title: 'Дыстанцыйная праца', cred2Copy: 'Працэс для заснавальнікаў і невялікіх каманд', cred3Title: 'Ад пачатку да выніку', cred3Copy: 'Ад пазіцыянавання да гатовага short-form кантэнту', tools: 'Інструменты вытворчасці · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs', galleryLabel: 'Дадатковыя працы', galleryTitle: 'Яшчэ выбраныя творчыя праекты.', galleryIntro: 'Архіў візуальных канцэпцый, каруселяў і вытворчых эксперыментаў. На першым месцы — бізнес-задача і гісторыя; інструменты застаюцца другаснымі метададзенымі.', filterAll: 'Усе', filterHaircare: 'Догляд валасоў', filterSunglasses: 'Акуляры', filterLifestyle: 'Лайфстайл', filterPhoto: 'Фота', filterVideo: 'Відэа', contactLabel: 'Пачаць праект', contactTitle: 'У вашага брэнда ўжо ёсць гісторыя. <em>Давайце створым сістэму, якая ператворыць яе ў паслядоўны кантэнт.</em>', contactSupport: 'Раскажыце, што вы ствараеце, дзе спыняецца вытворчасць кантэнту і якога выніку хочаце дасягнуць.', contactButton: 'Пачаць праект', footer: 'Кантэнт-сістэмы · Short-form вытворчасць · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
+    }
+  };
+
+  const FORM_COPY = {
+    en: {
+      asyncLabel: 'Async collaboration', asyncTitle: 'Designed for asynchronous collaboration.', asyncCopy: 'No unnecessary meetings. Projects can be managed through a structured brief, written feedback and clear delivery milestones — so your team can stay focused while the content gets built.', asyncFlow: 'Brief → Strategy → Production → Review → Delivery',
+      formLabel: 'Project brief', formTitle: 'Start your project.', formIntro: 'Share the essentials. I’ll review the brief and respond with the recommended next step, scope and estimated investment.', requiredNote: 'Required fields are marked with *.',
+      name: 'Name *', email: 'Email *', company: 'Company', website: 'Website', industry: 'Industry', industryPlaceholder: 'Beauty, fashion, wellness…', needs: 'What do you need? *', service1: 'Content Strategy Sprint', service2: 'Reels Content System', service3: 'Full Content Infrastructure', service4: 'Not sure yet', serviceError: 'Please select at least one option.', budget: 'What’s your approximate budget? *', project: 'Tell me briefly about your project *', projectPlaceholder: 'What are you building, where is content getting stuck, and what would a useful outcome look like?', submit: 'Submit project', sending: 'Sending…', privacy: 'Your information will only be used to review and respond to this project brief.',
+      successTitle: 'Thanks — your project brief has been received.', successCopy: 'I’ll review your information and respond with the recommended next step, scope and estimated investment.', errorTitle: 'The brief could not be sent.', errorCopy: 'Please try again or send it directly by email.', directContact: 'Prefer a direct channel?'
+    },
+    ru: {
+      asyncLabel: 'Асинхронная работа', asyncTitle: 'Процесс создан для асинхронного сотрудничества.', asyncCopy: 'Без лишних созвонов. Проект можно вести через структурированный бриф, письменную обратную связь и понятные этапы сдачи — ваша команда сохраняет фокус, пока контент создаётся.', asyncFlow: 'Бриф → Стратегия → Продакшн → Проверка → Передача',
+      formLabel: 'Бриф проекта', formTitle: 'Начать проект.', formIntro: 'Расскажите главное. Я изучу бриф и отвечу с рекомендацией по следующему шагу, объёму работ и ориентировочной стоимости.', requiredNote: 'Обязательные поля отмечены *.',
+      name: 'Имя *', email: 'Email *', company: 'Компания', website: 'Сайт', industry: 'Сфера', industryPlaceholder: 'Beauty, fashion, wellness…', needs: 'Что вам нужно? *', service1: 'Спринт по контент-стратегии', service2: 'Система контента для Reels', service3: 'Полная контент-инфраструктура', service4: 'Пока не уверены', serviceError: 'Выберите хотя бы один вариант.', budget: 'Примерный бюджет *', project: 'Коротко расскажите о проекте *', projectPlaceholder: 'Что вы создаёте, где останавливается производство контента и какого результата хотите достичь?', submit: 'Отправить проект', sending: 'Отправка…', privacy: 'Информация будет использована только для рассмотрения брифа и ответа на него.',
+      successTitle: 'Спасибо — бриф проекта получен.', successCopy: 'Я изучу информацию и отвечу с рекомендацией по следующему шагу, объёму работ и ориентировочной стоимости.', errorTitle: 'Не удалось отправить бриф.', errorCopy: 'Попробуйте ещё раз или отправьте его напрямую по email.', directContact: 'Предпочитаете прямую связь?'
+    },
+    es: {
+      asyncLabel: 'Colaboración asíncrona', asyncTitle: 'Diseñado para colaborar de forma asíncrona.', asyncCopy: 'Sin reuniones innecesarias. Los proyectos pueden gestionarse mediante un brief estructurado, feedback por escrito y entregas claramente definidas, para que tu equipo mantenga el foco mientras se construye el contenido.', asyncFlow: 'Brief → Estrategia → Producción → Revisión → Entrega',
+      formLabel: 'Brief del proyecto', formTitle: 'Inicia tu proyecto.', formIntro: 'Comparte lo esencial. Revisaré el brief y responderé con el siguiente paso recomendado, el alcance y una inversión estimada.', requiredNote: 'Los campos obligatorios están marcados con *.',
+      name: 'Nombre *', email: 'Email *', company: 'Empresa', website: 'Sitio web', industry: 'Sector', industryPlaceholder: 'Belleza, moda, wellness…', needs: '¿Qué necesitas? *', service1: 'Sprint de estrategia de contenido', service2: 'Sistema de contenido para Reels', service3: 'Infraestructura completa de contenido', service4: 'Todavía no lo sé', serviceError: 'Selecciona al menos una opción.', budget: '¿Cuál es tu presupuesto aproximado? *', project: 'Cuéntame brevemente sobre tu proyecto *', projectPlaceholder: '¿Qué estás creando, dónde se atasca el contenido y qué resultado te gustaría conseguir?', submit: 'Enviar proyecto', sending: 'Enviando…', privacy: 'Tus datos solo se utilizarán para revisar y responder a este brief.',
+      successTitle: 'Gracias: he recibido el brief de tu proyecto.', successCopy: 'Revisaré la información y responderé con el siguiente paso recomendado, el alcance y una inversión estimada.', errorTitle: 'No se pudo enviar el brief.', errorCopy: 'Inténtalo de nuevo o envíalo directamente por email.', directContact: '¿Prefieres un canal directo?'
+    },
+    it: {
+      asyncLabel: 'Collaborazione asincrona', asyncTitle: 'Progettato per una collaborazione asincrona.', asyncCopy: 'Nessuna riunione superflua. I progetti possono essere gestiti con un brief strutturato, feedback scritto e tappe di consegna chiare, così il tuo team resta concentrato mentre il contenuto prende forma.', asyncFlow: 'Brief → Strategia → Produzione → Revisione → Consegna',
+      formLabel: 'Brief del progetto', formTitle: 'Avvia il tuo progetto.', formIntro: 'Condividi le informazioni essenziali. Esaminerò il brief e risponderò con il passo successivo consigliato, l’ambito e una stima dell’investimento.', requiredNote: 'I campi obbligatori sono contrassegnati da *.',
+      name: 'Nome *', email: 'Email *', company: 'Azienda', website: 'Sito web', industry: 'Settore', industryPlaceholder: 'Beauty, moda, wellness…', needs: 'Di cosa hai bisogno? *', service1: 'Sprint di strategia dei contenuti', service2: 'Sistema di contenuti per Reels', service3: 'Infrastruttura completa dei contenuti', service4: 'Non ne sono ancora sicuro', serviceError: 'Seleziona almeno un’opzione.', budget: 'Qual è il budget indicativo? *', project: 'Raccontami brevemente il progetto *', projectPlaceholder: 'Cosa stai costruendo, dove si blocca il contenuto e quale risultato vorresti ottenere?', submit: 'Invia il progetto', sending: 'Invio…', privacy: 'I tuoi dati saranno utilizzati solo per valutare e rispondere a questo brief.',
+      successTitle: 'Grazie: il brief del progetto è stato ricevuto.', successCopy: 'Esaminerò le informazioni e risponderò con il passo successivo consigliato, l’ambito e una stima dell’investimento.', errorTitle: 'Non è stato possibile inviare il brief.', errorCopy: 'Riprova oppure invialo direttamente via email.', directContact: 'Preferisci un contatto diretto?'
+    },
+    by: {
+      asyncLabel: 'Асінхронная супраца', asyncTitle: 'Працэс створаны для асінхроннага супрацоўніцтва.', asyncCopy: 'Без лішніх сустрэч. Праект можна весці праз структураваны брыф, пісьмовую зваротную сувязь і зразумелыя этапы здачы — ваша каманда захоўвае фокус, пакуль ствараецца кантэнт.', asyncFlow: 'Брыф → Стратэгія → Вытворчасць → Праверка → Перадача',
+      formLabel: 'Брыф праекта', formTitle: 'Пачаць праект.', formIntro: 'Раскажыце галоўнае. Я вывучу брыф і адкажу з рэкамендацыяй наконт наступнага кроку, аб’ёму працы і прыкладнага бюджэту.', requiredNote: 'Абавязковыя палі пазначаны *.',
+      name: 'Імя *', email: 'Email *', company: 'Кампанія', website: 'Сайт', industry: 'Сфера', industryPlaceholder: 'Beauty, fashion, wellness…', needs: 'Што вам патрэбна? *', service1: 'Спрынт па кантэнт-стратэгіі', service2: 'Сістэма кантэнту для Reels', service3: 'Поўная кантэнт-інфраструктура', service4: 'Пакуль не ўпэўнены', serviceError: 'Выберыце хаця б адзін варыянт.', budget: 'Прыкладны бюджэт *', project: 'Коратка раскажыце пра праект *', projectPlaceholder: 'Што вы ствараеце, дзе спыняецца вытворчасць кантэнту і якога выніку хочаце дасягнуць?', submit: 'Адправіць праект', sending: 'Адпраўка…', privacy: 'Інфармацыя будзе выкарыстана толькі для разгляду брыфа і адказу на яго.',
+      successTitle: 'Дзякуй — брыф праекта атрыманы.', successCopy: 'Я вывучу інфармацыю і адкажу з рэкамендацыяй наконт наступнага кроку, аб’ёму працы і прыкладнага бюджэту.', errorTitle: 'Не ўдалося адправіць брыф.', errorCopy: 'Паспрабуйце яшчэ раз або адпраўце яго непасрэдна па email.', directContact: 'Аддаеце перавагу прамой сувязі?'
     }
   };
 
@@ -171,7 +204,9 @@
 
   const en = COPY.en;
   const getCopy = (lang, key) => (COPY[lang] && COPY[lang][key]) || en[key] || '';
+  const getFormCopy = (lang, key) => (FORM_COPY[lang] && FORM_COPY[lang][key]) || FORM_COPY.en[key] || '';
   const element = (tag, key, className) => `<${tag}${className ? ` class="${className}"` : ''} data-i18n="${key}">${en[key]}</${tag}>`;
+  const formElement = (tag, key, className) => `<${tag}${className ? ` class="${className}"` : ''} data-form-i18n="${key}">${FORM_COPY.en[key]}</${tag}>`;
   const tags = (set, lang = 'en') => `<div class="system-tags" data-system-set="${set}">${SYSTEM_TAGS[lang][set].map(item => `<span>${item}</span>`).join('')}</div>`;
 
   function renderNavigation() {
@@ -185,7 +220,7 @@
         <li><a href="#work" data-i18n="navWork">${en.navWork}</a></li>
         <li><a href="#process" data-i18n="navProcess">${en.navProcess}</a></li>
         <li><a href="#services" data-i18n="navServices">${en.navServices}</a></li>
-        <li><a href="#contact" data-i18n="navContact">${en.navContact}</a></li>
+        <li><a href="#project-brief" class="nav-project-link" data-i18n="contactLabel">${en.contactLabel}</a></li>
       </ul>
       <div class="nav-lang" role="group" aria-label="Choose language">
         ${SITE_DATA.languages.map(lang => `<button class="lang-btn" type="button" data-lang="${lang}" lang="${SITE_DATA.htmlLanguages[lang]}">${SITE_DATA.languageLabels[lang]}</button>`).join('')}
@@ -301,18 +336,98 @@
 
   function renderContact() {
     const { email, linkedin, whatsapp } = SITE_DATA.contacts;
-    document.getElementById('contact').innerHTML = `<div class="contact-inner reveal">
-      ${element('div','contactLabel','section-label')}
-      ${element('h2','contactTitle','contact-title')}
-      ${element('p','contactSupport','contact-support')}
-      <div class="contact-links">
-        <a href="mailto:${email}" class="contact-link"><span class="contact-link-label">Email</span><span class="contact-link-value">${email}</span></a>
-        <a href="${linkedin}" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-label">LinkedIn</span><span class="contact-link-value">katherina-novitskaia</span></a>
-        <a href="${whatsapp}" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-label">WhatsApp</span><span class="contact-link-value">+34 657 501 973</span></a>
+    const serviceOptions = [1,2,3,4].map(number => `<label class="brief-choice"><input type="checkbox" name="What do you need?" value="${FORM_COPY.en[`service${number}`]}"><span data-form-i18n="service${number}">${FORM_COPY.en[`service${number}`]}</span></label>`).join('');
+    const budgets = ['€500–1,000','€1,000–2,000','€2,000–3,000','€3,000+'].map((budget, index) => `<label class="brief-choice"><input type="radio" name="Approximate budget" value="${budget}"${index === 0 ? ' required' : ''}><span>${budget}</span></label>`).join('');
+    document.getElementById('contact').innerHTML = `<div class="contact-inner">
+      <div class="contact-cta reveal">
+        ${element('div','contactLabel','section-label')}
+        ${element('h2','contactTitle','contact-title')}
+        ${element('p','contactSupport','contact-support')}
+        <a class="btn-primary" href="#project-brief" data-i18n="contactButton">${en.contactButton}</a>
       </div>
-      <a href="mailto:${email}?subject=Content%20system%20project" class="btn-primary" data-i18n="contactButton">${en.contactButton}</a>
+      <div class="async-layout reveal">
+        <div>${formElement('div','asyncLabel','section-label')}</div>
+        <div class="async-copy">${formElement('h2','asyncTitle','contact-title')}${formElement('p','asyncCopy','contact-support')}${formElement('div','asyncFlow','async-flow')}</div>
+      </div>
+      <div class="brief-shell reveal" id="project-brief">
+        <div class="brief-heading">
+          ${formElement('div','formLabel','section-label')}
+          ${formElement('h2','formTitle','brief-title')}
+          ${formElement('p','formIntro','brief-intro')}
+          ${formElement('p','requiredNote','brief-required')}
+        </div>
+        <form class="brief-form" id="project-form" action="https://formsubmit.co/${email}" method="POST">
+          <input type="hidden" name="_subject" value="New project brief — katynov.github.io">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="Source" value="https://katynov.github.io/#project-brief">
+          <input type="hidden" name="Language" id="project-language" value="EN">
+          <label class="brief-field"><span data-form-i18n="name">${FORM_COPY.en.name}</span><input type="text" name="Name" autocomplete="name" required></label>
+          <label class="brief-field"><span data-form-i18n="email">${FORM_COPY.en.email}</span><input type="email" name="email" autocomplete="email" required></label>
+          <label class="brief-field"><span data-form-i18n="company">${FORM_COPY.en.company}</span><input type="text" name="Company" autocomplete="organization"></label>
+          <label class="brief-field"><span data-form-i18n="website">${FORM_COPY.en.website}</span><input type="url" name="Website" inputmode="url" autocomplete="url" placeholder="https://"></label>
+          <label class="brief-field brief-field-wide"><span data-form-i18n="industry">${FORM_COPY.en.industry}</span><input type="text" name="Industry" data-form-i18n-placeholder="industryPlaceholder" placeholder="${FORM_COPY.en.industryPlaceholder}"></label>
+          <fieldset class="brief-fieldset brief-field-wide" id="service-fieldset"><legend data-form-i18n="needs">${FORM_COPY.en.needs}</legend><div class="brief-options">${serviceOptions}</div><p class="brief-field-error" id="service-error" data-form-i18n="serviceError" hidden>${FORM_COPY.en.serviceError}</p></fieldset>
+          <fieldset class="brief-fieldset brief-field-wide"><legend data-form-i18n="budget">${FORM_COPY.en.budget}</legend><div class="brief-options">${budgets}</div></fieldset>
+          <label class="brief-field brief-field-wide"><span data-form-i18n="project">${FORM_COPY.en.project}</span><textarea name="Project brief" rows="6" data-form-i18n-placeholder="projectPlaceholder" placeholder="${FORM_COPY.en.projectPlaceholder}" required></textarea></label>
+          <div class="brief-honeypot" aria-hidden="true"><label>Leave empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+          <div class="brief-submit-row brief-field-wide"><button class="btn-primary brief-submit" type="submit" data-form-i18n="submit">${FORM_COPY.en.submit}</button><p data-form-i18n="privacy">${FORM_COPY.en.privacy}</p></div>
+          <div class="brief-error brief-field-wide" id="brief-error" role="alert" hidden><strong data-form-i18n="errorTitle">${FORM_COPY.en.errorTitle}</strong> <span data-form-i18n="errorCopy">${FORM_COPY.en.errorCopy}</span> <a href="mailto:${email}">${email}</a></div>
+        </form>
+        <div class="brief-success" id="brief-success" role="status" tabindex="-1" hidden>${formElement('h3','successTitle','')}${formElement('p','successCopy','')}</div>
+      </div>
+      <div class="contact-secondary reveal">
+        ${formElement('p','directContact','contact-direct-label')}
+        <div class="contact-links">
+          <a href="mailto:${email}" class="contact-link"><span class="contact-link-label">Email</span><span class="contact-link-value">${email}</span></a>
+          <a href="${linkedin}" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-label">LinkedIn</span><span class="contact-link-value">katherina-novitskaia</span></a>
+          <a href="${whatsapp}" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-label">WhatsApp</span><span class="contact-link-value">+34 657 501 973</span></a>
+        </div>
+      </div>
     </div>`;
     document.querySelector('footer').innerHTML = `<span class="footer-copy">© 2026 Ekaterina Novitskaia</span><span class="footer-copy" data-i18n="footer">${en.footer}</span>`;
+  }
+
+  function bindProjectForm() {
+    const form = document.getElementById('project-form');
+    const submit = form.querySelector('.brief-submit');
+    const serviceInputs = [...form.querySelectorAll('input[name="What do you need?"]')];
+    const serviceError = document.getElementById('service-error');
+    const errorBox = document.getElementById('brief-error');
+    const successBox = document.getElementById('brief-success');
+    serviceInputs.forEach(input => input.addEventListener('change', () => { if (serviceInputs.some(option => option.checked)) serviceError.hidden = true; }));
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      const lang = localStorage.getItem('lang') || 'en';
+      if (!serviceInputs.some(input => input.checked)) {
+        serviceError.hidden = false;
+        serviceInputs[0].focus();
+        return;
+      }
+      if (!form.reportValidity()) return;
+      errorBox.hidden = true;
+      submit.disabled = true;
+      submit.textContent = getFormCopy(lang, 'sending');
+      const formData = new FormData(form);
+      const payload = Object.fromEntries(formData.entries());
+      payload['What do you need?'] = formData.getAll('What do you need?').join(', ');
+      try {
+        const response = await fetch(`https://formsubmit.co/ajax/${SITE_DATA.contacts.email}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok || result.success === false) throw new Error('Submission failed');
+        form.reset();
+        form.hidden = true;
+        successBox.hidden = false;
+        successBox.focus();
+      } catch (error) {
+        errorBox.hidden = false;
+        submit.disabled = false;
+        submit.textContent = getFormCopy(lang, 'submit');
+      }
+    });
   }
 
   function createMainLandmark() {
@@ -337,6 +452,12 @@
     document.querySelector('meta[property="og:description"]')?.setAttribute('content', getCopy(lang, 'metaDescription'));
     document.querySelectorAll('[data-i18n]').forEach(node => { node.innerHTML = getCopy(lang, node.dataset.i18n); });
     document.querySelectorAll('[data-i18n-alt]').forEach(node => { node.alt = getCopy(lang, node.dataset.i18nAlt); });
+    document.querySelectorAll('[data-form-i18n]').forEach(node => { node.innerHTML = getFormCopy(lang, node.dataset.formI18n); });
+    document.querySelectorAll('[data-form-i18n-placeholder]').forEach(node => { node.placeholder = getFormCopy(lang, node.dataset.formI18nPlaceholder); });
+    const projectLanguage = document.getElementById('project-language');
+    if (projectLanguage) projectLanguage.value = SITE_DATA.languageLabels[lang];
+    const projectSubmit = document.querySelector('.brief-submit');
+    if (projectSubmit?.disabled) projectSubmit.textContent = getFormCopy(lang, 'sending');
     document.querySelectorAll('[data-system-set]').forEach(node => {
       const set = node.dataset.systemSet;
       node.innerHTML = SYSTEM_TAGS[lang][set].map(item => `<span>${item}</span>`).join('');
@@ -398,6 +519,7 @@
   renderStrategicSections();
   upgradeGallery();
   renderContact();
+  bindProjectForm();
   createMainLandmark();
   upgradeLightbox();
   bindInteractions();
