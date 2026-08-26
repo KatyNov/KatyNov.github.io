@@ -356,11 +356,10 @@
           ${formElement('p','formIntro','brief-intro')}
           ${formElement('p','requiredNote','brief-required')}
         </div>
-        <form class="brief-form" id="project-form" action="https://formsubmit.co/${email}" method="POST" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
-          <input type="hidden" name="_subject" value="New project brief — katynov.github.io">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://katynov.github.io/?submitted=1#project-brief">
-          <input type="hidden" name="_url" value="https://katynov.github.io/#project-brief">
+        <form class="brief-form" id="project-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+          <input type="hidden" name="access_key" value="d33b0ee1-7cf1-4c89-ae7a-bca71d29fdc1">
+          <input type="hidden" name="subject" value="New project brief — katynov.github.io">
+          <input type="hidden" name="from_name" value="Ekaterina Novitskaia — Project Brief">
           <input type="hidden" name="Source" value="https://katynov.github.io/#project-brief">
           <input type="hidden" name="Language" id="project-language" value="EN">
           <label class="brief-field"><span data-form-i18n="name">${FORM_COPY.en.name}</span><input type="text" name="Name" autocomplete="name" required></label>
@@ -371,7 +370,8 @@
           <fieldset class="brief-fieldset brief-field-wide" id="service-fieldset"><legend data-form-i18n="needs">${FORM_COPY.en.needs}</legend><div class="brief-options">${serviceOptions}</div><p class="brief-field-error" id="service-error" data-form-i18n="serviceError" hidden>${FORM_COPY.en.serviceError}</p></fieldset>
           <fieldset class="brief-fieldset brief-field-wide"><legend data-form-i18n="budget">${FORM_COPY.en.budget}</legend><div class="brief-options">${budgets}</div></fieldset>
           <label class="brief-field brief-field-wide"><span data-form-i18n="project">${FORM_COPY.en.project}</span><textarea name="Project brief" rows="6" data-form-i18n-placeholder="projectPlaceholder" placeholder="${FORM_COPY.en.projectPlaceholder}" required></textarea></label>
-          <div class="brief-honeypot" aria-hidden="true"><label>Leave empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+          <div class="brief-honeypot" aria-hidden="true"><label>Leave empty<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label></div>
+          <div class="brief-error brief-field-wide" id="brief-error" role="alert" hidden><strong data-form-i18n="errorTitle">${FORM_COPY.en.errorTitle}</strong> <span data-form-i18n="errorCopy">${FORM_COPY.en.errorCopy}</span> <a href="mailto:${email}">Email</a></div>
           <div class="brief-submit-row brief-field-wide"><button class="btn-primary brief-submit" type="submit" data-form-i18n="submit">${FORM_COPY.en.submit}</button><p data-form-i18n="privacy">${FORM_COPY.en.privacy}</p></div>
         </form>
         <div class="brief-success" id="brief-success" role="status" tabindex="-1" hidden>${formElement('h3','successTitle','')}${formElement('p','successCopy','')}</div>
@@ -392,13 +392,46 @@
     const form = document.getElementById('project-form');
     const serviceInputs = [...form.querySelectorAll('input[name="What do you need?"]')];
     const serviceError = document.getElementById('service-error');
+    const submitButton = form.querySelector('.brief-submit');
+    const errorBox = document.getElementById('brief-error');
     const successBox = document.getElementById('brief-success');
     serviceInputs.forEach(input => input.addEventListener('change', () => { if (serviceInputs.some(option => option.checked)) serviceError.hidden = true; }));
-    form.addEventListener('submit', event => {
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
       if (!serviceInputs.some(input => input.checked)) {
-        event.preventDefault();
         serviceError.hidden = false;
         serviceInputs[0].focus();
+        return;
+      }
+
+      const currentLang = SITE_DATA.languages.find(lang => document.querySelector(`.lang-btn[data-lang="${lang}"]`)?.classList.contains('active')) || 'en';
+      errorBox.hidden = true;
+      submitButton.disabled = true;
+      submitButton.setAttribute('aria-busy', 'true');
+      submitButton.textContent = getFormCopy(currentLang, 'sending');
+
+      try {
+        const formData = new FormData(form);
+        formData.set('What do you need?', serviceInputs.filter(input => input.checked).map(input => input.value).join(', '));
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: { Accept: 'application/json' }
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok || result.success === false) throw new Error(result.message || 'Submission failed');
+
+        form.reset();
+        form.hidden = true;
+        successBox.hidden = false;
+        window.requestAnimationFrame(() => successBox.focus());
+      } catch (error) {
+        errorBox.hidden = false;
+        errorBox.focus?.();
+      } finally {
+        submitButton.disabled = false;
+        submitButton.removeAttribute('aria-busy');
+        submitButton.textContent = getFormCopy(currentLang, 'submit');
       }
     });
     if (new URLSearchParams(window.location.search).get('submitted') === '1') {
