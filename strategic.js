@@ -359,6 +359,8 @@
         <form class="brief-form" id="project-form" action="https://formsubmit.co/${email}" method="POST">
           <input type="hidden" name="_subject" value="New project brief — katynov.github.io">
           <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://katynov.github.io/?submitted=1#project-brief">
+          <input type="hidden" name="_url" value="https://katynov.github.io/#project-brief">
           <input type="hidden" name="Source" value="https://katynov.github.io/#project-brief">
           <input type="hidden" name="Language" id="project-language" value="EN">
           <label class="brief-field"><span data-form-i18n="name">${FORM_COPY.en.name}</span><input type="text" name="Name" autocomplete="name" required></label>
@@ -371,7 +373,6 @@
           <label class="brief-field brief-field-wide"><span data-form-i18n="project">${FORM_COPY.en.project}</span><textarea name="Project brief" rows="6" data-form-i18n-placeholder="projectPlaceholder" placeholder="${FORM_COPY.en.projectPlaceholder}" required></textarea></label>
           <div class="brief-honeypot" aria-hidden="true"><label>Leave empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
           <div class="brief-submit-row brief-field-wide"><button class="btn-primary brief-submit" type="submit" data-form-i18n="submit">${FORM_COPY.en.submit}</button><p data-form-i18n="privacy">${FORM_COPY.en.privacy}</p></div>
-          <div class="brief-error brief-field-wide" id="brief-error" role="alert" hidden><strong data-form-i18n="errorTitle">${FORM_COPY.en.errorTitle}</strong> <span data-form-i18n="errorCopy">${FORM_COPY.en.errorCopy}</span> <a href="mailto:${email}">${email}</a></div>
         </form>
         <div class="brief-success" id="brief-success" role="status" tabindex="-1" hidden>${formElement('h3','successTitle','')}${formElement('p','successCopy','')}</div>
       </div>
@@ -392,42 +393,24 @@
     const submit = form.querySelector('.brief-submit');
     const serviceInputs = [...form.querySelectorAll('input[name="What do you need?"]')];
     const serviceError = document.getElementById('service-error');
-    const errorBox = document.getElementById('brief-error');
     const successBox = document.getElementById('brief-success');
     serviceInputs.forEach(input => input.addEventListener('change', () => { if (serviceInputs.some(option => option.checked)) serviceError.hidden = true; }));
-    form.addEventListener('submit', async event => {
-      event.preventDefault();
+    form.addEventListener('submit', event => {
       const lang = localStorage.getItem('lang') || 'en';
       if (!serviceInputs.some(input => input.checked)) {
+        event.preventDefault();
         serviceError.hidden = false;
         serviceInputs[0].focus();
         return;
       }
-      if (!form.reportValidity()) return;
-      errorBox.hidden = true;
       submit.disabled = true;
       submit.textContent = getFormCopy(lang, 'sending');
-      const formData = new FormData(form);
-      const payload = Object.fromEntries(formData.entries());
-      payload['What do you need?'] = formData.getAll('What do you need?').join(', ');
-      try {
-        const response = await fetch(`https://formsubmit.co/ajax/${SITE_DATA.contacts.email}`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        const result = await response.json().catch(() => ({}));
-        if (!response.ok || result.success === false) throw new Error('Submission failed');
-        form.reset();
-        form.hidden = true;
-        successBox.hidden = false;
-        successBox.focus();
-      } catch (error) {
-        errorBox.hidden = false;
-        submit.disabled = false;
-        submit.textContent = getFormCopy(lang, 'submit');
-      }
     });
+    if (new URLSearchParams(window.location.search).get('submitted') === '1') {
+      form.hidden = true;
+      successBox.hidden = false;
+      window.requestAnimationFrame(() => successBox.focus());
+    }
   }
 
   function createMainLandmark() {
