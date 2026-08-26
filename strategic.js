@@ -356,7 +356,7 @@
           ${formElement('p','formIntro','brief-intro')}
           ${formElement('p','requiredNote','brief-required')}
         </div>
-        <form class="brief-form" id="project-form" action="https://formsubmit.co/${email}" method="POST">
+        <form class="brief-form" id="project-form" action="https://formsubmit.co/${email}" method="POST" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
           <input type="hidden" name="_subject" value="New project brief — katynov.github.io">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" value="https://katynov.github.io/?submitted=1#project-brief">
@@ -390,21 +390,16 @@
 
   function bindProjectForm() {
     const form = document.getElementById('project-form');
-    const submit = form.querySelector('.brief-submit');
     const serviceInputs = [...form.querySelectorAll('input[name="What do you need?"]')];
     const serviceError = document.getElementById('service-error');
     const successBox = document.getElementById('brief-success');
     serviceInputs.forEach(input => input.addEventListener('change', () => { if (serviceInputs.some(option => option.checked)) serviceError.hidden = true; }));
     form.addEventListener('submit', event => {
-      const lang = localStorage.getItem('lang') || 'en';
       if (!serviceInputs.some(input => input.checked)) {
         event.preventDefault();
         serviceError.hidden = false;
         serviceInputs[0].focus();
-        return;
       }
-      submit.disabled = true;
-      submit.textContent = getFormCopy(lang, 'sending');
     });
     if (new URLSearchParams(window.location.search).get('submitted') === '1') {
       form.hidden = true;
@@ -439,8 +434,6 @@
     document.querySelectorAll('[data-form-i18n-placeholder]').forEach(node => { node.placeholder = getFormCopy(lang, node.dataset.formI18nPlaceholder); });
     const projectLanguage = document.getElementById('project-language');
     if (projectLanguage) projectLanguage.value = SITE_DATA.languageLabels[lang];
-    const projectSubmit = document.querySelector('.brief-submit');
-    if (projectSubmit?.disabled) projectSubmit.textContent = getFormCopy(lang, 'sending');
     document.querySelectorAll('[data-system-set]').forEach(node => {
       const set = node.dataset.systemSet;
       node.innerHTML = SYSTEM_TAGS[lang][set].map(item => `<span>${item}</span>`).join('');
