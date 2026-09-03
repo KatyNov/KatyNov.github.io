@@ -416,9 +416,13 @@ section {
   height: auto;
   aspect-ratio: 9 / 16;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   background: var(--dark-soft);
+}
+
+#work .case-study:first-of-type .case-media img:first-child {
+  object-position: left center;
 }
 
 /* Reels */
