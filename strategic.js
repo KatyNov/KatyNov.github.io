@@ -384,7 +384,7 @@
         </dl>
         ${testimonial ? `<blockquote class="testimonial"><span data-i18n="testimonial">${en.testimonial}</span><cite>Peter Hart, CEO · House of Sustainable Brands / Thiocyn GmbH</cite></blockquote>` : ''}
       </div>
-      <div class="case-media">${media.map(src => `<img src="${src}" loading="lazy" decoding="async" alt="${en[title]}" data-i18n-alt="${title}">`).join('')}</div>
+      <div class="case-media">${media.map(src => `<div class="case-media-frame" style="--media-image: url('${src}')"><img src="${src}" loading="lazy" decoding="async" alt="${en[title]}" data-i18n-alt="${title}"></div>`).join('')}</div>
     </article>`;
   }
 
