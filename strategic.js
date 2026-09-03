@@ -23,10 +23,10 @@
       thinkingLabel: 'How I think',
       thinkingOpening: 'A brand doesn\'t always need another campaign.',
       thinkingIdea: 'Sometimes it needs <em>one good idea</em>.',
-      thinkingObservation: 'A colour.<br>A phrase.<br>A recurring image.<br>Something slightly strange.',
+      thinkingObservation: 'A colour. · A phrase. · A recurring image. · Something slightly strange.',
       thinkingTransition: 'Then you give that idea somewhere to go.',
-      thinkingApplications: 'A post.<br>A reel.<br>A campaign.<br>A story.<br>And then another story.',
-      thinkingConclusion: 'That\'s how content stops being a pile of posts<br>and starts becoming a world.',
+      thinkingApplications: 'POST · REEL · CAMPAIGN · STORY · AND ANOTHER STORY',
+      thinkingConclusion: 'That\'s how content stops being a pile of posts<br>and starts becoming <em>a world</em>.',
       thinkingSupport: 'The job is not to make more content. It\'s to find something worth repeating.',
       metaTitle: 'Ekaterina Novitskaia — Brand Content Strategy & Creative Direction',
       metaDescription: 'Brand content strategy, creative direction and content systems for brands that want a distinctive point of view and a repeatable way to express it.',
@@ -92,10 +92,10 @@
       thinkingLabel: 'Как я думаю',
       thinkingOpening: 'Бренду не всегда нужна ещё одна кампания.',
       thinkingIdea: 'Иногда ему нужна <em>одна хорошая идея</em>.',
-      thinkingObservation: 'Цвет.<br>Фраза.<br>Повторяющийся образ.<br>Что-нибудь немного странное.',
+      thinkingObservation: 'Цвет. · Фраза. · Повторяющийся образ. · Что-нибудь немного странное.',
       thinkingTransition: 'А потом этой идее нужно дать пространство для жизни.',
-      thinkingApplications: 'Пост.<br>Reel.<br>Кампания.<br>История.<br>А потом ещё одна история.',
-      thinkingConclusion: 'Так контент перестаёт быть кучей публикаций<br>и начинает становиться целым миром.',
+      thinkingApplications: 'ПОСТ · REEL · КАМПАНИЯ · ИСТОРИЯ · А ПОТОМ ЕЩЁ ОДНА',
+      thinkingConclusion: 'Так контент перестаёт быть кучей публикаций<br>и начинает становиться <em>целым миром</em>.',
       thinkingSupport: 'Задача не в том, чтобы делать больше контента. Задача — найти то, что стоит повторять.',
       metaTitle: 'Екатерина Новицкая — стратегия бренд-контента и креативное руководство', metaDescription: 'Стратегия бренд-контента, креативное руководство и контент-системы для брендов, которым нужны собственный взгляд и способ последовательно его выражать.',
       skip: 'Перейти к содержанию', menu: 'Меню', close: 'Закрыть', navExpertise: 'Экспертиза', navWork: 'Работы', navProcess: 'Процесс', navServices: 'Форматы работы', navContact: 'Контакты',
@@ -122,10 +122,10 @@
       thinkingLabel: 'Cómo pienso',
       thinkingOpening: 'Una marca no siempre necesita otra campaña.',
       thinkingIdea: 'A veces necesita <em>una buena idea</em>.',
-      thinkingObservation: 'Un color.<br>Una frase.<br>Una imagen que vuelve.<br>Algo ligeramente extraño.',
+      thinkingObservation: 'Un color. · Una frase. · Una imagen que vuelve. · Algo ligeramente extraño.',
       thinkingTransition: 'Y entonces le das a esa idea un lugar adonde ir.',
-      thinkingApplications: 'Un post.<br>Un Reel.<br>Una campaña.<br>Una historia.<br>Y después otra historia.',
-      thinkingConclusion: 'Así el contenido deja de ser un montón de publicaciones<br>y empieza a convertirse en un mundo.',
+      thinkingApplications: 'POST · REEL · CAMPAÑA · HISTORIA · Y DESPUÉS OTRA HISTORIA',
+      thinkingConclusion: 'Así el contenido deja de ser un montón de publicaciones<br>y empieza a convertirse en <em>un mundo</em>.',
       thinkingSupport: 'El trabajo no consiste en crear más contenido. Consiste en encontrar algo que merezca la pena repetir.',
       metaTitle: 'Ekaterina Novitskaia — Estrategia de contenido de marca y dirección creativa', metaDescription: 'Estrategia de contenido de marca, dirección creativa y sistemas de contenido para marcas que buscan un punto de vista propio y una forma coherente de expresarlo una y otra vez.', skip: 'Ir al contenido', menu: 'Menú', close: 'Cerrar', navExpertise: 'Experiencia', navWork: 'Proyectos', navProcess: 'Proceso', navServices: 'Servicios', navContact: 'Contacto',
       heroEyebrow: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido', heroHeadline: '<em>Encuentro la idea que define el carácter de una marca</em> y construyo a su alrededor un sistema de contenido.', heroCopy: 'Estrategia, dirección creativa y sistemas de contenido para marcas que no quieren parecerse a todas las demás.', heroPrimary: 'Cuéntame sobre tu marca', heroSecondary: 'Ver proyectos seleccionados', heroSignature: 'Ekaterina Novitskaia · Europa', heroAlt: 'Ekaterina Novitskaia, estratega de contenido de marca y directora creativa',
@@ -143,10 +143,10 @@
       thinkingLabel: 'Come penso',
       thinkingOpening: 'Un brand non ha sempre bisogno di un’altra campagna.',
       thinkingIdea: 'A volte ha bisogno di <em>una buona idea</em>.',
-      thinkingObservation: 'Un colore.<br>Una frase.<br>Un’immagine che ritorna.<br>Qualcosa di leggermente strano.',
+      thinkingObservation: 'Un colore. · Una frase. · Un’immagine che ritorna. · Qualcosa di leggermente strano.',
       thinkingTransition: 'Poi dai a quell’idea un posto dove andare.',
-      thinkingApplications: 'Un post.<br>Un Reel.<br>Una campagna.<br>Una storia.<br>E poi un’altra storia.',
-      thinkingConclusion: 'È così che i contenuti smettono di essere un mucchio di post<br>e cominciano a diventare un mondo.',
+      thinkingApplications: 'POST · REEL · CAMPAGNA · STORIA · E POI UN’ALTRA STORIA',
+      thinkingConclusion: 'È così che i contenuti smettono di essere un mucchio di post<br>e cominciano a diventare <em>un mondo</em>.',
       thinkingSupport: 'Il lavoro non è creare più contenuti. È trovare qualcosa che valga la pena ripetere.',
       metaTitle: 'Ekaterina Novitskaia — Strategia dei contenuti di brand e direzione creativa', metaDescription: 'Strategia dei contenuti di brand, direzione creativa e sistemi di contenuto per brand che vogliono un punto di vista distintivo e un modo coerente per esprimerlo nel tempo.', skip: 'Vai al contenuto', menu: 'Menu', close: 'Chiudi', navExpertise: 'Competenze', navWork: 'Progetti', navProcess: 'Processo', navServices: 'Servizi', navContact: 'Contatti',
       heroEyebrow: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuto', heroHeadline: '<em>Trovo l’idea che definisce il carattere di un brand</em> — poi costruisco il sistema di contenuto intorno a quell’idea.', heroCopy: 'Strategia, direzione creativa e sistemi di contenuto per brand che non vogliono assomigliare a tutti gli altri.', heroPrimary: 'Raccontami il tuo brand', heroSecondary: 'Vedi i progetti selezionati', heroSignature: 'Ekaterina Novitskaia · Europa', heroAlt: 'Ekaterina Novitskaia, brand content strategist e creative director',
@@ -161,10 +161,10 @@
       thinkingLabel: 'Як я думаю',
       thinkingOpening: 'Брэнду не заўсёды патрэбная яшчэ адна кампанія.',
       thinkingIdea: 'Часам яму патрэбная <em>адна добрая ідэя</em>.',
-      thinkingObservation: 'Колер.<br>Фраза.<br>Вобраз, які паўтараецца.<br>Штосьці крыху дзіўнае.',
+      thinkingObservation: 'Колер. · Фраза. · Вобраз, які паўтараецца. · Штосьці крыху дзіўнае.',
       thinkingTransition: 'А потым гэтай ідэі трэба даць прастору для жыцця.',
-      thinkingApplications: 'Допіс.<br>Reel.<br>Кампанія.<br>Гісторыя.<br>А потым яшчэ адна гісторыя.',
-      thinkingConclusion: 'Так кантэнт перастае быць кучай публікацый<br>і пачынае станавіцца цэлым светам.',
+      thinkingApplications: 'ДОПІС · REEL · КАМПАНІЯ · ГІСТОРЫЯ · А ПОТЫМ ЯШЧЭ АДНА',
+      thinkingConclusion: 'Так кантэнт перастае быць кучай публікацый<br>і пачынае станавіцца <em>цэлым светам</em>.',
       thinkingSupport: 'Задача не ў тым, каб рабіць больш кантэнту. Задача — знайсці тое, што варта паўтараць.',
       metaTitle: 'Кацярына Навіцкая — стратэгія брэнд-кантэнту і крэатыўнае кіраўніцтва', metaDescription: 'Стратэгія брэнд-кантэнту, крэатыўнае кіраўніцтва і кантэнт-сістэмы для брэндаў, якім патрэбны ўласны погляд і спосаб паслядоўна яго выказваць.', skip: 'Перайсці да зместу', menu: 'Меню', close: 'Закрыць', navExpertise: 'Экспертыза', navWork: 'Праекты', navProcess: 'Працэс', navServices: 'Паслугі', navContact: 'Кантакты',
       heroEyebrow: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы', heroHeadline: '<em>Я знаходжу ідэю, што раскрывае характар брэнда,</em> — і будую вакол яе кантэнт-сістэму.', heroCopy: 'Стратэгія, крэатыўнае кіраўніцтва і кантэнт-сістэмы для брэндаў, якія не хочуць выглядаць як усе.', heroPrimary: 'Раскажыце пра свой брэнд', heroSecondary: 'Глядзець выбраныя праекты', heroSignature: 'Кацярына Навіцкая · Еўропа', heroAlt: 'Кацярына Навіцкая, стратэг па брэнд-кантэнце і крэатыўны дырэктар', proofHeading: 'Кантэнт-сістэмы для рэальных брэндаў', metricPlanned: 'публікацый спланавана ў сістэме на 12 месяцаў', metricHooks: 'хукаў распрацавана', metricFormats: 'пастаянных кантэнт-фарматаў', metricLanguages: 'моў · RU · EN · ES · IT · BY',
@@ -314,17 +314,23 @@
 
   function renderThinking() {
     return `<section id="thinking" aria-labelledby="thinking-label">
-      <div class="thinking-layout reveal">
-        <div><div class="section-label" id="thinking-label" data-i18n="thinkingLabel">${en.thinkingLabel}</div></div>
-        <div class="thinking-copy">
-          <div class="thinking-manifesto">
+      <div class="thinking-staircase reveal">
+        <div class="section-label" id="thinking-label" data-i18n="thinkingLabel">${en.thinkingLabel}</div>
+        <div class="thinking-step thinking-step-1">
             ${element('p','thinkingOpening','thinking-opening')}
             ${element('p','thinkingIdea','thinking-idea')}
+        </div>
+        <div class="thinking-step thinking-step-2">
             ${element('p','thinkingObservation','thinking-observation')}
+        </div>
+        <div class="thinking-step thinking-step-3">
             ${element('p','thinkingTransition','thinking-transition')}
             ${element('p','thinkingApplications','thinking-applications')}
-            ${element('p','thinkingConclusion','thinking-conclusion')}
-          </div>
+        </div>
+        <div class="thinking-step thinking-step-4">
+          ${element('p','thinkingConclusion','thinking-conclusion')}
+        </div>
+        <div class="thinking-step thinking-step-5">
           ${element('p','thinkingSupport','thinking-support')}
         </div>
       </div>
