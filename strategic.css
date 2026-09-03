@@ -499,14 +499,23 @@ section {
 .about-portrait { position: sticky; top: 100px; }
 .about-portrait img { width: 100%; max-height: 680px; display: block; object-fit: cover; filter: grayscale(1); }
 .about-copy h2 { font-family: var(--serif); font-size: clamp(44px, 6vw, 86px); font-weight: 400; line-height: .95; }
-.about-copy > p { max-width: var(--read); margin-top: 32px; color: var(--ink-mid); font-size: clamp(17px, 1.5vw, 21px); font-weight: 300; line-height: 1.7; }
-.credibility-list { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 50px; border-top: 1px solid var(--light-line); }
+.about-story { max-width: var(--read); margin-top: 36px; }
+.about-story > * + * { margin-top: 24px; }
+.about-story p { color: var(--ink-mid); font-size: clamp(17px, 1.5vw, 21px); font-weight: 300; line-height: 1.65; }
+.about-rhythm,
+.about-method { font-family: var(--serif); }
+.about-story .about-rhythm { color: var(--ink); font-size: clamp(22px, 2.2vw, 31px); line-height: 1.28; }
+.about-story .about-method { color: var(--ink); font-size: clamp(19px, 1.8vw, 25px); line-height: 1.42; }
+.about-rhythm span,
+.about-method span { display: block; }
+.about-credentials { max-width: var(--read); margin-top: 42px; padding-top: 25px; border-top: 1px solid var(--light-line); color: var(--ink-light); font-size: 15px; line-height: 1.7; }
+.credibility-list { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 34px; border-top: 1px solid var(--light-line); }
 .credibility-item { padding: 24px 20px 0 0; border-right: 1px solid var(--light-line); }
 .credibility-item + .credibility-item { padding-left: 20px; }
 .credibility-item:last-child { border-right: 0; }
 .credibility-item strong { display: block; font-family: var(--serif); font-size: 20px; font-weight: 400; }
 .credibility-item span { display: block; margin-top: 7px; color: var(--ink-light); font-family: var(--mono); font-size: 8px; line-height: 1.6; letter-spacing: .08em; text-transform: uppercase; }
-.tools-line { margin-top: 50px; padding-top: 22px; border-top: 1px solid var(--light-line); color: var(--ink-light); font-family: var(--mono); font-size: 9px; line-height: 1.8; letter-spacing: .07em; text-transform: uppercase; }
+.about-languages { max-width: var(--read); margin-top: 28px; color: var(--ink-light); font-family: var(--mono); font-size: 9px; line-height: 1.7; letter-spacing: .06em; }
 
 /* Existing gallery, retained as secondary proof */
 #gallery { background: var(--cream); }
