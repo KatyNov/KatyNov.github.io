@@ -20,6 +20,14 @@
 
   const COPY = {
     en: {
+      thinkingLabel: 'How I think',
+      thinkingOpening: 'A brand doesn\'t always need another campaign.',
+      thinkingIdea: 'Sometimes it needs <em>one good idea</em>.',
+      thinkingObservation: 'A colour.<br>A phrase.<br>A recurring image.<br>Something slightly strange.',
+      thinkingTransition: 'Then you give that idea somewhere to go.',
+      thinkingApplications: 'A post.<br>A reel.<br>A campaign.<br>A story.<br>And then another story.',
+      thinkingConclusion: 'That\'s how content stops being a pile of posts<br>and starts becoming a world.',
+      thinkingSupport: 'The job is not to make more content. It\'s to find something worth repeating.',
       metaTitle: 'Ekaterina Novitskaia — Brand Content Strategy & Creative Direction',
       metaDescription: 'Brand content strategy, creative direction and content systems for brands that want a distinctive point of view and a repeatable way to express it.',
       skip: 'Skip to content', menu: 'Menu', close: 'Close',
@@ -81,6 +89,14 @@
       footer: 'Content Systems · Short-form Production · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
     ru: {
+      thinkingLabel: 'Как я думаю',
+      thinkingOpening: 'Бренду не всегда нужна ещё одна кампания.',
+      thinkingIdea: 'Иногда ему нужна <em>одна хорошая идея</em>.',
+      thinkingObservation: 'Цвет.<br>Фраза.<br>Повторяющийся образ.<br>Что-нибудь немного странное.',
+      thinkingTransition: 'А потом этой идее нужно дать пространство для жизни.',
+      thinkingApplications: 'Пост.<br>Reel.<br>Кампания.<br>История.<br>А потом ещё одна история.',
+      thinkingConclusion: 'Так контент перестаёт быть кучей публикаций<br>и начинает становиться целым миром.',
+      thinkingSupport: 'Задача не в том, чтобы делать больше контента. Задача — найти то, что стоит повторять.',
       metaTitle: 'Екатерина Новицкая — стратегия бренд-контента и креативное руководство', metaDescription: 'Стратегия бренд-контента, креативное руководство и контент-системы для брендов, которым нужны собственный взгляд и способ последовательно его выражать.',
       skip: 'Перейти к содержанию', menu: 'Меню', close: 'Закрыть', navExpertise: 'Экспертиза', navWork: 'Работы', navProcess: 'Процесс', navServices: 'Форматы работы', navContact: 'Контакты',
       heroEyebrow: 'Стратегия бренд-контента · Креативное руководство · Контент-системы', heroHeadline: '<em>Я нахожу идею, в которой раскрывается характер бренда,</em> — и выстраиваю вокруг неё контент-систему.', heroCopy: 'Стратегия, креативное руководство и контент-системы для брендов, которые не хотят выглядеть как все остальные.', heroPrimary: 'Расскажите о своём бренде', heroSecondary: 'Смотреть избранные проекты', heroSignature: 'Екатерина Новицкая · Европа', heroAlt: 'Екатерина Новицкая, стратег по бренд-контенту и креативный директор',
@@ -103,6 +119,14 @@
       contactLabel: 'Начать проект', contactTitle: 'У вашего бренда уже есть история. <em>Давайте построим систему, которая превратит её в последовательный контент.</em>', contactSupport: 'Расскажите, что вы создаёте, где останавливается производство контента и какого результата хотите достичь.', contactButton: 'Начать проект', footer: 'Контент-системы · Short-form продакшн · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
+      thinkingLabel: 'Cómo pienso',
+      thinkingOpening: 'Una marca no siempre necesita otra campaña.',
+      thinkingIdea: 'A veces necesita <em>una buena idea</em>.',
+      thinkingObservation: 'Un color.<br>Una frase.<br>Una imagen que vuelve.<br>Algo ligeramente extraño.',
+      thinkingTransition: 'Y entonces le das a esa idea un lugar adonde ir.',
+      thinkingApplications: 'Un post.<br>Un Reel.<br>Una campaña.<br>Una historia.<br>Y después otra historia.',
+      thinkingConclusion: 'Así el contenido deja de ser un montón de publicaciones<br>y empieza a convertirse en un mundo.',
+      thinkingSupport: 'El trabajo no consiste en crear más contenido. Consiste en encontrar algo que merezca la pena repetir.',
       metaTitle: 'Ekaterina Novitskaia — Estrategia de contenido de marca y dirección creativa', metaDescription: 'Estrategia de contenido de marca, dirección creativa y sistemas de contenido para marcas que buscan un punto de vista propio y una forma coherente de expresarlo una y otra vez.', skip: 'Ir al contenido', menu: 'Menú', close: 'Cerrar', navExpertise: 'Experiencia', navWork: 'Proyectos', navProcess: 'Proceso', navServices: 'Servicios', navContact: 'Contacto',
       heroEyebrow: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido', heroHeadline: '<em>Encuentro la idea que define el carácter de una marca</em> y construyo a su alrededor un sistema de contenido.', heroCopy: 'Estrategia, dirección creativa y sistemas de contenido para marcas que no quieren parecerse a todas las demás.', heroPrimary: 'Cuéntame sobre tu marca', heroSecondary: 'Ver proyectos seleccionados', heroSignature: 'Ekaterina Novitskaia · Europa', heroAlt: 'Ekaterina Novitskaia, estratega de contenido de marca y directora creativa',
       proofHeading: 'Sistemas de contenido creados para marcas reales', metricPlanned: 'publicaciones planificadas en un sistema de 12 meses', metricHooks: 'hooks desarrollados', metricFormats: 'formatos de contenido evergreen', metricLanguages: 'idiomas · RU · EN · ES · IT · BY',
@@ -116,6 +140,14 @@
       galleryLabel: 'Trabajo creativo adicional', galleryTitle: 'Más trabajo creativo seleccionado.', galleryIntro: 'Un archivo más amplio de conceptos visuales, carruseles y experimentos de producción. La tarea de negocio y la historia van primero; las herramientas son metadatos secundarios.', filterAll: 'Todo', filterHaircare: 'Cuidado capilar', filterSunglasses: 'Gafas', filterLifestyle: 'Lifestyle', filterPhoto: 'Foto', filterVideo: 'Vídeo', contactLabel: 'Iniciar un proyecto', contactTitle: 'Tu marca ya tiene una historia. <em>Construyamos el sistema que la convierta en contenido constante.</em>', contactSupport: 'Cuéntame qué estás creando, dónde se atasca el contenido y qué quieres conseguir.', contactButton: 'Iniciar proyecto', footer: 'Sistemas de contenido · Producción short-form · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
+      thinkingLabel: 'Come penso',
+      thinkingOpening: 'Un brand non ha sempre bisogno di un’altra campagna.',
+      thinkingIdea: 'A volte ha bisogno di <em>una buona idea</em>.',
+      thinkingObservation: 'Un colore.<br>Una frase.<br>Un’immagine che ritorna.<br>Qualcosa di leggermente strano.',
+      thinkingTransition: 'Poi dai a quell’idea un posto dove andare.',
+      thinkingApplications: 'Un post.<br>Un Reel.<br>Una campagna.<br>Una storia.<br>E poi un’altra storia.',
+      thinkingConclusion: 'È così che i contenuti smettono di essere un mucchio di post<br>e cominciano a diventare un mondo.',
+      thinkingSupport: 'Il lavoro non è creare più contenuti. È trovare qualcosa che valga la pena ripetere.',
       metaTitle: 'Ekaterina Novitskaia — Strategia dei contenuti di brand e direzione creativa', metaDescription: 'Strategia dei contenuti di brand, direzione creativa e sistemi di contenuto per brand che vogliono un punto di vista distintivo e un modo coerente per esprimerlo nel tempo.', skip: 'Vai al contenuto', menu: 'Menu', close: 'Chiudi', navExpertise: 'Competenze', navWork: 'Progetti', navProcess: 'Processo', navServices: 'Servizi', navContact: 'Contatti',
       heroEyebrow: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuto', heroHeadline: '<em>Trovo l’idea che definisce il carattere di un brand</em> — poi costruisco il sistema di contenuto intorno a quell’idea.', heroCopy: 'Strategia, direzione creativa e sistemi di contenuto per brand che non vogliono assomigliare a tutti gli altri.', heroPrimary: 'Raccontami il tuo brand', heroSecondary: 'Vedi i progetti selezionati', heroSignature: 'Ekaterina Novitskaia · Europa', heroAlt: 'Ekaterina Novitskaia, brand content strategist e creative director',
       proofHeading: 'Sistemi di contenuto creati per brand reali', metricPlanned: 'post pianificati in un sistema di 12 mesi', metricHooks: 'hook sviluppati', metricFormats: 'formati di contenuto evergreen', metricLanguages: 'lingue · RU · EN · ES · IT · BY', expertiseLabel: 'Competenze', expertiseTitle: 'Da un’idea a un mondo che le persone riconoscono.', expertiseIntro: 'Trovo il territorio che appartiene al brand, gli do un linguaggio visivo e verbale, poi costruisco un sistema che mantiene viva quell’idea.', cap1Title: 'Strategia dei contenuti di brand', cap1Lead: 'Trovare il proprio territorio.', cap1Copy: 'Osservo la categoria, i concorrenti e la cultura che circonda il brand per trovare uno spazio che sembri inequivocabilmente suo.', cap1Terms: 'Ricerca competitiva e culturale · Posizionamento · Pubblico · Narrazione di brand · Content pillar · Tone of voice · Direzione visiva · Architettura dei contenuti', cap2Title: 'Direzione creativa', cap2Lead: 'Dare all’idea un mondo tutto suo.', cap2Copy: 'Una buona idea ha bisogno di più di una caption. Le servono un linguaggio visivo, un ritmo, un po’ di tensione — e a volte una strana sedia rossa.', cap2Terms: 'Concept visivi · Art direction · Concept di campagna · Direzione fotografica · Sviluppo visivo con AI · Concept per Reels · Direzione di hook e copy · Mood e riferimenti visivi', cap3Title: 'Sistema di contenuto', cap3Lead: 'Far sopravvivere una buona idea al martedì.', cap3Copy: 'Una buona idea non dovrebbe morire dopo il post del martedì su Instagram. La trasformo in un sistema di contenuto ripetibile: formati, serie, storie, hook e un ritmo che il tuo team possa usare davvero.', cap3Terms: 'Formati ripetibili · Serie di contenuti · Storie · Hook · Ritmo editoriale · Architettura dei contenuti per il team',
@@ -126,6 +158,14 @@
       aboutLabel: 'Chi sono', aboutTitle: 'Prima la strategia. Produzione inclusa.', aboutCopy: 'Ho aiutato House of Sustainable Brands ad Amburgo — l’azienda dietro Thiocyn e altri brand digital-native — a creare sistemi completi: dall’analisi competitiva e dal posizionamento ai masterplan di 12 mesi, alle librerie di formati e agli asset finali. Lavoro da remoto in Europa e adatto il nucleo strategico ai mercati russo, inglese, spagnolo, italiano e bielorusso.', cred1Title: 'Brand internazionali', cred1Copy: 'Strategia e produzione per i mercati europei', cred2Title: 'Collaborazione da remoto', cred2Copy: 'Un processo pensato per founder e piccoli team', cred3Title: 'End-to-end', cred3Copy: 'Dal posizionamento ai contenuti short-form finiti', tools: 'Strumenti di produzione · Runway · Midjourney · Sora · ChatGPT · Claude · ElevenLabs', galleryLabel: 'Altri lavori creativi', galleryTitle: 'Altri lavori creativi selezionati.', galleryIntro: 'Un archivio più ampio di concept visivi, caroselli ed esperimenti produttivi. La sfida di business e la storia restano centrali; gli strumenti sono metadati secondari.', filterAll: 'Tutti', filterHaircare: 'Hair care', filterSunglasses: 'Occhiali', filterLifestyle: 'Lifestyle', filterPhoto: 'Foto', filterVideo: 'Video', contactLabel: 'Avvia un progetto', contactTitle: 'Il tuo brand ha già una storia. <em>Costruiamo il sistema che la trasformi in contenuti coerenti.</em>', contactSupport: 'Raccontami cosa stai costruendo, dove si blocca il contenuto e quale risultato vuoi ottenere.', contactButton: 'Avvia il progetto', footer: 'Sistemi di contenuto · Produzione short-form · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
+      thinkingLabel: 'Як я думаю',
+      thinkingOpening: 'Брэнду не заўсёды патрэбная яшчэ адна кампанія.',
+      thinkingIdea: 'Часам яму патрэбная <em>адна добрая ідэя</em>.',
+      thinkingObservation: 'Колер.<br>Фраза.<br>Вобраз, які паўтараецца.<br>Штосьці крыху дзіўнае.',
+      thinkingTransition: 'А потым гэтай ідэі трэба даць прастору для жыцця.',
+      thinkingApplications: 'Допіс.<br>Reel.<br>Кампанія.<br>Гісторыя.<br>А потым яшчэ адна гісторыя.',
+      thinkingConclusion: 'Так кантэнт перастае быць кучай публікацый<br>і пачынае станавіцца цэлым светам.',
+      thinkingSupport: 'Задача не ў тым, каб рабіць больш кантэнту. Задача — знайсці тое, што варта паўтараць.',
       metaTitle: 'Кацярына Навіцкая — стратэгія брэнд-кантэнту і крэатыўнае кіраўніцтва', metaDescription: 'Стратэгія брэнд-кантэнту, крэатыўнае кіраўніцтва і кантэнт-сістэмы для брэндаў, якім патрэбны ўласны погляд і спосаб паслядоўна яго выказваць.', skip: 'Перайсці да зместу', menu: 'Меню', close: 'Закрыць', navExpertise: 'Экспертыза', navWork: 'Праекты', navProcess: 'Працэс', navServices: 'Паслугі', navContact: 'Кантакты',
       heroEyebrow: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы', heroHeadline: '<em>Я знаходжу ідэю, што раскрывае характар брэнда,</em> — і будую вакол яе кантэнт-сістэму.', heroCopy: 'Стратэгія, крэатыўнае кіраўніцтва і кантэнт-сістэмы для брэндаў, якія не хочуць выглядаць як усе.', heroPrimary: 'Раскажыце пра свой брэнд', heroSecondary: 'Глядзець выбраныя праекты', heroSignature: 'Кацярына Навіцкая · Еўропа', heroAlt: 'Кацярына Навіцкая, стратэг па брэнд-кантэнце і крэатыўны дырэктар', proofHeading: 'Кантэнт-сістэмы для рэальных брэндаў', metricPlanned: 'публікацый спланавана ў сістэме на 12 месяцаў', metricHooks: 'хукаў распрацавана', metricFormats: 'пастаянных кантэнт-фарматаў', metricLanguages: 'моў · RU · EN · ES · IT · BY',
       expertiseLabel: 'Экспертыза', expertiseTitle: 'Ад ідэі да свету, які пазнаюць.', expertiseIntro: 'Я знаходжу ўласную тэрыторыю брэнда, даю ёй візуальную і вербальную мову, а затым будую сістэму, што дапамагае гэтай ідэі жыць далей.', cap1Title: 'Стратэгія брэнд-кантэнту', cap1Lead: 'Знайсці сваю тэрыторыю.', cap1Copy: 'Я вывучаю катэгорыю, канкурэнтаў і культурны кантэкст брэнда — і знаходжу прастору, якая можа належаць толькі вам.', cap1Terms: 'Даследаванне канкурэнтаў і культурнага кантэксту · Пазіцыянаванне · Аўдыторыя · Наратыў брэнда · Кантэнт-рубрыкі · Tone of voice · Візуальны напрамак · Кантэнт-архітэктура', cap2Title: 'Крэатыўнае кіраўніцтва', cap2Lead: 'Даць ідэі ўласны свет.', cap2Copy: 'Добрай ідэі мала аднаго подпісу. Ёй патрэбныя візуальная мова, рытм, крыху напружання — а часам і дзіўнае чырвонае крэсла.', cap2Terms: 'Візуальныя канцэпцыі · Арт-дырэкшн · Канцэпцыі кампаній · Кіраўніцтва здымкай · AI-распрацоўка візуалаў · Канцэпцыі Reels · Напрамак хукаў і тэкстаў · Мудборды і візуальныя рэферэнсы', cap3Title: 'Кантэнт-сістэма', cap3Lead: 'Не даць добрай ідэі памерці пасля аўторка.', cap3Copy: 'Адна добрая ідэя не павінна паміраць пасля аўторкавага допісу ў Instagram. Я ператвараю яе ў паўтаральную кантэнт-сістэму — фарматы, серыі, гісторыі, хукі і рытм, які каманда сапраўды можа выкарыстоўваць.', cap3Terms: 'Паўтаральныя фарматы · Кантэнт-серыі · Гісторыі · Хукі · Рэдакцыйны рытм · Кантэнт-архітэктура для каманды',
@@ -272,6 +312,25 @@
     return `<figure class="reel-card reveal"><div class="reel-media"><video controls muted playsinline preload="none" poster="${poster}" aria-label="${en[titleKey]}"><source src="${src}" type="video/mp4"></video></div><figcaption><span class="reel-title" data-i18n="${titleKey}">${en[titleKey]}</span><span class="reel-role" data-i18n="${roleKey}">${en[roleKey]}</span></figcaption></figure>`;
   }
 
+  function renderThinking() {
+    return `<section id="thinking" aria-labelledby="thinking-label">
+      <div class="thinking-layout reveal">
+        <div><div class="section-label" id="thinking-label" data-i18n="thinkingLabel">${en.thinkingLabel}</div></div>
+        <div class="thinking-copy">
+          <div class="thinking-manifesto">
+            ${element('p','thinkingOpening','thinking-opening')}
+            ${element('p','thinkingIdea','thinking-idea')}
+            ${element('p','thinkingObservation','thinking-observation')}
+            ${element('p','thinkingTransition','thinking-transition')}
+            ${element('p','thinkingApplications','thinking-applications')}
+            ${element('p','thinkingConclusion','thinking-conclusion')}
+          </div>
+          ${element('p','thinkingSupport','thinking-support')}
+        </div>
+      </div>
+    </section>`;
+  }
+
   function renderStrategicSections() {
     const oldSections = ['about', 'services', 'cases', 'pricing'];
     oldSections.forEach(id => document.getElementById(id)?.remove());
@@ -283,6 +342,7 @@
     const html = `
       <section id="proof" aria-labelledby="proof-title"><div class="proof-heading eyebrow" id="proof-title" data-i18n="proofHeading">${en.proofHeading}</div><div class="metrics-grid">${metrics}</div></section>
       <section id="expertise">${sectionHead('expertiseLabel','expertiseTitle','expertiseIntro')}<div class="capability-list">${capabilities}</div></section>
+      ${renderThinking()}
       <section id="work">${sectionHead('workLabel','workTitle','workIntro')}
         ${renderCase('01','case1Category','case1Title','case1Challenge','case1Strategy','case1Execution','case1Outcome','haircare',[{value:'200+',key:'case1Metric1'},{value:'12',key:'case1Metric2'},{value:'6+',key:'case1Metric3'}],true,['assets/img/cases/hair-loss/Slider-1-1.webp','assets/img/cases/hair-loss/Slider-4-1.webp','assets/img/cases/hair-loss/Slider-4-4.webp'])}
         ${renderCase('02','case2Category','case2Title','case2Challenge','case2Strategy','case2Execution','case2Outcome','optics',[{value:'150+',key:'case2Metric1'}],false,['assets/img/cases/sunglasses/Carusel-cover.webp','assets/img/cases/sunglasses/99.webp','assets/img/cases/sunglasses/post3_feed.webp'])}
