@@ -28,6 +28,22 @@
       thinkingApplications: 'POST · REEL · CAMPAIGN · STORY · AND ANOTHER STORY',
       thinkingConclusion: 'That\'s how content stops being a pile of posts<br>and starts becoming <em>a world</em>.',
       thinkingSupport: 'The job is not to make more content. It\'s to find something worth repeating.',
+      problem: 'Problem', idea: 'Idea', world: 'World', result: 'Result',
+      case1Problem: 'The brand had a clinically backed product and decades of research, but needed a scalable communication system rather than isolated social posts.',
+      case1Idea: 'A quieter kind of authority.',
+      case1World: 'Scientific credibility expressed through calm, human language and a restrained visual rhythm — distinct from both fear-driven pharmaceutical communication and generic beauty lifestyle content.',
+      case1System: 'Positioning, manifesto and a 12-month production framework carried through posts, carousels, Reels, scripts and B-roll assets.',
+      case1Result: 'A repeatable content infrastructure designed to support consistent production throughout the year.',
+      case2Problem: 'A distinctive product, a founding history and an established customer base — but no coherent content identity.',
+      case2Idea: 'Turn the brand’s city and origin into an ownable narrative asset.',
+      case2World: 'A cultural content world built through the character of the city, bold hooks, brand visuals and multilingual storytelling.',
+      case2System: 'A repeatable editorial rhythm carried through Reels, carousels, brand visuals and cultural storytelling across languages.',
+      case2Result: 'A sustainable accessories brand with its own recognisable cultural identity and repeatable editorial rhythm.',
+      case3Problem: 'A familiar nature-and-softness aesthetic without a distinctive narrative world.',
+      case3Idea: 'Turn a familiar aesthetic into an emotional world of its own.',
+      case3World: 'Nature and softness became a deliberate seasonal narrative around the product, expressed through editorial visuals and story-led content.',
+      case3System: 'A seasonal content framework carried through editorial visuals, carousels, Reels and storytelling.',
+      case3Result: 'Generic aesthetic → own narrative → repeatable visual and story system.',
       metaTitle: 'Ekaterina Novitskaia — Brand Content Strategy & Creative Direction',
       metaDescription: 'Brand content strategy, creative direction and content systems for brands that want a distinctive point of view and a repeatable way to express it.',
       skip: 'Skip to content', menu: 'Menu', close: 'Close',
@@ -97,6 +113,22 @@
       thinkingApplications: 'ПОСТ · REEL · КАМПАНИЯ · ИСТОРИЯ · А ПОТОМ ЕЩЁ ОДНА',
       thinkingConclusion: 'Так контент перестаёт быть кучей публикаций<br>и начинает становиться <em>целым миром</em>.',
       thinkingSupport: 'Задача не в том, чтобы делать больше контента. Задача — найти то, что стоит повторять.',
+      problem: 'Проблема', idea: 'Идея', world: 'Мир', result: 'Результат',
+      case1Problem: 'У бренда был клинически обоснованный продукт и десятилетия исследований, но вместо разрозненных публикаций требовалась масштабируемая система коммуникации.',
+      case1Idea: 'Более спокойный язык авторитета.',
+      case1World: 'Научная убедительность — через спокойный человеческий язык и сдержанный визуальный ритм, в стороне и от запугивания фармбрендов, и от типичного beauty/lifestyle контента.',
+      case1System: 'Позиционирование, манифест и производственная система на 12 месяцев — с постами, каруселями, Reels, сценариями и B-roll материалами.',
+      case1Result: 'Повторяемая контент-инфраструктура для последовательного производства в течение всего года.',
+      case2Problem: 'Выразительный продукт, история основания и большая клиентская база — но без цельной контент-идентичности.',
+      case2Idea: 'Превратить город и происхождение бренда в собственный нарративный актив.',
+      case2World: 'Культурный контент-мир, построенный на характере города, выразительных хуках, визуалах бренда и многоязычном сторителлинге.',
+      case2System: 'Повторяемый редакционный ритм для Reels, каруселей, визуалов бренда и культурного сторителлинга на нескольких языках.',
+      case2Result: 'У бренда экологичных аксессуаров появилась узнаваемая культурная идентичность и повторяемый редакционный ритм.',
+      case3Problem: 'Знакомая эстетика природы и мягкости без собственного нарративного мира.',
+      case3Idea: 'Превратить знакомую эстетику в собственный эмоциональный мир.',
+      case3World: 'Природа и мягкость стали осознанным сезонным нарративом вокруг продукта, выраженным через редакционные визуалы и сюжетный контент.',
+      case3System: 'Сезонная контент-система для редакционных визуалов, каруселей, Reels и сторителлинга.',
+      case3Result: 'Типовая эстетика → собственный нарратив → повторяемая визуальная и сюжетная система.',
       metaTitle: 'Екатерина Новицкая — стратегия бренд-контента и креативное руководство', metaDescription: 'Стратегия бренд-контента, креативное руководство и контент-системы для брендов, которым нужны собственный взгляд и способ последовательно его выражать.',
       skip: 'Перейти к содержанию', menu: 'Меню', close: 'Закрыть', navExpertise: 'Экспертиза', navWork: 'Работы', navProcess: 'Процесс', navServices: 'Форматы работы', navContact: 'Контакты',
       heroEyebrow: 'Стратегия бренд-контента · Креативное руководство · Контент-системы', heroHeadline: '<em>Я нахожу идею, в которой раскрывается характер бренда,</em> — и выстраиваю вокруг неё контент-систему.', heroCopy: 'Стратегия, креативное руководство и контент-системы для брендов, которые не хотят выглядеть как все остальные.', heroPrimary: 'Расскажите о своём бренде', heroSecondary: 'Смотреть избранные проекты', heroSignature: 'Екатерина Новицкая · Европа', heroAlt: 'Екатерина Новицкая, стратег по бренд-контенту и креативный директор',
@@ -127,6 +159,22 @@
       thinkingApplications: 'POST · REEL · CAMPAÑA · HISTORIA · Y DESPUÉS OTRA HISTORIA',
       thinkingConclusion: 'Así el contenido deja de ser un montón de publicaciones<br>y empieza a convertirse en <em>un mundo</em>.',
       thinkingSupport: 'El trabajo no consiste en crear más contenido. Consiste en encontrar algo que merezca la pena repetir.',
+      problem: 'Problema', idea: 'Idea', world: 'Mundo', result: 'Resultado',
+      case1Problem: 'La marca contaba con un producto respaldado clínicamente y décadas de investigación, pero necesitaba un sistema de comunicación escalable, no publicaciones aisladas.',
+      case1Idea: 'Una autoridad más serena.',
+      case1World: 'Credibilidad científica expresada con un lenguaje humano y calmado y un ritmo visual contenido, lejos tanto del miedo farmacéutico como del contenido beauty/lifestyle genérico.',
+      case1System: 'Posicionamiento, manifiesto y un marco de producción de 12 meses aplicado a posts, carruseles, Reels, guiones y recursos B-roll.',
+      case1Result: 'Una infraestructura repetible para sostener una producción constante durante todo el año.',
+      case2Problem: 'Un producto distintivo, una historia fundacional y una base de clientes consolidada, pero sin una identidad de contenido coherente.',
+      case2Idea: 'Convertir la ciudad y el origen de la marca en un activo narrativo propio.',
+      case2World: 'Un mundo cultural de contenido construido con el carácter de la ciudad, hooks potentes, visuales de marca y storytelling multilingüe.',
+      case2System: 'Un ritmo editorial repetible aplicado a Reels, carruseles, visuales de marca y storytelling cultural en varios idiomas.',
+      case2Result: 'Una marca de accesorios sostenibles con identidad cultural reconocible y ritmo editorial repetible.',
+      case3Problem: 'Una estética habitual de naturaleza y suavidad sin un universo narrativo propio.',
+      case3Idea: 'Convertir una estética familiar en un mundo emocional propio.',
+      case3World: 'La naturaleza y la suavidad se convirtieron en una narrativa estacional deliberada alrededor del producto, expresada mediante visuales editoriales y contenido narrativo.',
+      case3System: 'Un sistema estacional aplicado a visuales editoriales, carruseles, Reels y storytelling.',
+      case3Result: 'Estética genérica → narrativa propia → sistema visual y narrativo repetible.',
       metaTitle: 'Ekaterina Novitskaia — Estrategia de contenido de marca y dirección creativa', metaDescription: 'Estrategia de contenido de marca, dirección creativa y sistemas de contenido para marcas que buscan un punto de vista propio y una forma coherente de expresarlo una y otra vez.', skip: 'Ir al contenido', menu: 'Menú', close: 'Cerrar', navExpertise: 'Experiencia', navWork: 'Proyectos', navProcess: 'Proceso', navServices: 'Servicios', navContact: 'Contacto',
       heroEyebrow: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido', heroHeadline: '<em>Encuentro la idea que define el carácter de una marca</em> y construyo a su alrededor un sistema de contenido.', heroCopy: 'Estrategia, dirección creativa y sistemas de contenido para marcas que no quieren parecerse a todas las demás.', heroPrimary: 'Cuéntame sobre tu marca', heroSecondary: 'Ver proyectos seleccionados', heroSignature: 'Ekaterina Novitskaia · Europa', heroAlt: 'Ekaterina Novitskaia, estratega de contenido de marca y directora creativa',
       proofHeading: 'Sistemas de contenido creados para marcas reales', metricPlanned: 'publicaciones planificadas en un sistema de 12 meses', metricHooks: 'hooks desarrollados', metricFormats: 'formatos de contenido evergreen', metricLanguages: 'idiomas · RU · EN · ES · IT · BY',
@@ -148,6 +196,22 @@
       thinkingApplications: 'POST · REEL · CAMPAGNA · STORIA · E POI UN’ALTRA STORIA',
       thinkingConclusion: 'È così che i contenuti smettono di essere un mucchio di post<br>e cominciano a diventare <em>un mondo</em>.',
       thinkingSupport: 'Il lavoro non è creare più contenuti. È trovare qualcosa che valga la pena ripetere.',
+      problem: 'Problema', idea: 'Idea', world: 'Mondo', result: 'Risultato',
+      case1Problem: 'Il brand aveva un prodotto supportato clinicamente e decenni di ricerca, ma serviva un sistema di comunicazione scalabile invece di post isolati.',
+      case1Idea: 'Un’autorevolezza più quieta.',
+      case1World: 'Credibilità scientifica espressa con un linguaggio calmo e umano e un ritmo visivo misurato, lontano sia dalla paura farmaceutica sia dai contenuti beauty/lifestyle generici.',
+      case1System: 'Posizionamento, manifesto e un framework produttivo di 12 mesi tradotto in post, caroselli, Reels, script e asset B-roll.',
+      case1Result: 'Un’infrastruttura ripetibile, progettata per sostenere una produzione coerente durante tutto l’anno.',
+      case2Problem: 'Un prodotto distintivo, una storia fondativa e una base clienti consolidata, ma nessuna identità editoriale coerente.',
+      case2Idea: 'Trasformare la città e l’origine del brand in un asset narrativo proprietario.',
+      case2World: 'Un mondo culturale costruito attraverso il carattere della città, hook forti, visual di brand e storytelling multilingue.',
+      case2System: 'Un ritmo editoriale ripetibile tradotto in Reels, caroselli, visual di brand e storytelling culturale in più lingue.',
+      case2Result: 'Un brand di accessori sostenibili con una propria identità culturale riconoscibile e un ritmo editoriale ripetibile.',
+      case3Problem: 'Un’estetica generica fatta di natura e morbidezza, senza un universo narrativo distintivo.',
+      case3Idea: 'Trasformare un’estetica familiare in un mondo emotivo tutto suo.',
+      case3World: 'Natura e morbidezza sono diventate una narrazione stagionale intenzionale attorno al prodotto, espressa attraverso visual editoriali e contenuti narrativi.',
+      case3System: 'Un sistema stagionale tradotto in visual editoriali, caroselli, Reels e storytelling.',
+      case3Result: 'Estetica generica → narrazione propria → sistema visivo e narrativo ripetibile.',
       metaTitle: 'Ekaterina Novitskaia — Strategia dei contenuti di brand e direzione creativa', metaDescription: 'Strategia dei contenuti di brand, direzione creativa e sistemi di contenuto per brand che vogliono un punto di vista distintivo e un modo coerente per esprimerlo nel tempo.', skip: 'Vai al contenuto', menu: 'Menu', close: 'Chiudi', navExpertise: 'Competenze', navWork: 'Progetti', navProcess: 'Processo', navServices: 'Servizi', navContact: 'Contatti',
       heroEyebrow: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuto', heroHeadline: '<em>Trovo l’idea che definisce il carattere di un brand</em> — poi costruisco il sistema di contenuto intorno a quell’idea.', heroCopy: 'Strategia, direzione creativa e sistemi di contenuto per brand che non vogliono assomigliare a tutti gli altri.', heroPrimary: 'Raccontami il tuo brand', heroSecondary: 'Vedi i progetti selezionati', heroSignature: 'Ekaterina Novitskaia · Europa', heroAlt: 'Ekaterina Novitskaia, brand content strategist e creative director',
       proofHeading: 'Sistemi di contenuto creati per brand reali', metricPlanned: 'post pianificati in un sistema di 12 mesi', metricHooks: 'hook sviluppati', metricFormats: 'formati di contenuto evergreen', metricLanguages: 'lingue · RU · EN · ES · IT · BY', expertiseLabel: 'Competenze', expertiseTitle: 'Da un’idea a un mondo che le persone riconoscono.', expertiseIntro: 'Trovo il territorio che appartiene al brand, gli do un linguaggio visivo e verbale, poi costruisco un sistema che mantiene viva quell’idea.', cap1Title: 'Strategia dei contenuti di brand', cap1Lead: 'Trovare il proprio territorio.', cap1Copy: 'Osservo la categoria, i concorrenti e la cultura che circonda il brand per trovare uno spazio che sembri inequivocabilmente suo.', cap1Terms: 'Ricerca competitiva e culturale · Posizionamento · Pubblico · Narrazione di brand · Content pillar · Tone of voice · Direzione visiva · Architettura dei contenuti', cap2Title: 'Direzione creativa', cap2Lead: 'Dare all’idea un mondo tutto suo.', cap2Copy: 'Una buona idea ha bisogno di più di una caption. Le servono un linguaggio visivo, un ritmo, un po’ di tensione — e a volte una strana sedia rossa.', cap2Terms: 'Concept visivi · Art direction · Concept di campagna · Direzione fotografica · Sviluppo visivo con AI · Concept per Reels · Direzione di hook e copy · Mood e riferimenti visivi', cap3Title: 'Sistema di contenuto', cap3Lead: 'Far sopravvivere una buona idea al martedì.', cap3Copy: 'Una buona idea non dovrebbe morire dopo il post del martedì su Instagram. La trasformo in un sistema di contenuto ripetibile: formati, serie, storie, hook e un ritmo che il tuo team possa usare davvero.', cap3Terms: 'Formati ripetibili · Serie di contenuti · Storie · Hook · Ritmo editoriale · Architettura dei contenuti per il team',
@@ -166,6 +230,22 @@
       thinkingApplications: 'ДОПІС · REEL · КАМПАНІЯ · ГІСТОРЫЯ · А ПОТЫМ ЯШЧЭ АДНА',
       thinkingConclusion: 'Так кантэнт перастае быць кучай публікацый<br>і пачынае станавіцца <em>цэлым светам</em>.',
       thinkingSupport: 'Задача не ў тым, каб рабіць больш кантэнту. Задача — знайсці тое, што варта паўтараць.',
+      problem: 'Праблема', idea: 'Ідэя', world: 'Свет', result: 'Вынік',
+      case1Problem: 'У брэнда быў клінічна абгрунтаваны прадукт і дзесяцігоддзі даследаванняў, але замест асобных публікацый патрэбна была маштабаваная сістэма камунікацыі.',
+      case1Idea: 'Больш спакойная мова аўтарытэту.',
+      case1World: 'Навуковая пераканаўчасць — праз спакойную чалавечую мову і стрыманы візуальны рытм, удалечыні і ад запалохвання фармбрэндаў, і ад тыповага beauty/lifestyle кантэнту.',
+      case1System: 'Пазіцыянаванне, маніфест і вытворчая сістэма на 12 месяцаў — з допісамі, каруселямі, Reels, сцэнарамі і B-roll матэрыяламі.',
+      case1Result: 'Паўтаральная кантэнт-інфраструктура для паслядоўнай вытворчасці цягам усяго года.',
+      case2Problem: 'Выразны прадукт, гісторыя заснавання і вялікая кліенцкая база — але без цэласнай кантэнт-ідэнтычнасці.',
+      case2Idea: 'Ператварыць горад і паходжанне брэнда ва ўласны наратыўны актыў.',
+      case2World: 'Культурны кантэнт-свет, пабудаваны на характары горада, выразных хуках, візуалах брэнда і шматмоўным сторытэлінгу.',
+      case2System: 'Паўтаральны рэдакцыйны рытм для Reels, каруселяў, візуалаў брэнда і культурнага сторытэлінгу на некалькіх мовах.',
+      case2Result: 'Брэнд устойлівых аксесуараў атрымаў пазнавальную культурную ідэнтычнасць і паўтаральны рэдакцыйны рытм.',
+      case3Problem: 'Знаёмая эстэтыка прыроды і мяккасці без уласнага наратыўнага свету.',
+      case3Idea: 'Ператварыць знаёмую эстэтыку ва ўласны эмацыйны свет.',
+      case3World: 'Прырода і мяккасць сталі асэнсаваным сезонным наратывам вакол прадукту, выказаным праз рэдакцыйныя візуалы і сюжэтны кантэнт.',
+      case3System: 'Сезонная кантэнт-сістэма для рэдакцыйных візуалаў, каруселяў, Reels і сторытэлінгу.',
+      case3Result: 'Тыповая эстэтыка → уласны наратыў → паўтаральная візуальная і сюжэтная сістэма.',
       metaTitle: 'Кацярына Навіцкая — стратэгія брэнд-кантэнту і крэатыўнае кіраўніцтва', metaDescription: 'Стратэгія брэнд-кантэнту, крэатыўнае кіраўніцтва і кантэнт-сістэмы для брэндаў, якім патрэбны ўласны погляд і спосаб паслядоўна яго выказваць.', skip: 'Перайсці да зместу', menu: 'Меню', close: 'Закрыць', navExpertise: 'Экспертыза', navWork: 'Праекты', navProcess: 'Працэс', navServices: 'Паслугі', navContact: 'Кантакты',
       heroEyebrow: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы', heroHeadline: '<em>Я знаходжу ідэю, што раскрывае характар брэнда,</em> — і будую вакол яе кантэнт-сістэму.', heroCopy: 'Стратэгія, крэатыўнае кіраўніцтва і кантэнт-сістэмы для брэндаў, якія не хочуць выглядаць як усе.', heroPrimary: 'Раскажыце пра свой брэнд', heroSecondary: 'Глядзець выбраныя праекты', heroSignature: 'Кацярына Навіцкая · Еўропа', heroAlt: 'Кацярына Навіцкая, стратэг па брэнд-кантэнце і крэатыўны дырэктар', proofHeading: 'Кантэнт-сістэмы для рэальных брэндаў', metricPlanned: 'публікацый спланавана ў сістэме на 12 месяцаў', metricHooks: 'хукаў распрацавана', metricFormats: 'пастаянных кантэнт-фарматаў', metricLanguages: 'моў · RU · EN · ES · IT · BY',
       expertiseLabel: 'Экспертыза', expertiseTitle: 'Ад ідэі да свету, які пазнаюць.', expertiseIntro: 'Я знаходжу ўласную тэрыторыю брэнда, даю ёй візуальную і вербальную мову, а затым будую сістэму, што дапамагае гэтай ідэі жыць далей.', cap1Title: 'Стратэгія брэнд-кантэнту', cap1Lead: 'Знайсці сваю тэрыторыю.', cap1Copy: 'Я вывучаю катэгорыю, канкурэнтаў і культурны кантэкст брэнда — і знаходжу прастору, якая можа належаць толькі вам.', cap1Terms: 'Даследаванне канкурэнтаў і культурнага кантэксту · Пазіцыянаванне · Аўдыторыя · Наратыў брэнда · Кантэнт-рубрыкі · Tone of voice · Візуальны напрамак · Кантэнт-архітэктура', cap2Title: 'Крэатыўнае кіраўніцтва', cap2Lead: 'Даць ідэі ўласны свет.', cap2Copy: 'Добрай ідэі мала аднаго подпісу. Ёй патрэбныя візуальная мова, рытм, крыху напружання — а часам і дзіўнае чырвонае крэсла.', cap2Terms: 'Візуальныя канцэпцыі · Арт-дырэкшн · Канцэпцыі кампаній · Кіраўніцтва здымкай · AI-распрацоўка візуалаў · Канцэпцыі Reels · Напрамак хукаў і тэкстаў · Мудборды і візуальныя рэферэнсы', cap3Title: 'Кантэнт-сістэма', cap3Lead: 'Не даць добрай ідэі памерці пасля аўторка.', cap3Copy: 'Адна добрая ідэя не павінна паміраць пасля аўторкавага допісу ў Instagram. Я ператвараю яе ў паўтаральную кантэнт-сістэму — фарматы, серыі, гісторыі, хукі і рытм, які каманда сапраўды можа выкарыстоўваць.', cap3Terms: 'Паўтаральныя фарматы · Кантэнт-серыі · Гісторыі · Хукі · Рэдакцыйны рытм · Кантэнт-архітэктура для каманды',
@@ -212,29 +292,29 @@
 
   const SYSTEM_TAGS = {
     en: {
-      haircare: ['Competitor intelligence', 'Brand manifesto', 'Positioning', '12-month masterplan', 'Content pillars', 'Hook library', 'Compliance framework', 'Production workflow'],
-      optics: ['Competitor analysis', 'Manifesto', 'Tone of voice', 'Content pillars', 'Visual direction', 'Hook system', 'KPI framework', 'Content calendar'],
-      fashion: ['Audience portrait', 'Positioning', 'Seasonal narrative', 'Communication rules', 'Content matrix', 'Annual masterplan', 'Production calendar', 'Story briefs']
+      haircare: ['Competitor intelligence', 'Brand manifesto', 'Positioning', 'Communication rules', '12-month masterplan', 'Content pillars', 'Evergreen formats', 'Hook library', 'Highlights architecture', 'Monthly content calendars', 'Compliance framework', 'Production workflow'],
+      optics: ['Competitor analysis', 'Manifesto', 'Tone of voice', 'Positioning', 'Content pillars', 'Visual direction', 'Hook system', 'Editorial rhythm', 'KPI framework', 'Content calendar'],
+      fashion: ['Audience portrait', 'Positioning', 'Seasonal narrative', 'Communication rules', 'Content matrix', 'Content pillars', 'Repeatable formats', 'Annual masterplan', 'Production calendar', 'Story briefs']
     },
     ru: {
-      haircare: ['Анализ конкурентов', 'Манифест бренда', 'Позиционирование', 'Мастер-план на 12 месяцев', 'Контент-рубрики', 'Библиотека хуков', 'Система compliance', 'Процесс производства'],
-      optics: ['Анализ конкурентов', 'Манифест', 'Tone of voice', 'Контент-рубрики', 'Визуальное направление', 'Система хуков', 'KPI-фреймворк', 'Контент-календарь'],
-      fashion: ['Портрет аудитории', 'Позиционирование', 'Сезонный нарратив', 'Правила коммуникации', 'Контент-матрица', 'Годовой мастер-план', 'Производственный календарь', 'Брифы историй']
+      haircare: ['Анализ конкурентов', 'Манифест бренда', 'Позиционирование', 'Правила коммуникации', 'Мастер-план на 12 месяцев', 'Контент-рубрики', 'Постоянные форматы', 'Библиотека хуков', 'Архитектура Highlights', 'Ежемесячные контент-календари', 'Система compliance', 'Процесс производства'],
+      optics: ['Анализ конкурентов', 'Манифест', 'Tone of voice', 'Позиционирование', 'Контент-рубрики', 'Визуальное направление', 'Система хуков', 'Редакционный ритм', 'KPI-фреймворк', 'Контент-календарь'],
+      fashion: ['Портрет аудитории', 'Позиционирование', 'Сезонный нарратив', 'Правила коммуникации', 'Контент-матрица', 'Контент-рубрики', 'Повторяемые форматы', 'Годовой мастер-план', 'Производственный календарь', 'Брифы историй']
     },
     es: {
-      haircare: ['Inteligencia competitiva', 'Manifiesto de marca', 'Posicionamiento', 'Plan de 12 meses', 'Pilares de contenido', 'Biblioteca de hooks', 'Marco de compliance', 'Flujo de producción'],
-      optics: ['Análisis competitivo', 'Manifiesto', 'Tono de voz', 'Pilares de contenido', 'Dirección visual', 'Sistema de hooks', 'Marco de KPIs', 'Calendario de contenido'],
-      fashion: ['Perfil de audiencia', 'Posicionamiento', 'Narrativa estacional', 'Reglas de comunicación', 'Matriz de contenido', 'Plan anual', 'Calendario de producción', 'Briefs narrativos']
+      haircare: ['Inteligencia competitiva', 'Manifiesto de marca', 'Posicionamiento', 'Reglas de comunicación', 'Plan de 12 meses', 'Pilares de contenido', 'Formatos evergreen', 'Biblioteca de hooks', 'Arquitectura de Highlights', 'Calendarios mensuales', 'Marco de compliance', 'Flujo de producción'],
+      optics: ['Análisis competitivo', 'Manifiesto', 'Tono de voz', 'Posicionamiento', 'Pilares de contenido', 'Dirección visual', 'Sistema de hooks', 'Ritmo editorial', 'Marco de KPIs', 'Calendario de contenido'],
+      fashion: ['Perfil de audiencia', 'Posicionamiento', 'Narrativa estacional', 'Reglas de comunicación', 'Matriz de contenido', 'Pilares de contenido', 'Formatos repetibles', 'Plan anual', 'Calendario de producción', 'Briefs narrativos']
     },
     it: {
-      haircare: ['Analisi competitiva', 'Manifesto di marca', 'Posizionamento', 'Masterplan di 12 mesi', 'Content pillar', 'Libreria di hook', 'Framework di compliance', 'Flusso di produzione'],
-      optics: ['Analisi competitiva', 'Manifesto', 'Tone of voice', 'Content pillar', 'Direzione visiva', 'Sistema di hook', 'Framework KPI', 'Calendario editoriale'],
-      fashion: ['Profilo del pubblico', 'Posizionamento', 'Narrazione stagionale', 'Regole di comunicazione', 'Matrice dei contenuti', 'Masterplan annuale', 'Calendario di produzione', 'Brief narrativi']
+      haircare: ['Analisi competitiva', 'Manifesto di marca', 'Posizionamento', 'Regole di comunicazione', 'Masterplan di 12 mesi', 'Content pillar', 'Formati evergreen', 'Libreria di hook', 'Architettura Highlights', 'Calendari mensili', 'Framework di compliance', 'Flusso di produzione'],
+      optics: ['Analisi competitiva', 'Manifesto', 'Tone of voice', 'Posizionamento', 'Content pillar', 'Direzione visiva', 'Sistema di hook', 'Ritmo editoriale', 'Framework KPI', 'Calendario editoriale'],
+      fashion: ['Profilo del pubblico', 'Posizionamento', 'Narrazione stagionale', 'Regole di comunicazione', 'Matrice dei contenuti', 'Content pillar', 'Formati ripetibili', 'Masterplan annuale', 'Calendario di produzione', 'Brief narrativi']
     },
     by: {
-      haircare: ['Аналіз канкурэнтаў', 'Маніфест брэнда', 'Пазіцыянаванне', 'Майстар-план на 12 месяцаў', 'Кантэнт-рубрыкі', 'Бібліятэка хукаў', 'Сістэма compliance', 'Вытворчы працэс'],
-      optics: ['Аналіз канкурэнтаў', 'Маніфест', 'Tone of voice', 'Кантэнт-рубрыкі', 'Візуальны напрамак', 'Сістэма хукаў', 'KPI-фрэймворк', 'Кантэнт-каляндар'],
-      fashion: ['Партрэт аўдыторыі', 'Пазіцыянаванне', 'Сезонны наратыў', 'Правілы камунікацыі', 'Кантэнт-матрыца', 'Гадавы майстар-план', 'Вытворчы каляндар', 'Брыфы гісторый']
+      haircare: ['Аналіз канкурэнтаў', 'Маніфест брэнда', 'Пазіцыянаванне', 'Правілы камунікацыі', 'Майстар-план на 12 месяцаў', 'Кантэнт-рубрыкі', 'Пастаянныя фарматы', 'Бібліятэка хукаў', 'Архітэктура Highlights', 'Штомесячныя кантэнт-календары', 'Сістэма compliance', 'Вытворчы працэс'],
+      optics: ['Аналіз канкурэнтаў', 'Маніфест', 'Tone of voice', 'Пазіцыянаванне', 'Кантэнт-рубрыкі', 'Візуальны напрамак', 'Сістэма хукаў', 'Рэдакцыйны рытм', 'KPI-фрэймворк', 'Кантэнт-каляндар'],
+      fashion: ['Партрэт аўдыторыі', 'Пазіцыянаванне', 'Сезонны наратыў', 'Правілы камунікацыі', 'Кантэнт-матрыца', 'Кантэнт-рубрыкі', 'Паўтаральныя фарматы', 'Гадавы майстар-план', 'Вытворчы каляндар', 'Брыфы гісторый']
     }
   };
 
@@ -284,7 +364,7 @@
     return `<div class="section-head reveal"><div>${element('div', label, 'section-label')}</div><div>${element('h2', title, 'section-title')}${intro ? element('p', intro, 'section-intro') : ''}</div></div>`;
   }
 
-  function renderCase(number, category, title, challengeKey, strategyKey, executionKey, outcomeKey, tagSet, metrics, testimonial, media) {
+  function renderCase(number, category, title, problemKey, ideaKey, worldKey, systemKey, resultKey, tagSet, metrics, testimonial, media) {
     return `<article class="case-study reveal">
       <div class="case-heading">
         <div class="case-number" aria-hidden="true">${number}</div>
@@ -296,11 +376,11 @@
       </div>
       <div class="case-details">
         <dl class="case-narrative">
-          <div class="case-row"><dt data-i18n="challenge">${en.challenge}</dt><dd data-i18n="${challengeKey}">${en[challengeKey]}</dd></div>
-          <div class="case-row"><dt data-i18n="strategy">${en.strategy}</dt><dd data-i18n="${strategyKey}">${en[strategyKey]}</dd></div>
-          <div class="case-row"><dt data-i18n="system">${en.system}</dt><dd>${tags(tagSet)}</dd></div>
-          <div class="case-row"><dt data-i18n="execution">${en.execution}</dt><dd data-i18n="${executionKey}">${en[executionKey]}</dd></div>
-          <div class="case-row outcome"><dt data-i18n="outcome">${en.outcome}</dt><dd data-i18n="${outcomeKey}">${en[outcomeKey]}</dd></div>
+          <div class="case-row problem"><dt data-i18n="problem">${en.problem}</dt><dd data-i18n="${problemKey}">${en[problemKey]}</dd></div>
+          <div class="case-row idea"><dt data-i18n="idea">${en.idea}</dt><dd data-i18n="${ideaKey}">${en[ideaKey]}</dd></div>
+          <div class="case-row world"><dt data-i18n="world">${en.world}</dt><dd data-i18n="${worldKey}">${en[worldKey]}</dd></div>
+          <div class="case-row system"><dt data-i18n="system">${en.system}</dt><dd><p class="case-system-copy" data-i18n="${systemKey}">${en[systemKey]}</p>${tags(tagSet)}</dd></div>
+          <div class="case-row result"><dt data-i18n="result">${en.result}</dt><dd data-i18n="${resultKey}">${en[resultKey]}</dd></div>
         </dl>
         ${testimonial ? `<blockquote class="testimonial"><span data-i18n="testimonial">${en.testimonial}</span><cite>Peter Hart, CEO · House of Sustainable Brands / Thiocyn GmbH</cite></blockquote>` : ''}
       </div>
@@ -350,9 +430,9 @@
       <section id="expertise">${sectionHead('expertiseLabel','expertiseTitle','expertiseIntro')}<div class="capability-list">${capabilities}</div></section>
       ${renderThinking()}
       <section id="work">${sectionHead('workLabel','workTitle','workIntro')}
-        ${renderCase('01','case1Category','case1Title','case1Challenge','case1Strategy','case1Execution','case1Outcome','haircare',[{value:'200+',key:'case1Metric1'},{value:'12',key:'case1Metric2'},{value:'6+',key:'case1Metric3'}],true,['assets/img/cases/hair-loss/Slider-1-1.webp','assets/img/cases/hair-loss/Slider-4-1.webp','assets/img/cases/hair-loss/Slider-4-4.webp'])}
-        ${renderCase('02','case2Category','case2Title','case2Challenge','case2Strategy','case2Execution','case2Outcome','optics',[{value:'150+',key:'case2Metric1'}],false,['assets/img/cases/sunglasses/Carusel-cover.webp','assets/img/cases/sunglasses/99.webp','assets/img/cases/sunglasses/post3_feed.webp'])}
-        ${renderCase('03','case3Category','case3Title','case3Challenge','case3Strategy','case3Execution','case3Outcome','fashion',null,false,['assets/img/cases/lifestyle/Holly-0.webp','assets/img/cases/lifestyle/Slider-3-1.webp','assets/img/cases/lifestyle/LS-1.webp'])}
+        ${renderCase('01','case1Category','case1Title','case1Problem','case1Idea','case1World','case1System','case1Result','haircare',[{value:'200+',key:'case1Metric1'},{value:'12',key:'case1Metric2'},{value:'6+',key:'case1Metric3'}],true,['assets/img/cases/hair-loss/Slider-1-1.webp','assets/img/cases/hair-loss/Slider-4-1.webp','assets/img/cases/hair-loss/Slider-4-4.webp'])}
+        ${renderCase('02','case2Category','case2Title','case2Problem','case2Idea','case2World','case2System','case2Result','optics',[{value:'150+',key:'case2Metric1'}],false,['assets/img/cases/sunglasses/Carusel-cover.webp','assets/img/cases/sunglasses/99.webp','assets/img/cases/sunglasses/post3_feed.webp'])}
+        ${renderCase('03','case3Category','case3Title','case3Problem','case3Idea','case3World','case3System','case3Result','fashion',null,false,['assets/img/cases/lifestyle/Holly-0.webp','assets/img/cases/lifestyle/Slider-3-1.webp','assets/img/cases/lifestyle/LS-1.webp'])}
       </section>
       <section id="reels">${sectionHead('reelsLabel','reelsTitle','reelsIntro')}<div class="reels-grid">
         ${renderReel('assets/img/cases/hair-loss/videos/identit.mp4','assets/img/cases/hair-loss/Slider-1-1.webp','reelHair1','reelRoleFull')}

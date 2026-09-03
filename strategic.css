@@ -384,7 +384,20 @@ section {
 }
 .case-row dt { color: var(--accent); font-family: var(--mono); font-size: 9px; letter-spacing: .15em; text-transform: uppercase; }
 .case-row dd { margin: 0; color: #c9c2b8; font-size: 15px; font-weight: 300; line-height: 1.65; }
-.case-row.outcome dd { color: var(--cream); font-family: var(--serif); font-size: 21px; line-height: 1.4; }
+.case-row.idea dd {
+  color: var(--cream);
+  font-family: var(--serif);
+  font-size: clamp(24px, 2.2vw, 32px);
+  line-height: 1.22;
+}
+.case-row.world dd {
+  color: #e2dcd2;
+  font-family: var(--serif);
+  font-size: clamp(19px, 1.65vw, 25px);
+  line-height: 1.4;
+}
+.case-system-copy { margin: 0 0 17px; }
+.case-row.result dd { color: var(--cream); font-family: var(--serif); font-size: 21px; line-height: 1.4; }
 .system-tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .system-tags span { padding: 6px 9px; border: 1px solid var(--dark-line); color: #bcb4aa; font-family: var(--mono); font-size: 8px; letter-spacing: .06em; text-transform: uppercase; }
 .testimonial { margin-top: 28px; padding: 26px 0 0 28px; border-left: 1px solid var(--accent); color: #d8d2c8; font-family: var(--serif); font-size: 19px; font-style: italic; line-height: 1.5; }
