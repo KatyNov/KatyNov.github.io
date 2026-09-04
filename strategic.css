@@ -490,7 +490,9 @@ section {
 }
 .offer-num { color: #686158; font-family: var(--mono); font-size: 10px; }
 .offer h3 { color: var(--cream); font-family: var(--serif); font-size: clamp(27px, 3vw, 42px); font-weight: 400; line-height: 1; }
-.offer p { color: #bdb6ac; font-size: 15px; font-weight: 300; line-height: 1.65; }
+.offer-copy { min-width: 0; }
+.offer-copy .offer-lead { color: var(--cream); font-family: var(--serif); font-size: clamp(18px, 1.5vw, 23px); font-weight: 400; line-height: 1.25; margin-bottom: 12px; }
+.offer-copy .offer-body { color: #bdb6ac; font-size: 15px; font-weight: 300; line-height: 1.65; }
 .offer-output { color: var(--accent); font-family: var(--mono); font-size: 8px; letter-spacing: .1em; line-height: 1.6; text-align: right; text-transform: uppercase; }
 
 /* About */
@@ -753,7 +755,7 @@ footer { padding: 27px var(--page-pad); }
   .process-step h3 { margin-top: 52px; font-size: 29px; }
   .fit-grid { gap: 42px; }
   .offer { grid-template-columns: 38px 1fr; gap: 14px; }
-  .offer p, .offer-output { grid-column: 2; }
+  .offer-copy, .offer-output { grid-column: 2; }
   .credibility-list { grid-template-columns: 1fr; }
   .credibility-item,
   .credibility-item + .credibility-item { padding: 20px 0; border-right: 0; border-bottom: 1px solid var(--light-line); }
