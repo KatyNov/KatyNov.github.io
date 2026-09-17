@@ -513,11 +513,9 @@ section {
 .about-proof .credibility-item span { white-space: nowrap; }
 .about-languages { margin-top: 24px; padding-top: 17px; border-top: 1px solid var(--light-line); color: var(--ink-light); font-family: var(--mono); font-size: 9px; line-height: 1.7; letter-spacing: .06em; }
 
-/* Existing gallery, retained as secondary proof */
+/* Curated visual proof */
 #gallery { background: var(--cream); }
 #gallery .section-title { max-width: 900px; }
-#gallery .gallery-filters { margin-top: 0; }
-.gallery-caption-ai { opacity: .58; }
 .gallery-grid img { background: var(--cream-mid); }
 
 /* Contact */

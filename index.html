@@ -636,51 +636,10 @@ footer {
   border-top: 1px solid var(--cream-dark);
 }
 
-.gal-thumb {
-  width: 100%;
-  height: auto;
-  display: block;
-  cursor: zoom-in;
-  transition: opacity 0.18s, transform 0.18s;
-}
-.gal-thumb:hover { opacity: 0.82; transform: scale(1.02); }
-
-/* Gallery photos: uniform 2/3 aspect so they form a clean top row */
-.gallery-item[data-case="gallery"] .gal-thumb {
-  aspect-ratio: 2/3;
-  height: 100%;
-  object-fit: cover;
-}
-
-.gal-video-wrap {
-  width: 100%;
-  aspect-ratio: 4/5;
-  position: relative;
-  cursor: zoom-in;
-  overflow: hidden;
-}
-.gal-video-wrap video {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  display: block;
-  pointer-events: none;
-}
-.gal-video-wrap .play-badge {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0,0,0,0.28);
-  transition: background 0.15s;
-}
-.gal-video-wrap:hover .play-badge { background: rgba(0,0,0,0.1); }
-.play-badge svg { width: 28px; height: 28px; opacity: 0.9; }
-
 /* ─── GALLERY CAPTION ─── */
 .gallery-caption {
-  padding: 10px 12px;
-  background: var(--cream);
+  min-height: 142px;
+  padding: 18px 0 24px;
   border-top: 1px solid var(--cream-dark);
 }
 .gallery-caption-brand {
@@ -689,25 +648,23 @@ footer {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 3px;
+  margin-bottom: 9px;
 }
-.gallery-caption-text {
-  font-family: var(--mono);
-  font-size: 9px;
-  letter-spacing: 0.06em;
-  color: var(--ink-light);
-  line-height: 1.4;
+.gallery-caption-title {
+  max-width: 25ch;
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.2vw, 31px);
+  line-height: 1.08;
+  color: var(--ink);
 }
-.gallery-caption-ai {
-  display: inline-block;
-  margin-top: 4px;
+.gallery-caption-role {
+  margin-top: 11px;
   font-family: var(--mono);
   font-size: 8px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  letter-spacing: 0.08em;
   color: var(--ink-light);
-  border: 1px solid var(--cream-dark);
-  padding: 2px 6px;
+  line-height: 1.55;
+  text-transform: uppercase;
 }
 
 /* ─── LIGHTBOX ─── */
@@ -723,12 +680,6 @@ footer {
 .lightbox.open { display: flex; }
 .lightbox img {
   max-width: min(88vw, 600px);
-  max-height: 90vh;
-  object-fit: contain;
-  box-shadow: 0 32px 80px rgba(0,0,0,0.5);
-}
-.lightbox video {
-  max-width: min(50vw, 380px);
   max-height: 90vh;
   object-fit: contain;
   box-shadow: 0 32px 80px rgba(0,0,0,0.5);
@@ -798,38 +749,16 @@ footer {
   background: rgba(0,0,0,0.3); padding: 2px 7px;
 }
 
-/* ─── GALLERY FILTERS ─── */
-.gallery-filters {
-  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px;
-}
-.gf-btn {
-  font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em;
-  text-transform: uppercase; padding: 8px 16px;
-  border: 1px solid var(--cream-dark); background: var(--cream);
-  color: var(--ink-light); cursor: pointer; transition: all 0.2s;
-}
-.gf-btn.active, .gf-btn:hover {
-  background: var(--ink); color: var(--cream); border-color: var(--ink);
-}
 .gallery-grid {
+  width: min(100%, 1100px);
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 4px;
-  gap: 4px;
-  visibility: hidden;
-}
-.gallery-grid.is-laid-out { visibility: visible; }
-.gallery-grid .gallery-item {
-  width: 100%;
-  align-self: start;
-}
-.gallery-item.hidden { display: none; }
-
-@media (max-width: 1200px) {
-  .gallery-grid { grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 56px) clamp(20px, 3vw, 42px);
 }
 @media (max-width: 700px) {
-  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-caption { min-height: 0; }
 }
 
 /* ─── PRICING ─── */
@@ -908,7 +837,7 @@ footer {
   .service-body { grid-template-columns: 1fr; padding: 24px 24px 32px 48px; gap: 28px; }
 }
 </style>
-<link rel="stylesheet" href="strategic.css?v=20260904-motion1">
+<link rel="stylesheet" href="strategic.css?v=20260917-gallery1">
 </head>
 <body>
 
@@ -1458,388 +1387,115 @@ footer {
 
 <!-- GALLERY -->
 <section id="gallery" data-screen-label="Gallery">
-  <div class="section-label"
-    data-en="Creative Work"
-    data-ru="Творческие работы"
-    data-es="Trabajos creativos">Creative Work</div>
-  <div class="gallery-filters">
-    <button class="gf-btn active" data-filter="all"
-      data-en="All" data-ru="Все" data-es="Todo">All</button>
-    <button class="gf-btn" data-filter="haircare"
-      data-en="Hair Care" data-ru="Уход за волосами" data-es="Cuidado capilar">Hair Care</button>
-    <button class="gf-btn" data-filter="sunglasses"
-      data-en="Sunglasses" data-ru="Очки" data-es="Gafas">Sunglasses</button>
-    <button class="gf-btn" data-filter="lifestyle"
-      data-en="Lifestyle" data-ru="Лайфстайл" data-es="Estilo de vida">Lifestyle</button>
-    <button class="gf-btn" data-filter="photo"
-      data-en="Photo" data-ru="Фото" data-es="Foto">Photo</button>
-    <button class="gf-btn" data-filter="video"
-      data-en="Video" data-ru="Видео" data-es="Vídeo">Video</button>
-  </div>
   <div class="gallery-grid" id="galleryGrid">
-
-    <!-- General gallery photos (shown first) -->
-    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/gallery/1.webp" data-src="assets/img/gallery/1.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Brand Photography</div>
-        <div class="gallery-caption-text">Visual concept &amp; art direction</div>
-        <span class="gallery-caption-ai">Midjourney</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/gallery/2.webp" data-src="assets/img/gallery/2.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Brand Photography</div>
-        <div class="gallery-caption-text">Lifestyle visual · Creative direction</div>
-        <span class="gallery-caption-ai">Midjourney</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/gallery/3.webp" data-src="assets/img/gallery/3.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Brand Photography</div>
-        <div class="gallery-caption-text">Editorial concept &amp; visual narrative</div>
-        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/gallery/4.webp" data-src="assets/img/gallery/4.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Brand Photography</div>
-        <div class="gallery-caption-text">Product visual · Art direction</div>
-        <span class="gallery-caption-ai">Midjourney</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/gallery/5.webp" data-src="assets/img/gallery/5.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Brand Photography</div>
-        <div class="gallery-caption-text">Lifestyle series · Visual concept</div>
-        <span class="gallery-caption-ai">Midjourney · Runway</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="gallery" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/gallery/6.webp" data-src="assets/img/gallery/6.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Brand Photography</div>
-        <div class="gallery-caption-text">Brand visual · Creative direction</div>
-        <span class="gallery-caption-ai">Midjourney</span>
-      </div>
-    </div>
-
-    <!-- Hair Care -->
-    <div class="gallery-item" data-case="haircare" data-type="photo" data-ai="true">
-      <div class="carousel">
+    <article class="gallery-item" data-case="haircare" data-type="photo">
+      <div class="carousel" role="group" aria-label="Thiocyn educational carousel" tabindex="0">
         <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-1.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-2.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-3.webp" alt="">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-1.webp" alt="Science made easier to enter." data-i18n-alt="gallery1Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-2.webp" alt="Science made easier to enter." data-i18n-alt="gallery1Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-1-3.webp" alt="Science made easier to enter." data-i18n-alt="gallery1Title">
         </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 3</div>
+        <button class="carousel-btn prev" type="button">&#8592;</button>
+        <button class="carousel-btn next" type="button">&#8594;</button>
+        <div class="carousel-counter" aria-live="polite">1 / 3</div>
       </div>
       <div class="gallery-caption">
-        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
-        <div class="gallery-caption-text">Educational carousel · Content strategy &amp; art direction</div>
-        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+        <div class="gallery-caption-brand" data-i18n="gallery1Brand">Thiocyn · Hair care</div>
+        <div class="gallery-caption-title" data-i18n="gallery1Title">Science made easier to enter.</div>
+        <div class="gallery-caption-role" data-i18n="gallery1Role">Educational carousel · Content direction + art direction</div>
       </div>
-    </div>
-    <div class="gallery-item" data-case="haircare" data-type="photo" data-ai="true">
-      <div class="carousel">
+    </article>
+    <article class="gallery-item" data-case="haircare" data-type="photo">
+      <div class="carousel" role="group" aria-label="Thiocyn product series" tabindex="0">
         <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-1.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-2.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-3.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-4.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-5.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-6.webp" alt="">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-1.webp" alt="A calmer visual language for clinical credibility." data-i18n-alt="gallery2Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-2.webp" alt="A calmer visual language for clinical credibility." data-i18n-alt="gallery2Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-3.webp" alt="A calmer visual language for clinical credibility." data-i18n-alt="gallery2Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-4.webp" alt="A calmer visual language for clinical credibility." data-i18n-alt="gallery2Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-5.webp" alt="A calmer visual language for clinical credibility." data-i18n-alt="gallery2Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/hair-loss/Slider-4-6.webp" alt="A calmer visual language for clinical credibility." data-i18n-alt="gallery2Title">
         </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 6</div>
+        <button class="carousel-btn prev" type="button">&#8592;</button>
+        <button class="carousel-btn next" type="button">&#8594;</button>
+        <div class="carousel-counter" aria-live="polite">1 / 6</div>
       </div>
       <div class="gallery-caption">
-        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
-        <div class="gallery-caption-text">Product carousel series · Visual concept &amp; copy direction</div>
-        <span class="gallery-caption-ai">Midjourney · Claude</span>
+        <div class="gallery-caption-brand" data-i18n="gallery2Brand">Thiocyn · Hair care</div>
+        <div class="gallery-caption-title" data-i18n="gallery2Title">A calmer visual language for clinical credibility.</div>
+        <div class="gallery-caption-role" data-i18n="gallery2Role">Product series · Visual concept + copy direction</div>
       </div>
-    </div>
-    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/ClipHearSerum.mp4">
-        <video src="assets/img/cases/hair-loss/videos/ClipHearSerum.mp4" muted playsinline preload="none" poster="assets/img/cases/hair-loss/Slider-4-1.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
-        <div class="gallery-caption-text">Reels concept · Creative direction &amp; scripting</div>
-        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/HearSerumNuar.mp4">
-        <video src="assets/img/cases/hair-loss/videos/HearSerumNuar.mp4" muted playsinline preload="none" poster="assets/img/cases/hair-loss/Slider-4-2.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
-        <div class="gallery-caption-text">Reels concept · UGC-style scripting &amp; direction</div>
-        <span class="gallery-caption-ai">Runway · Claude</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/NOT-MACRO.mp4">
-        <video src="assets/img/cases/hair-loss/videos/NOT-MACRO.mp4" muted playsinline preload="none" poster="assets/img/cases/hair-loss/Slider-4-3.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
-        <div class="gallery-caption-text">Product Reel · Visual narrative &amp; hook writing</div>
-        <span class="gallery-caption-ai">Runway · Midjourney</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="haircare" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/hair-loss/videos/Short-lived.mp4">
-        <video src="assets/img/cases/hair-loss/videos/Short-lived.mp4" muted playsinline preload="none" poster="assets/img/cases/hair-loss/Slider-1-1.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Thiocyn · Hair Care</div>
-        <div class="gallery-caption-text">Short-form Reel · Concept &amp; caption direction</div>
-        <span class="gallery-caption-ai">Runway · ChatGPT</span>
-      </div>
-    </div>
-
-    <!-- Sunglasses -->
-    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
-      <div class="carousel">
+    </article>
+    <article class="gallery-item" data-case="sunglasses" data-type="photo">
+      <div class="carousel" role="group" aria-label="Sustainable optics lifestyle series" tabindex="0">
         <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/6-1.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/6-2.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/6-3.webp" alt="">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/6-1.webp" alt="Product, place and material in the same world." data-i18n-alt="gallery3Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/6-2.webp" alt="Product, place and material in the same world." data-i18n-alt="gallery3Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/6-3.webp" alt="Product, place and material in the same world." data-i18n-alt="gallery3Title">
         </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 3</div>
+        <button class="carousel-btn prev" type="button">&#8592;</button>
+        <button class="carousel-btn next" type="button">&#8594;</button>
+        <div class="carousel-counter" aria-live="polite">1 / 3</div>
       </div>
       <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Lifestyle feed series · Visual concept &amp; copy</div>
-        <span class="gallery-caption-ai">Midjourney · Claude</span>
+        <div class="gallery-caption-brand" data-i18n="gallery3Brand">Sustainable optics · Leipzig</div>
+        <div class="gallery-caption-title" data-i18n="gallery3Title">Product, place and material in the same world.</div>
+        <div class="gallery-caption-role" data-i18n="gallery3Role">Lifestyle series · Visual direction + copy</div>
       </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
-      <div class="carousel">
+    </article>
+    <article class="gallery-item" data-case="sunglasses" data-type="photo">
+      <div class="carousel" role="group" aria-label="Sustainable optics brand carousel" tabindex="0">
         <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-cover.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-1.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-2.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-3.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-4.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-5.webp" alt="">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-cover.webp" alt="Turning origin into a recurring visual story." data-i18n-alt="gallery4Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-1.webp" alt="Turning origin into a recurring visual story." data-i18n-alt="gallery4Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-2.webp" alt="Turning origin into a recurring visual story." data-i18n-alt="gallery4Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-3.webp" alt="Turning origin into a recurring visual story." data-i18n-alt="gallery4Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-4.webp" alt="Turning origin into a recurring visual story." data-i18n-alt="gallery4Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/Carusel-5.webp" alt="Turning origin into a recurring visual story." data-i18n-alt="gallery4Title">
         </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 6</div>
+        <button class="carousel-btn prev" type="button">&#8592;</button>
+        <button class="carousel-btn next" type="button">&#8594;</button>
+        <div class="carousel-counter" aria-live="polite">1 / 6</div>
       </div>
       <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Brand carousel · Art direction &amp; storytelling</div>
-        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
+        <div class="gallery-caption-brand" data-i18n="gallery4Brand">Sustainable optics · Leipzig</div>
+        <div class="gallery-caption-title" data-i18n="gallery4Title">Turning origin into a recurring visual story.</div>
+        <div class="gallery-caption-role" data-i18n="gallery4Role">Brand carousel · Art direction + storytelling</div>
       </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
-      <div class="carousel">
+    </article>
+    <article class="gallery-item" data-case="lifestyle" data-type="photo">
+      <div class="carousel" role="group" aria-label="Slow fashion seasonal series" tabindex="0">
         <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/post4_slide1.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/post4_slide2.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/sunglasses/post4_slide3_v3.webp" alt="">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Holly-0.webp" alt="Nature as part of the story, not decoration." data-i18n-alt="gallery5Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Holly-01.webp" alt="Nature as part of the story, not decoration." data-i18n-alt="gallery5Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Holly-12.webp" alt="Nature as part of the story, not decoration." data-i18n-alt="gallery5Title">
         </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 3</div>
+        <button class="carousel-btn prev" type="button">&#8592;</button>
+        <button class="carousel-btn next" type="button">&#8594;</button>
+        <div class="carousel-counter" aria-live="polite">1 / 3</div>
       </div>
       <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Cultural identity post · Concept &amp; copy direction</div>
-        <span class="gallery-caption-ai">Midjourney · Claude</span>
+        <div class="gallery-caption-brand" data-i18n="gallery5Brand">Slow fashion · Europe</div>
+        <div class="gallery-caption-title" data-i18n="gallery5Title">Nature as part of the story, not decoration.</div>
+        <div class="gallery-caption-role" data-i18n="gallery5Role">Seasonal series · Brand narrative + art direction</div>
       </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/cases/sunglasses/99.webp" data-src="assets/img/cases/sunglasses/99.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Feed post · Visual direction &amp; caption</div>
-        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="photo" data-ai="true">
-      <img loading="lazy" decoding="async" class="gal-thumb" src="assets/img/cases/sunglasses/post3_feed.webp" data-src="assets/img/cases/sunglasses/post3_feed.webp" alt="">
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Feed post · Brand voice &amp; visual concept</div>
-        <span class="gallery-caption-ai">Midjourney · Claude</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/tas.mp4">
-        <video src="assets/img/cases/sunglasses/videos/tas.mp4" muted playsinline preload="none" poster="assets/img/cases/sunglasses/99.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Brand Reel · Creative direction &amp; scripting</div>
-        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/Vamp.mp4">
-        <video src="assets/img/cases/sunglasses/videos/Vamp.mp4" muted playsinline preload="none" poster="assets/img/cases/sunglasses/Carusel-cover.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Lifestyle Reel · Concept &amp; visual narrative</div>
-        <span class="gallery-caption-ai">Runway · Midjourney</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/VampBest.mp4">
-        <video src="assets/img/cases/sunglasses/videos/VampBest.mp4" muted playsinline preload="none" poster="assets/img/cases/sunglasses/post3_feed.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Hero Reel · Hook writing &amp; direction</div>
-        <span class="gallery-caption-ai">Runway · Claude</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/video-2.mp4">
-        <video src="assets/img/cases/sunglasses/videos/video-2.mp4" muted playsinline preload="none" poster="assets/img/cases/sunglasses/6-1.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Product Reel · UGC concept &amp; scripting</div>
-        <span class="gallery-caption-ai">Runway · ChatGPT</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="sunglasses" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/sunglasses/videos/SG-5.mp4">
-        <video src="assets/img/cases/sunglasses/videos/SG-5.mp4" muted playsinline preload="none" poster="assets/img/cases/sunglasses/6-2.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Sunglasses · Leipzig</div>
-        <div class="gallery-caption-text">Short-form Reel · Creative concept &amp; caption</div>
-        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
-      </div>
-    </div>
-
-    <!-- Lifestyle -->
-    <div class="gallery-item" data-case="lifestyle" data-type="photo" data-ai="true">
-      <div class="carousel">
+    </article>
+    <article class="gallery-item" data-case="lifestyle" data-type="photo">
+      <div class="carousel" role="group" aria-label="Slow fashion world-building carousel" tabindex="0">
         <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Holly-0.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Holly-01.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Holly-12.webp" alt="">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-1.webp" alt="One visual world, carried across a season." data-i18n-alt="gallery6Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-2.webp" alt="One visual world, carried across a season." data-i18n-alt="gallery6Title">
+          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-3.webp" alt="One visual world, carried across a season." data-i18n-alt="gallery6Title">
         </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 3</div>
+        <button class="carousel-btn prev" type="button">&#8592;</button>
+        <button class="carousel-btn next" type="button">&#8594;</button>
+        <div class="carousel-counter" aria-live="polite">1 / 3</div>
       </div>
       <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Seasonal carousel · Brand narrative &amp; art direction</div>
-        <span class="gallery-caption-ai">Midjourney · Claude</span>
+        <div class="gallery-caption-brand" data-i18n="gallery6Brand">Slow fashion · Europe</div>
+        <div class="gallery-caption-title" data-i18n="gallery6Title">One visual world, carried across a season.</div>
+        <div class="gallery-caption-role" data-i18n="gallery6Role">World-building carousel · Visual concept + copy</div>
       </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="photo" data-ai="true">
-      <div class="carousel">
-        <div class="carousel-track">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-1.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-2.webp" alt="">
-          <img loading="lazy" decoding="async" class="carousel-slide" src="assets/img/cases/lifestyle/Slider-3-3.webp" alt="">
-        </div>
-        <button class="carousel-btn prev">&#8592;</button>
-        <button class="carousel-btn next">&#8594;</button>
-        <div class="carousel-counter">1 / 3</div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">World-building carousel · Visual concept &amp; copy</div>
-        <span class="gallery-caption-ai">Midjourney · ChatGPT</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llamas_1.mp4">
-        <video src="assets/img/cases/lifestyle/videos/Llamas_1.mp4" muted playsinline preload="none" poster="assets/img/cases/lifestyle/Holly-0.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Brand Reel · Concept &amp; emotional scripting</div>
-        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llamas_2.mp4">
-        <video src="assets/img/cases/lifestyle/videos/Llamas_2.mp4" muted playsinline preload="none" poster="assets/img/cases/lifestyle/Holly-01.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Lifestyle Reel · Creative direction &amp; hook</div>
-        <span class="gallery-caption-ai">Runway · Claude</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llama_Lifestyle_1.mp4">
-        <video src="assets/img/cases/lifestyle/videos/Llama_Lifestyle_1.mp4" muted playsinline preload="none" poster="assets/img/cases/lifestyle/Slider-3-1.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Lifestyle Reel · Narrative concept &amp; scripting</div>
-        <span class="gallery-caption-ai">Runway · Midjourney</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4">
-        <video src="assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4" muted playsinline preload="none" poster="assets/img/cases/lifestyle/Slider-3-2.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Seasonal Reel · Visual story &amp; direction</div>
-        <span class="gallery-caption-ai">Runway · ChatGPT</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/1.mp4">
-        <video src="assets/img/cases/lifestyle/videos/1.mp4" muted playsinline preload="none" poster="assets/img/cases/lifestyle/LS-1.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Brand Reel · World-building concept &amp; copy</div>
-        <span class="gallery-caption-ai">Runway · Claude</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-case="lifestyle" data-type="video" data-ai="true">
-      <div class="gal-video-wrap" data-video="assets/img/cases/lifestyle/videos/3.mp4">
-        <video src="assets/img/cases/lifestyle/videos/3.mp4" muted playsinline preload="none" poster="assets/img/cases/lifestyle/LS-2.webp"></video>
-        <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
-      </div>
-      <div class="gallery-caption">
-        <div class="gallery-caption-brand">Slow Fashion · Europe</div>
-        <div class="gallery-caption-text">Short-form Reel · Emotional hook &amp; direction</div>
-        <span class="gallery-caption-ai">Runway · ElevenLabs</span>
-      </div>
-    </div>
-
+    </article>
   </div>
 </section>
 
@@ -1890,7 +1546,6 @@ footer {
   <div class="lb-nav lb-prev" id="lb-prev">&#8592;</div>
   <div class="lb-nav lb-next" id="lb-next">&#8594;</div>
   <img id="lb-img" alt="" style="display:none" />
-  <video id="lb-video" controls style="display:none"></video>
   <div class="lb-counter" id="lb-counter"></div>
 </div>
 
@@ -1980,26 +1635,14 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 (function() {
   const lb = document.getElementById('lightbox');
   const lbImg = document.getElementById('lb-img');
-  const lbVideo = document.getElementById('lb-video');
   const lbCounter = document.getElementById('lb-counter');
   let items = [], cur = 0;
 
   function buildList() {
     items = [];
     document.querySelectorAll('#galleryGrid .gallery-item').forEach(item => {
-      if (item.classList.contains('hidden')) return;
-      const thumb = item.querySelector('.gal-thumb');
-      if (thumb) {
-        items.push({ type: 'image', src: thumb.dataset.src || thumb.src, el: thumb });
-        return;
-      }
-      const vw = item.querySelector('.gal-video-wrap');
-      if (vw) {
-        items.push({ type: 'video', src: vw.dataset.video, el: vw });
-        return;
-      }
       item.querySelectorAll('.carousel-slide').forEach(s => {
-        items.push({ type: 'image', src: s.getAttribute('src'), el: s });
+        items.push({ src: s.getAttribute('src'), el: s });
       });
     });
   }
@@ -2016,20 +1659,8 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   function showItem() {
     const item = items[cur];
     if (!item) return;
-    if (item.type === 'video') {
-      lbImg.style.display = 'none';
-      lbImg.src = '';
-      lbVideo.style.display = 'block';
-      lbVideo.src = item.src;
-      lbVideo.muted = false;
-      const p = lbVideo.play();
-      if (p && typeof p.catch === 'function') p.catch(() => {});
-    } else {
-      lbVideo.pause(); lbVideo.src = '';
-      lbVideo.style.display = 'none';
-      lbImg.style.display = 'block';
-      lbImg.src = item.src;
-    }
+    lbImg.style.display = 'block';
+    lbImg.src = item.src;
     lbCounter.textContent = (cur + 1) + ' / ' + items.length;
     document.getElementById('lb-prev').style.opacity = items.length > 1 ? '1' : '0';
     document.getElementById('lb-next').style.opacity = items.length > 1 ? '1' : '0';
@@ -2037,7 +1668,6 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
   function closeLb() {
     lb.classList.remove('open');
-    lbVideo.pause(); lbVideo.src = '';
     lbImg.src = '';
   }
 
@@ -2058,15 +1688,6 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
     if (e.key === 'ArrowRight' && items.length) { cur = (cur + 1) % items.length; showItem(); }
   });
 
-  // Wire all media in the gallery grid
-  document.querySelectorAll('#galleryGrid .gal-thumb').forEach(thumb => {
-    thumb.style.cursor = 'zoom-in';
-    thumb.addEventListener('click', () => openLbFor(thumb));
-  });
-  document.querySelectorAll('#galleryGrid .gal-video-wrap').forEach(vw => {
-    vw.style.cursor = 'zoom-in';
-    vw.addEventListener('click', () => openLbFor(vw));
-  });
   document.querySelectorAll('#galleryGrid .carousel-slide').forEach(slide => {
     slide.style.cursor = 'zoom-in';
     slide.addEventListener('click', () => openLbFor(slide));
@@ -2091,67 +1712,11 @@ document.querySelectorAll('.carousel').forEach(car => {
   car.querySelector('.next').addEventListener('click', e => {
     e.stopPropagation(); go(cur + 1);
   });
-});
-
-// Masonry row-span layout
-function setRowSpans() {
-  const grid = document.getElementById('galleryGrid');
-  if (!grid) return;
-  const cs = getComputedStyle(grid);
-  const rowH = parseFloat(cs.gridAutoRows) || 4;
-  const gap = parseFloat(cs.rowGap) || 4;
-  let anySized = false;
-  grid.querySelectorAll('.gallery-item').forEach(item => {
-    item.style.gridRowEnd = '';
-    if (item.classList.contains('hidden')) return;
-    let h = 0;
-    for (const child of item.children) h += child.getBoundingClientRect().height;
-    if (!h) return;
-    anySized = true;
-    const span = Math.max(1, Math.ceil((h + gap) / (rowH + gap)));
-    item.style.gridRowEnd = 'span ' + span;
-  });
-  if (anySized) grid.classList.add('is-laid-out');
-}
-
-// Recompute on resize and image loads
-window.addEventListener('resize', setRowSpans);
-document.querySelectorAll('#galleryGrid img').forEach(img => {
-  if (!img.complete) img.addEventListener('load', setRowSpans);
-});
-document.querySelectorAll('#galleryGrid video').forEach(v => {
-  v.addEventListener('loadedmetadata', setRowSpans);
-});
-// Initial pass + delayed pass once layout settles
-setRowSpans();
-window.addEventListener('load', setRowSpans);
-
-// Gallery filter
-function applyGalleryFilter(filter) {
-  document.querySelectorAll('#galleryGrid .gallery-item').forEach(item => {
-    let visible;
-    if (filter === 'all') {
-      visible = true;
-    } else if (filter === 'photo' || filter === 'video') {
-      visible = item.dataset.type === filter;
-    } else {
-      visible = item.dataset.case === filter;
-    }
-    item.classList.toggle('hidden', !visible);
-  });
-  setRowSpans();
-}
-
-document.querySelectorAll('.gf-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.gf-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    applyGalleryFilter(btn.dataset.filter);
+  car.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') { e.preventDefault(); go(cur - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); go(cur + 1); }
   });
 });
-
-// Initial state: show all
-applyGalleryFilter('all');
 
 // Services accordion
 document.querySelectorAll('.service-item').forEach(item => {
@@ -2201,7 +1766,7 @@ langBtns.forEach(btn => {
 const savedLang = localStorage.getItem('lang');
 if (savedLang && savedLang !== 'en') applyLang(savedLang);
 </script>
-<script src="strategic.js?v=20260904-motion1"></script>
+<script src="strategic.js?v=20260917-gallery1"></script>
 
 </body>
 </html>
