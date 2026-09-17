@@ -447,8 +447,6 @@
   }
 
   function renderStrategicSections() {
-    const oldSections = ['about', 'services', 'cases', 'pricing', 'fit'];
-    oldSections.forEach(id => document.getElementById(id)?.remove());
     const metrics = SITE_DATA.metrics.map(metric => `<div class="metric reveal"><strong class="metric-value">${metric.value}</strong><div class="metric-label" data-i18n="${metric.key}">${en[metric.key]}</div></div>`).join('');
     const capabilities = [1,2,3].map(n => `<article class="capability reveal"><span class="capability-num">0${n}</span><h3 data-i18n="cap${n}Title">${en[`cap${n}Title`]}</h3><div class="capability-copy"><p class="capability-lead" data-i18n="cap${n}Lead">${en[`cap${n}Lead`]}</p><p data-i18n="cap${n}Copy">${en[`cap${n}Copy`]}</p><p class="term-line" data-i18n="cap${n}Terms">${en[`cap${n}Terms`]}</p></div></article>`).join('');
     const processes = [1,2,3,4].map(n => `<article class="process-step reveal"><span class="process-step-num">0${n}</span><h3 data-i18n="process${n}Title">${en[`process${n}Title`]}</h3><p data-i18n="process${n}Copy">${en[`process${n}Copy`]}</p></article>`).join('');
@@ -479,8 +477,6 @@
   function upgradeGallery() {
     const gallery = document.getElementById('gallery');
     document.getElementById('reels')?.insertAdjacentElement('afterend', gallery);
-    const oldLabel = gallery.querySelector(':scope > .section-label');
-    oldLabel?.remove();
     gallery.insertAdjacentHTML('afterbegin', sectionHead('galleryLabel','galleryTitle','galleryIntro'));
     gallery.querySelectorAll('img').forEach((img, index) => {
       img.loading = 'lazy';
@@ -489,6 +485,75 @@
     });
     gallery.querySelectorAll('.carousel-btn.prev').forEach(button => { button.dataset.i18nAriaLabel = 'previous'; button.setAttribute('aria-label', en.previous); });
     gallery.querySelectorAll('.carousel-btn.next').forEach(button => { button.dataset.i18nAriaLabel = 'next'; button.setAttribute('aria-label', en.next); });
+  }
+
+  function bindGalleryInteractions() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lb-img');
+    const lightboxCounter = document.getElementById('lb-counter');
+    const lightboxPrevious = document.getElementById('lb-prev');
+    const lightboxNext = document.getElementById('lb-next');
+    const slides = [...document.querySelectorAll('#galleryGrid .carousel-slide')];
+    let currentLightboxIndex = 0;
+
+    const showLightboxItem = () => {
+      const slide = slides[currentLightboxIndex];
+      if (!slide) return;
+      lightboxImage.style.display = 'block';
+      lightboxImage.src = slide.getAttribute('src');
+      lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${slides.length}`;
+      lightboxPrevious.style.opacity = slides.length > 1 ? '1' : '0';
+      lightboxNext.style.opacity = slides.length > 1 ? '1' : '0';
+    };
+
+    const openLightbox = slide => {
+      const index = slides.indexOf(slide);
+      if (index < 0) return;
+      currentLightboxIndex = index;
+      showLightboxItem();
+      lightbox.classList.add('open');
+    };
+
+    const closeLightbox = () => {
+      lightbox.classList.remove('open');
+      lightboxImage.src = '';
+    };
+
+    const moveLightbox = direction => {
+      if (!slides.length) return;
+      currentLightboxIndex = (currentLightboxIndex + direction + slides.length) % slides.length;
+      showLightboxItem();
+    };
+
+    document.getElementById('lb-close').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', event => { if (event.target === lightbox) closeLightbox(); });
+    lightboxPrevious.addEventListener('click', () => moveLightbox(-1));
+    lightboxNext.addEventListener('click', () => moveLightbox(1));
+    document.addEventListener('keydown', event => {
+      if (!lightbox.classList.contains('open')) return;
+      if (event.key === 'Escape') closeLightbox();
+      if (event.key === 'ArrowLeft') moveLightbox(-1);
+      if (event.key === 'ArrowRight') moveLightbox(1);
+    });
+    slides.forEach(slide => slide.addEventListener('click', () => openLightbox(slide)));
+
+    document.querySelectorAll('.carousel').forEach(carousel => {
+      const track = carousel.querySelector('.carousel-track');
+      const carouselSlides = carousel.querySelectorAll('.carousel-slide');
+      const counter = carousel.querySelector('.carousel-counter');
+      let currentIndex = 0;
+      const goTo = index => {
+        currentIndex = (index + carouselSlides.length) % carouselSlides.length;
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        if (counter) counter.textContent = `${currentIndex + 1} / ${carouselSlides.length}`;
+      };
+      carousel.querySelector('.prev').addEventListener('click', event => { event.stopPropagation(); goTo(currentIndex - 1); });
+      carousel.querySelector('.next').addEventListener('click', event => { event.stopPropagation(); goTo(currentIndex + 1); });
+      carousel.addEventListener('keydown', event => {
+        if (event.key === 'ArrowLeft') { event.preventDefault(); goTo(currentIndex - 1); }
+        if (event.key === 'ArrowRight') { event.preventDefault(); goTo(currentIndex + 1); }
+      });
+    });
   }
 
   function renderContact() {
@@ -687,6 +752,7 @@
   renderHero();
   renderStrategicSections();
   upgradeGallery();
+  bindGalleryInteractions();
   renderContact();
   bindProjectForm();
   createMainLandmark();
