@@ -107,6 +107,8 @@
       gallery6Brand: 'Slow fashion · Europe', gallery6Title: 'One visual world, carried across a season.', gallery6Role: 'World-building carousel · Visual concept + copy',
       gallery7Brand: 'Azafranes Manchegos · Independent concept', gallery7Title: 'From field to thread: the slowness is the value.', gallery7Role: 'Origin series · Creative direction + copy',
       gallery8Brand: 'Azafranes Manchegos · Independent concept', gallery8Title: 'Saffron that doesn’t wait for a special occasion.', gallery8Role: 'Kitchen story · Strategy + creative direction + copy',
+      gallery9Brand: 'Labiatae · Strategic brand exercise', gallery9Title: 'How a brand story is built from photos and research.', gallery9Role: 'Research desk + moodboard · Brand direction',
+      gallery10Brand: 'Labiatae · Strategic brand exercise', gallery10Title: 'A bottle is never just a bottle.', gallery10Role: 'Campaign posters · Concept + copy',
       contactLabel: 'Start a project', contactTitle: 'Have an idea that hasn\'t found its shape yet?', contactSupport: 'Tell me what feels unclear, stuck or too much like everyone else. I’ll look at the problem and come back with the most useful next step.', contactButton: 'Tell me about it',
       footer: 'Brand Content Strategy · Creative Direction · Content Systems · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
@@ -161,6 +163,8 @@
       gallery6Brand: 'Slow fashion · Европа', gallery6Title: 'Один визуальный мир, проходящий через весь сезон.', gallery6Role: 'Карусель о мире бренда · Визуальная концепция + текст',
       gallery7Brand: 'Azafranes Manchegos · Независимый концепт', gallery7Title: 'От поля до нити: ценность — в медленности.', gallery7Role: 'Серия о происхождении · Креативное направление + текст',
       gallery8Brand: 'Azafranes Manchegos · Независимый концепт', gallery8Title: 'Шафран, который не ждёт особого случая.', gallery8Role: 'Кухонная история · Стратегия + креативное направление + текст',
+      gallery9Brand: 'Labiatae · Стратегическое упражнение для бренда', gallery9Title: 'Как история бренда складывается из фотографий и исследования.', gallery9Role: 'Исследование + мудборд · Направление бренда',
+      gallery10Brand: 'Labiatae · Стратегическое упражнение для бренда', gallery10Title: 'Флакон — никогда не просто флакон.', gallery10Role: 'Постеры кампании · Концепция + текст',
       contactLabel: 'Начать проект', contactTitle: 'Есть идея, которая пока не нашла свою форму?', contactSupport: 'Расскажите, что кажется неясным, застряло или слишком похоже на всех остальных. Я посмотрю на задачу и предложу самый полезный следующий шаг.', contactButton: 'Расскажите о ней', footer: 'Стратегия бренд-контента · Креативное руководство · Контент-системы · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
@@ -206,6 +210,8 @@
       gallery6Brand: 'Slow fashion · Europa', gallery6Title: 'Un mismo mundo visual a lo largo de toda una temporada.', gallery6Role: 'Carrusel de world-building · Concepto visual + copy',
       gallery7Brand: 'Azafranes Manchegos · Concepto independiente', gallery7Title: 'Del campo al hilo: el valor está en la lentitud.', gallery7Role: 'Serie de origen · Dirección creativa + copy',
       gallery8Brand: 'Azafranes Manchegos · Concepto independiente', gallery8Title: 'Un azafrán que no espera a una ocasión especial.', gallery8Role: 'Historia de cocina · Estrategia + dirección creativa + copy',
+      gallery9Brand: 'Labiatae · Ejercicio estratégico de marca', gallery9Title: 'Cómo se construye la historia de una marca a partir de fotos e investigación.', gallery9Role: 'Investigación + moodboard · Dirección de marca',
+      gallery10Brand: 'Labiatae · Ejercicio estratégico de marca', gallery10Title: 'Un frasco nunca es solo un frasco.', gallery10Role: 'Pósters de campaña · Concepto + copy',
       contactLabel: 'Iniciar un proyecto', contactTitle: '¿Tienes una idea que todavía no ha encontrado su forma?', contactSupport: 'Cuéntame qué se siente poco claro, bloqueado o demasiado parecido a todo lo demás. Analizaré el problema y volveré con el siguiente paso más útil.', contactButton: 'Cuéntame', footer: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
@@ -249,6 +255,8 @@
       gallery6Brand: 'Slow fashion · Europa', gallery6Title: 'Un unico mondo visivo, portato attraverso un’intera stagione.', gallery6Role: 'Carosello di world-building · Concept visivo + copy',
       gallery7Brand: 'Azafranes Manchegos · Concept indipendente', gallery7Title: 'Dal campo al filo: il valore è nella lentezza.', gallery7Role: 'Serie sull’origine · Direzione creativa + copy',
       gallery8Brand: 'Azafranes Manchegos · Concept indipendente', gallery8Title: 'Uno zafferano che non aspetta un’occasione speciale.', gallery8Role: 'Storia in cucina · Strategia + direzione creativa + copy',
+      gallery9Brand: 'Labiatae · Esercizio strategico di brand', gallery9Title: 'Come la storia di un brand nasce da foto e ricerca.', gallery9Role: 'Ricerca + moodboard · Direzione di brand',
+      gallery10Brand: 'Labiatae · Esercizio strategico di brand', gallery10Title: 'Una bottiglia non è mai solo una bottiglia.', gallery10Role: 'Poster di campagna · Concept + copy',
       contactLabel: 'Avvia un progetto', contactTitle: 'Hai un’idea che non ha ancora trovato la sua forma?', contactSupport: 'Raccontami cosa non è chiaro, cosa si è bloccato o cosa assomiglia troppo a tutto il resto. Guarderò il problema e tornerò con il passo successivo più utile.', contactButton: 'Raccontamela', footer: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuti · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
@@ -292,6 +300,8 @@
       gallery6Brand: 'Slow fashion · Еўропа', gallery6Title: 'Адзін візуальны свет на працягу ўсяго сезона.', gallery6Role: 'Карусель пра свет брэнда · Візуальная канцэпцыя + тэкст',
       gallery7Brand: 'Azafranes Manchegos · Незалежны канцэпт', gallery7Title: 'Ад поля да ніткі: каштоўнасць — у павольнасці.', gallery7Role: 'Серыя пра паходжанне · Крэатыўны напрамак + тэкст',
       gallery8Brand: 'Azafranes Manchegos · Незалежны канцэпт', gallery8Title: 'Шафран, які не чакае асаблівай нагоды.', gallery8Role: 'Кухонная гісторыя · Стратэгія + крэатыўны напрамак + тэкст',
+      gallery9Brand: 'Labiatae · Стратэгічнае практыкаванне для брэнда', gallery9Title: 'Як гісторыя брэнда складаецца з фотаздымкаў і даследавання.', gallery9Role: 'Даследаванне + мудборд · Напрамак брэнда',
+      gallery10Brand: 'Labiatae · Стратэгічнае практыкаванне для брэнда', gallery10Title: 'Флакон — ніколі не проста флакон.', gallery10Role: 'Постэры кампаніі · Канцэпцыя + тэкст',
       contactLabel: 'Пачаць праект', contactTitle: 'Ёсць ідэя, якая пакуль не знайшла сваю форму?', contactSupport: 'Раскажыце, што застаецца няясным, затрымалася або занадта падобнае да ўсяго астатняга. Я пагляджу на задачу і прапаную найбольш карысны наступны крок.', contactButton: 'Раскажыце пра яе', footer: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
     }
   };
