@@ -948,6 +948,8 @@ section {
 #gallery { background: var(--cream); }
 #gallery .section-title { max-width: 900px; }
 .gallery-grid img { background: var(--cream-mid); }
+/* Portrait 2:3 story posters: keep the full frame so headline and credit line are not cropped */
+.gallery-item--tall .carousel-slide { aspect-ratio: 2 / 3; }
 
 /* Contact */
 #contact {

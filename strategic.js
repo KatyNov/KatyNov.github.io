@@ -105,6 +105,8 @@
       gallery4Brand: 'Sustainable optics · Leipzig', gallery4Title: 'Turning origin into a recurring visual story.', gallery4Role: 'Brand carousel · Art direction + storytelling',
       gallery5Brand: 'Slow fashion · Europe', gallery5Title: 'Nature as part of the story, not decoration.', gallery5Role: 'Seasonal series · Brand narrative + art direction',
       gallery6Brand: 'Slow fashion · Europe', gallery6Title: 'One visual world, carried across a season.', gallery6Role: 'World-building carousel · Visual concept + copy',
+      gallery7Brand: 'Azafranes Manchegos · Independent concept', gallery7Title: 'From field to thread: the slowness is the value.', gallery7Role: 'Origin series · Creative direction + copy',
+      gallery8Brand: 'Azafranes Manchegos · Independent concept', gallery8Title: 'Saffron that doesn’t wait for a special occasion.', gallery8Role: 'Kitchen story · Strategy + creative direction + copy',
       contactLabel: 'Start a project', contactTitle: 'Have an idea that hasn\'t found its shape yet?', contactSupport: 'Tell me what feels unclear, stuck or too much like everyone else. I’ll look at the problem and come back with the most useful next step.', contactButton: 'Tell me about it',
       footer: 'Brand Content Strategy · Creative Direction · Content Systems · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
@@ -157,6 +159,8 @@
       gallery4Brand: 'Экологичная оптика · Лейпциг', gallery4Title: 'Превратить происхождение бренда в повторяемую визуальную историю.', gallery4Role: 'Бренд-карусель · Арт-дирекшн + сторителлинг',
       gallery5Brand: 'Slow fashion · Европа', gallery5Title: 'Природа как часть истории, а не декорация.', gallery5Role: 'Сезонная серия · Нарратив бренда + арт-дирекшн',
       gallery6Brand: 'Slow fashion · Европа', gallery6Title: 'Один визуальный мир, проходящий через весь сезон.', gallery6Role: 'Карусель о мире бренда · Визуальная концепция + текст',
+      gallery7Brand: 'Azafranes Manchegos · Независимый концепт', gallery7Title: 'От поля до нити: ценность — в медленности.', gallery7Role: 'Серия о происхождении · Креативное направление + текст',
+      gallery8Brand: 'Azafranes Manchegos · Независимый концепт', gallery8Title: 'Шафран, который не ждёт особого случая.', gallery8Role: 'Кухонная история · Стратегия + креативное направление + текст',
       contactLabel: 'Начать проект', contactTitle: 'Есть идея, которая пока не нашла свою форму?', contactSupport: 'Расскажите, что кажется неясным, застряло или слишком похоже на всех остальных. Я посмотрю на задачу и предложу самый полезный следующий шаг.', contactButton: 'Расскажите о ней', footer: 'Стратегия бренд-контента · Креативное руководство · Контент-системы · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
@@ -200,6 +204,8 @@
       gallery4Brand: 'Óptica sostenible · Leipzig', gallery4Title: 'Convertir el origen en una historia visual recurrente.', gallery4Role: 'Carrusel de marca · Dirección de arte + storytelling',
       gallery5Brand: 'Slow fashion · Europa', gallery5Title: 'La naturaleza como parte de la historia, no como decoración.', gallery5Role: 'Serie estacional · Narrativa de marca + dirección de arte',
       gallery6Brand: 'Slow fashion · Europa', gallery6Title: 'Un mismo mundo visual a lo largo de toda una temporada.', gallery6Role: 'Carrusel de world-building · Concepto visual + copy',
+      gallery7Brand: 'Azafranes Manchegos · Concepto independiente', gallery7Title: 'Del campo al hilo: el valor está en la lentitud.', gallery7Role: 'Serie de origen · Dirección creativa + copy',
+      gallery8Brand: 'Azafranes Manchegos · Concepto independiente', gallery8Title: 'Un azafrán que no espera a una ocasión especial.', gallery8Role: 'Historia de cocina · Estrategia + dirección creativa + copy',
       contactLabel: 'Iniciar un proyecto', contactTitle: '¿Tienes una idea que todavía no ha encontrado su forma?', contactSupport: 'Cuéntame qué se siente poco claro, bloqueado o demasiado parecido a todo lo demás. Analizaré el problema y volveré con el siguiente paso más útil.', contactButton: 'Cuéntame', footer: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
@@ -241,6 +247,8 @@
       gallery4Brand: 'Ottica sostenibile · Lipsia', gallery4Title: 'Trasformare l’origine in una storia visiva ricorrente.', gallery4Role: 'Carosello di brand · Art direction + storytelling',
       gallery5Brand: 'Slow fashion · Europa', gallery5Title: 'La natura come parte della storia, non come decorazione.', gallery5Role: 'Serie stagionale · Narrativa di brand + art direction',
       gallery6Brand: 'Slow fashion · Europa', gallery6Title: 'Un unico mondo visivo, portato attraverso un’intera stagione.', gallery6Role: 'Carosello di world-building · Concept visivo + copy',
+      gallery7Brand: 'Azafranes Manchegos · Concept indipendente', gallery7Title: 'Dal campo al filo: il valore è nella lentezza.', gallery7Role: 'Serie sull’origine · Direzione creativa + copy',
+      gallery8Brand: 'Azafranes Manchegos · Concept indipendente', gallery8Title: 'Uno zafferano che non aspetta un’occasione speciale.', gallery8Role: 'Storia in cucina · Strategia + direzione creativa + copy',
       contactLabel: 'Avvia un progetto', contactTitle: 'Hai un’idea che non ha ancora trovato la sua forma?', contactSupport: 'Raccontami cosa non è chiaro, cosa si è bloccato o cosa assomiglia troppo a tutto il resto. Guarderò il problema e tornerò con il passo successivo più utile.', contactButton: 'Raccontamela', footer: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuti · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
@@ -282,6 +290,8 @@
       gallery4Brand: 'Устойлівая оптыка · Лейпцыг', gallery4Title: 'Ператварыць паходжанне ў паўтаральную візуальную гісторыю.', gallery4Role: 'Брэнд-карусель · Арт-дырэкшн + сторытэлінг',
       gallery5Brand: 'Slow fashion · Еўропа', gallery5Title: 'Прырода як частка гісторыі, а не дэкарацыя.', gallery5Role: 'Сезонная серыя · Наратыў брэнда + арт-дырэкшн',
       gallery6Brand: 'Slow fashion · Еўропа', gallery6Title: 'Адзін візуальны свет на працягу ўсяго сезона.', gallery6Role: 'Карусель пра свет брэнда · Візуальная канцэпцыя + тэкст',
+      gallery7Brand: 'Azafranes Manchegos · Незалежны канцэпт', gallery7Title: 'Ад поля да ніткі: каштоўнасць — у павольнасці.', gallery7Role: 'Серыя пра паходжанне · Крэатыўны напрамак + тэкст',
+      gallery8Brand: 'Azafranes Manchegos · Незалежны канцэпт', gallery8Title: 'Шафран, які не чакае асаблівай нагоды.', gallery8Role: 'Кухонная гісторыя · Стратэгія + крэатыўны напрамак + тэкст',
       contactLabel: 'Пачаць праект', contactTitle: 'Ёсць ідэя, якая пакуль не знайшла сваю форму?', contactSupport: 'Раскажыце, што застаецца няясным, затрымалася або занадта падобнае да ўсяго астатняга. Я пагляджу на задачу і прапаную найбольш карысны наступны крок.', contactButton: 'Раскажыце пра яе', footer: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
     }
   };
@@ -461,12 +471,12 @@
         ${renderCase('03','case3Category','case3Title','case3Problem','case3Idea','case3World','case3System','case3Result','fashion',null,false,['assets/img/cases/lifestyle/Holly-0.webp','assets/img/cases/lifestyle/Slider-3-1.webp','assets/img/cases/lifestyle/LS-1.webp'])}
       </section>
       <section id="reels">${sectionHead('reelsLabel','reelsTitle','reelsIntro')}<div class="reels-grid">
-        ${renderReel('assets/img/cases/hair-loss/videos/identit.mp4','assets/img/cases/hair-loss/Slider-1-1.webp','reelHair1','reelRoleFull')}
-        ${renderReel('assets/img/cases/hair-loss/videos/ClipHearSerum.mp4','assets/img/cases/hair-loss/Slider-4-1.webp','reelHair2','reelRoleDirection')}
-        ${renderReel('assets/img/cases/sunglasses/videos/VampBest.mp4','assets/img/cases/sunglasses/99.webp','reelOptics1','reelRoleFull')}
-        ${renderReel('assets/img/cases/sunglasses/videos/SG-9.mp4','assets/img/cases/sunglasses/Carusel-cover.webp','reelOptics2','reelRoleDirection')}
-        ${renderReel('assets/img/cases/lifestyle/videos/Llamas_1.mp4','assets/img/cases/lifestyle/Holly-0.webp','reelFashion1','reelRoleFull')}
-        ${renderReel('assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4','assets/img/cases/lifestyle/Slider-3-1.webp','reelFashion2','reelRoleDirection')}
+        ${renderReel('assets/img/cases/hair-loss/videos/identit.mp4','assets/img/cases/hair-loss/posters/identit.webp','reelHair1','reelRoleFull')}
+        ${renderReel('assets/img/cases/hair-loss/videos/ClipHearSerum.mp4','assets/img/cases/hair-loss/posters/ClipHearSerum.webp','reelHair2','reelRoleDirection')}
+        ${renderReel('assets/img/cases/sunglasses/videos/VampBest.mp4','assets/img/cases/sunglasses/posters/VampBest.webp','reelOptics1','reelRoleFull')}
+        ${renderReel('assets/img/cases/sunglasses/videos/SG-9.mp4','assets/img/cases/sunglasses/posters/SG-9.webp','reelOptics2','reelRoleDirection')}
+        ${renderReel('assets/img/cases/lifestyle/videos/Llamas_1.mp4','assets/img/cases/lifestyle/posters/Llamas_1.webp','reelFashion1','reelRoleFull')}
+        ${renderReel('assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4','assets/img/cases/lifestyle/posters/Llama_Lifestyle_2.webp','reelFashion2','reelRoleDirection')}
       </div></section>
       <section id="process">${sectionHead('processLabel','processTitle','processIntro')}<div class="process-line">${processes}</div></section>
       <section id="services">${sectionHead('servicesLabel','servicesTitle','servicesIntro')}<div class="offers">${offers}</div></section>
