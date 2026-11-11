@@ -114,6 +114,7 @@
       gallery13Brand: 'Palentina de Aromáticas · Independent concept', gallery13Title: 'A purple flower. A golden story.', gallery13Role: 'Campaign posters · Concept + copy',
       gallery14Brand: 'Palentina de Aromáticas · Independent concept', gallery14Title: 'Beauty is not always delicate.', gallery14Role: 'Land series · Art direction + storytelling',
       case4Category: 'Aromatic plants · Independent concept', case4Title: 'One flower, many industries: a brand world for a lavender cooperative.', case4Problem: 'A farmers’ cooperative in Castile distils lavender into essential oil and sells it as raw material. The story ends where the oil leaves the still.', case4Idea: 'Lavender is more than a scent.', case4World: 'One flower read through four territories — food, drink, material and what remains after distillation — rooted in the dry, wind-swept land it grows on.', case4System: 'A brand idea, four territory moodboards, a poster campaign and a land series that can keep producing stories.', case4Result: 'A self-initiated concept: a research-led brand territory ready to extend into campaigns, packaging and editorial content.', case4Metric1: 'content territories', case4Metric2: 'key visuals', albumOpen: 'Open album', albumClose: 'Close album', albumSeries: 'series', albumImages: 'images', caseNext: 'Next case', casePrev: 'Previous case', scrollHint: 'Scroll sideways',
+      case5Category: 'Saffron · Independent concept', case5Title: 'Making a ceremonial spice part of everyday cooking.', case5Problem: 'Saffron is sold as a luxury for special occasions, so most kitchens open the jar once a year.', case5Idea: 'The slowness is the value.', case5World: 'Two stories from one product: the origin, from field to thread, and the kitchen, where saffron stops waiting for an occasion.', case5System: 'An origin series and a twelve-part kitchen story, built as recurring formats.', case5Result: 'A self-initiated concept that turns provenance and daily use into one repeatable narrative.', case6Category: 'Botanical oils · Strategic brand exercise', case6Title: 'Building a brand story from photographs and research.', case6Problem: 'How do you build a brand story when all you have is a product and a set of references?', case6Idea: 'A bottle is never just a bottle.', case6World: 'A research desk of photographs, plants and notes becomes a moodboard, then a campaign line.', case6System: 'Research desk, moodboard and campaign posters that show the path from material to message.', case6Result: 'A strategic exercise that makes the method visible: from research to brand direction to campaign.', metricSeries: 'series', metricVisuals: 'visuals', caseOpen: 'Read the case', scrollWord: 'Scroll',
       contactLabel: 'Start a project', contactTitle: 'Have an idea that hasn\'t found its shape yet?', contactSupport: 'Tell me what feels unclear, stuck or too much like everyone else. I’ll look at the problem and come back with the most useful next step.', contactButton: 'Tell me about it',
       footer: 'Brand Content Strategy · Creative Direction · Content Systems · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
@@ -175,6 +176,7 @@
       gallery13Brand: 'Palentina de Aromáticas · Независимый концепт', gallery13Title: 'Фиолетовый цветок. Золотая история.', gallery13Role: 'Постеры кампании · Концепция + текст',
       gallery14Brand: 'Palentina de Aromáticas · Независимый концепт', gallery14Title: 'Красота не всегда хрупкая.', gallery14Role: 'Серия о земле · Арт-дирекшн + сторителлинг',
       case4Category: 'Ароматические растения · Независимый концепт', case4Title: 'Один цветок, много индустрий: мир бренда для лавандового кооператива.', case4Problem: 'Фермерский кооператив в Кастилии перегоняет лаванду в эфирное масло и продаёт его как сырьё. История заканчивается там, где масло покидает перегонный куб.', case4Idea: 'Лаванда — больше, чем аромат.', case4World: 'Один цветок, прочитанный через четыре территории — еда, напитки, материал и то, что остаётся после дистилляции, — и укоренённый в сухой, продуваемой ветром земле, на которой он растёт.', case4System: 'Идея бренда, четыре мудборда территорий, постерная кампания и серия о земле, из которых можно продолжать делать истории.', case4Result: 'Самостоятельный концепт: территория бренда, выросшая из исследования и готовая продолжиться в кампаниях, упаковке и редакционном контенте.', case4Metric1: 'контент-территории', case4Metric2: 'ключевых визуалов', albumOpen: 'Открыть альбом', albumClose: 'Закрыть альбом', albumSeries: 'серии', albumImages: 'изображений', caseNext: 'Следующий кейс', casePrev: 'Предыдущий кейс', scrollHint: 'Листайте в сторону',
+      case5Category: 'Шафран · Независимый концепт', case5Title: 'Как сделать церемониальную специю частью повседневной кухни.', case5Problem: 'Шафран продают как роскошь для особых случаев, поэтому на большинстве кухонь баночку открывают раз в год.', case5Idea: 'Ценность — в медленности.', case5World: 'Две истории одного продукта: происхождение, от поля до нити, и кухня, где шафран перестаёт ждать повода.', case5System: 'Серия о происхождении и кухонная история из двенадцати частей, собранные как повторяемые форматы.', case5Result: 'Самостоятельный концепт, который превращает происхождение и ежедневное использование в один повторяемый нарратив.', case6Category: 'Ботанические масла · Стратегическое упражнение', case6Title: 'История бренда, собранная из фотографий и исследования.', case6Problem: 'Как построить историю бренда, когда есть только продукт и набор референсов?', case6Idea: 'Флакон — никогда не просто флакон.', case6World: 'Исследовательский стол с фотографиями, растениями и заметками становится мудбордом, а затем — строкой кампании.', case6System: 'Исследовательский стол, мудборд и постеры кампании, которые показывают путь от материала к сообщению.', case6Result: 'Стратегическое упражнение, которое делает метод видимым: от исследования к направлению бренда и кампании.', metricSeries: 'серии', metricVisuals: 'визуалов', caseOpen: 'Читать кейс', scrollWord: 'Листайте',
       contactLabel: 'Начать проект', contactTitle: 'Есть идея, которая пока не нашла свою форму?', contactSupport: 'Расскажите, что кажется неясным, застряло или слишком похоже на всех остальных. Я посмотрю на задачу и предложу самый полезный следующий шаг.', contactButton: 'Расскажите о ней', footer: 'Стратегия бренд-контента · Креативное руководство · Контент-системы · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
@@ -227,6 +229,7 @@
       gallery13Brand: 'Palentina de Aromáticas · Concepto independiente', gallery13Title: 'Una flor púrpura. Una historia dorada.', gallery13Role: 'Pósters de campaña · Concepto + copy',
       gallery14Brand: 'Palentina de Aromáticas · Concepto independiente', gallery14Title: 'La belleza no siempre es delicada.', gallery14Role: 'Serie sobre la tierra · Dirección de arte + storytelling',
       case4Category: 'Plantas aromáticas · Concepto independiente', case4Title: 'Una flor, muchas industrias: un mundo de marca para una cooperativa de lavanda.', case4Problem: 'Una cooperativa de agricultores de Castilla destila lavanda en aceite esencial y lo vende como materia prima. La historia termina donde el aceite sale del alambique.', case4Idea: 'La lavanda es más que un aroma.', case4World: 'Una flor leída a través de cuatro territorios — comida, bebida, material y lo que queda tras la destilación — y arraigada en la tierra seca y ventosa donde crece.', case4System: 'Una idea de marca, cuatro moodboards de territorio, una campaña de pósters y una serie sobre la tierra que puede seguir generando historias.', case4Result: 'Un concepto de iniciativa propia: un territorio de marca nacido de la investigación, listo para extenderse a campañas, packaging y contenido editorial.', case4Metric1: 'territorios de contenido', case4Metric2: 'visuales clave', albumOpen: 'Abrir álbum', albumClose: 'Cerrar álbum', albumSeries: 'series', albumImages: 'imágenes', caseNext: 'Caso siguiente', casePrev: 'Caso anterior', scrollHint: 'Desliza hacia un lado',
+      case5Category: 'Azafrán · Concepto independiente', case5Title: 'Convertir una especia ceremonial en parte de la cocina diaria.', case5Problem: 'El azafrán se vende como un lujo para ocasiones especiales, así que en la mayoría de las cocinas el bote se abre una vez al año.', case5Idea: 'El valor está en la lentitud.', case5World: 'Dos historias de un mismo producto: el origen, del campo al hilo, y la cocina, donde el azafrán deja de esperar una ocasión.', case5System: 'Una serie de origen y una historia de cocina en doce partes, construidas como formatos recurrentes.', case5Result: 'Un concepto de iniciativa propia que convierte la procedencia y el uso diario en una sola narrativa repetible.', case6Category: 'Aceites botánicos · Ejercicio estratégico de marca', case6Title: 'Construir la historia de una marca a partir de fotografías e investigación.', case6Problem: '¿Cómo se construye la historia de una marca cuando solo hay un producto y un conjunto de referencias?', case6Idea: 'Un frasco nunca es solo un frasco.', case6World: 'Una mesa de investigación con fotografías, plantas y notas se convierte en moodboard y después en una línea de campaña.', case6System: 'Mesa de investigación, moodboard y pósters de campaña que muestran el camino del material al mensaje.', case6Result: 'Un ejercicio estratégico que hace visible el método: de la investigación a la dirección de marca y a la campaña.', metricSeries: 'series', metricVisuals: 'visuales', caseOpen: 'Leer el caso', scrollWord: 'Desliza',
       contactLabel: 'Iniciar un proyecto', contactTitle: '¿Tienes una idea que todavía no ha encontrado su forma?', contactSupport: 'Cuéntame qué se siente poco claro, bloqueado o demasiado parecido a todo lo demás. Analizaré el problema y volveré con el siguiente paso más útil.', contactButton: 'Cuéntame', footer: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
@@ -277,6 +280,7 @@
       gallery13Brand: 'Palentina de Aromáticas · Concept indipendente', gallery13Title: 'Un fiore viola. Una storia dorata.', gallery13Role: 'Poster di campagna · Concept + copy',
       gallery14Brand: 'Palentina de Aromáticas · Concept indipendente', gallery14Title: 'La bellezza non è sempre delicata.', gallery14Role: 'Serie sulla terra · Art direction + storytelling',
       case4Category: 'Piante aromatiche · Concept indipendente', case4Title: 'Un fiore, molte industrie: un mondo di marca per una cooperativa di lavanda.', case4Problem: 'Una cooperativa di agricoltori in Castiglia distilla la lavanda in olio essenziale e lo vende come materia prima. La storia finisce dove l’olio lascia l’alambicco.', case4Idea: 'La lavanda è più di un profumo.', case4World: 'Un fiore letto attraverso quattro territori — cibo, bevande, materiali e ciò che resta dopo la distillazione — e radicato nella terra secca e ventosa in cui cresce.', case4System: 'Un’idea di brand, quattro moodboard di territorio, una campagna di poster e una serie sulla terra che può continuare a generare storie.', case4Result: 'Un concept di iniziativa personale: un territorio di marca nato dalla ricerca, pronto a estendersi a campagne, packaging e contenuti editoriali.', case4Metric1: 'territori di contenuto', case4Metric2: 'visual chiave', albumOpen: 'Apri l’album', albumClose: 'Chiudi l’album', albumSeries: 'serie', albumImages: 'immagini', caseNext: 'Caso successivo', casePrev: 'Caso precedente', scrollHint: 'Scorri di lato',
+      case5Category: 'Zafferano · Concept indipendente', case5Title: 'Portare una spezia cerimoniale nella cucina di ogni giorno.', case5Problem: 'Lo zafferano viene venduto come un lusso per le occasioni speciali, così nella maggior parte delle cucine il barattolo si apre una volta all’anno.', case5Idea: 'Il valore è nella lentezza.', case5World: 'Due storie da un solo prodotto: l’origine, dal campo al filo, e la cucina, dove lo zafferano smette di aspettare un’occasione.', case5System: 'Una serie sull’origine e una storia in cucina in dodici parti, costruite come formati ricorrenti.', case5Result: 'Un concept di iniziativa personale che trasforma provenienza e uso quotidiano in un’unica narrazione ripetibile.', case6Category: 'Oli botanici · Esercizio strategico di brand', case6Title: 'Costruire la storia di un brand da fotografie e ricerca.', case6Problem: 'Come si costruisce la storia di un brand quando si hanno solo un prodotto e una serie di riferimenti?', case6Idea: 'Una bottiglia non è mai solo una bottiglia.', case6World: 'Un tavolo di ricerca con fotografie, piante e appunti diventa un moodboard e poi una linea di campagna.', case6System: 'Tavolo di ricerca, moodboard e poster di campagna che mostrano il percorso dal materiale al messaggio.', case6Result: 'Un esercizio strategico che rende visibile il metodo: dalla ricerca alla direzione di brand alla campagna.', metricSeries: 'serie', metricVisuals: 'visual', caseOpen: 'Leggi il caso', scrollWord: 'Scorri',
       contactLabel: 'Avvia un progetto', contactTitle: 'Hai un’idea che non ha ancora trovato la sua forma?', contactSupport: 'Raccontami cosa non è chiaro, cosa si è bloccato o cosa assomiglia troppo a tutto il resto. Guarderò il problema e tornerò con il passo successivo più utile.', contactButton: 'Raccontamela', footer: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuti · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
@@ -327,6 +331,7 @@
       gallery13Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery13Title: 'Фіялетавая кветка. Залатая гісторыя.', gallery13Role: 'Постэры кампаніі · Канцэпцыя + тэкст',
       gallery14Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery14Title: 'Прыгажосць не заўсёды кволая.', gallery14Role: 'Серыя пра зямлю · Арт-дырэкшн + сторытэлінг',
       case4Category: 'Араматычныя расліны · Незалежны канцэпт', case4Title: 'Адна кветка, шмат індустрый: свет брэнда для лавандавага кааператыва.', case4Problem: 'Фермерскі кааператыў у Кастыліі пераганяе лаванду ў эфірны алей і прадае яго як сыравіну. Гісторыя заканчваецца там, дзе алей пакідае перагонны куб.', case4Idea: 'Лаванда — больш, чым водар.', case4World: 'Адна кветка, прачытаная праз чатыры тэрыторыі — ежа, напоі, матэрыял і тое, што застаецца пасля дыстыляцыі, — і ўкаранёная ў сухой, ветранай зямлі, на якой яна расце.', case4System: 'Ідэя брэнда, чатыры мудборды тэрыторый, постэрная кампанія і серыя пра зямлю, з якіх можна працягваць рабіць гісторыі.', case4Result: 'Самастойны канцэпт: тэрыторыя брэнда, якая вырасла з даследавання і гатовая працягнуцца ў кампаніях, упакоўцы і рэдакцыйным кантэнце.', case4Metric1: 'кантэнт-тэрыторыі', case4Metric2: 'ключавых візуалаў', albumOpen: 'Адкрыць альбом', albumClose: 'Закрыць альбом', albumSeries: 'серыі', albumImages: 'выяў', caseNext: 'Наступны кейс', casePrev: 'Папярэдні кейс', scrollHint: 'Гартайце ўбок',
+      case5Category: 'Шафран · Незалежны канцэпт', case5Title: 'Як зрабіць цырыманіяльную спецыю часткай штодзённай кухні.', case5Problem: 'Шафран прадаюць як раскошу для асаблівых выпадкаў, таму на большасці кухняў слоік адкрываюць раз на год.', case5Idea: 'Каштоўнасць — у павольнасці.', case5World: 'Дзве гісторыі аднаго прадукту: паходжанне, ад поля да ніткі, і кухня, дзе шафран перастае чакаць нагоды.', case5System: 'Серыя пра паходжанне і кухонная гісторыя з дванаццаці частак, сабраныя як паўтаральныя фарматы.', case5Result: 'Самастойны канцэпт, які ператварае паходжанне і штодзённае выкарыстанне ў адзін паўтаральны наратыў.', case6Category: 'Батанічныя алеі · Стратэгічнае практыкаванне', case6Title: 'Гісторыя брэнда, сабраная з фотаздымкаў і даследавання.', case6Problem: 'Як пабудаваць гісторыю брэнда, калі ёсць толькі прадукт і набор рэферэнсаў?', case6Idea: 'Флакон — ніколі не проста флакон.', case6World: 'Даследчы стол з фотаздымкамі, раслінамі і нататкамі становіцца мудбордам, а потым — радком кампаніі.', case6System: 'Даследчы стол, мудборд і постэры кампаніі, якія паказваюць шлях ад матэрыялу да паведамлення.', case6Result: 'Стратэгічнае практыкаванне, якое робіць метад бачным: ад даследавання да напрамку брэнда і кампаніі.', metricSeries: 'серыі', metricVisuals: 'візуалаў', caseOpen: 'Чытаць кейс', scrollWord: 'Гартайце',
       contactLabel: 'Пачаць праект', contactTitle: 'Ёсць ідэя, якая пакуль не знайшла сваю форму?', contactSupport: 'Раскажыце, што застаецца няясным, затрымалася або занадта падобнае да ўсяго астатняга. Я пагляджу на задачу і прапаную найбольш карысны наступны крок.', contactButton: 'Раскажыце пра яе', footer: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
     }
   };
@@ -369,31 +374,41 @@
       haircare: ['Competitor intelligence', 'Brand manifesto', 'Positioning', 'Communication rules', '12-month masterplan', 'Content pillars', 'Evergreen formats', 'Hook library', 'Highlights architecture', 'Monthly content calendars', 'Compliance framework', 'Production workflow'],
       optics: ['Competitor analysis', 'Manifesto', 'Tone of voice', 'Positioning', 'Content pillars', 'Visual direction', 'Hook system', 'Editorial rhythm', 'KPI framework', 'Content calendar'],
       fashion: ['Audience portrait', 'Positioning', 'Seasonal narrative', 'Communication rules', 'Content matrix', 'Content pillars', 'Repeatable formats', 'Annual masterplan', 'Production calendar', 'Story briefs'],
-      lavender: ['Territory research', 'Brand idea', 'Moodboards', 'Campaign concept', 'Poster series', 'Copywriting', 'Art direction', 'Land narrative']
+      lavender: ['Territory research', 'Brand idea', 'Moodboards', 'Campaign concept', 'Poster series', 'Copywriting', 'Art direction', 'Land narrative'],
+      saffron: ['Origin story', 'Product narrative', 'Kitchen series', 'Creative direction', 'Copywriting', 'Recurring formats'],
+      labiatae: ['Research desk', 'Moodboard', 'Brand direction', 'Campaign concept', 'Copywriting']
     },
     ru: {
       haircare: ['Анализ конкурентов', 'Манифест бренда', 'Позиционирование', 'Правила коммуникации', 'Мастер-план на 12 месяцев', 'Контент-рубрики', 'Постоянные форматы', 'Библиотека хуков', 'Архитектура Highlights', 'Ежемесячные контент-календари', 'Система compliance', 'Процесс производства'],
       optics: ['Анализ конкурентов', 'Манифест', 'Tone of voice', 'Позиционирование', 'Контент-рубрики', 'Визуальное направление', 'Система хуков', 'Редакционный ритм', 'KPI-фреймворк', 'Контент-календарь'],
       fashion: ['Портрет аудитории', 'Позиционирование', 'Сезонный нарратив', 'Правила коммуникации', 'Контент-матрица', 'Контент-рубрики', 'Повторяемые форматы', 'Годовой мастер-план', 'Производственный календарь', 'Брифы историй'],
-      lavender: ['Исследование территории', 'Идея бренда', 'Мудборды', 'Концепция кампании', 'Серия постеров', 'Копирайтинг', 'Арт-дирекшн', 'Нарратив земли']
+      lavender: ['Исследование территории', 'Идея бренда', 'Мудборды', 'Концепция кампании', 'Серия постеров', 'Копирайтинг', 'Арт-дирекшн', 'Нарратив земли'],
+      saffron: ['История происхождения', 'Нарратив продукта', 'Кухонная серия', 'Креативное направление', 'Копирайтинг', 'Повторяемые форматы'],
+      labiatae: ['Исследовательский стол', 'Мудборд', 'Направление бренда', 'Концепция кампании', 'Копирайтинг']
     },
     es: {
       haircare: ['Inteligencia competitiva', 'Manifiesto de marca', 'Posicionamiento', 'Reglas de comunicación', 'Plan de 12 meses', 'Pilares de contenido', 'Formatos evergreen', 'Biblioteca de hooks', 'Arquitectura de Highlights', 'Calendarios mensuales', 'Marco de compliance', 'Flujo de producción'],
       optics: ['Análisis competitivo', 'Manifiesto', 'Tono de voz', 'Posicionamiento', 'Pilares de contenido', 'Dirección visual', 'Sistema de hooks', 'Ritmo editorial', 'Marco de KPIs', 'Calendario de contenido'],
       fashion: ['Perfil de audiencia', 'Posicionamiento', 'Narrativa estacional', 'Reglas de comunicación', 'Matriz de contenido', 'Pilares de contenido', 'Formatos repetibles', 'Plan anual', 'Calendario de producción', 'Briefs narrativos'],
-      lavender: ['Investigación del territorio', 'Idea de marca', 'Moodboards', 'Concepto de campaña', 'Serie de pósters', 'Copywriting', 'Dirección de arte', 'Narrativa de la tierra']
+      lavender: ['Investigación del territorio', 'Idea de marca', 'Moodboards', 'Concepto de campaña', 'Serie de pósters', 'Copywriting', 'Dirección de arte', 'Narrativa de la tierra'],
+      saffron: ['Historia de origen', 'Narrativa de producto', 'Serie de cocina', 'Dirección creativa', 'Copywriting', 'Formatos recurrentes'],
+      labiatae: ['Mesa de investigación', 'Moodboard', 'Dirección de marca', 'Concepto de campaña', 'Copywriting']
     },
     it: {
       haircare: ['Analisi competitiva', 'Manifesto di marca', 'Posizionamento', 'Regole di comunicazione', 'Masterplan di 12 mesi', 'Content pillar', 'Formati evergreen', 'Libreria di hook', 'Architettura Highlights', 'Calendari mensili', 'Framework di compliance', 'Flusso di produzione'],
       optics: ['Analisi competitiva', 'Manifesto', 'Tone of voice', 'Posizionamento', 'Content pillar', 'Direzione visiva', 'Sistema di hook', 'Ritmo editoriale', 'Framework KPI', 'Calendario editoriale'],
       fashion: ['Profilo del pubblico', 'Posizionamento', 'Narrazione stagionale', 'Regole di comunicazione', 'Matrice dei contenuti', 'Content pillar', 'Formati ripetibili', 'Masterplan annuale', 'Calendario di produzione', 'Brief narrativi'],
-      lavender: ['Ricerca sul territorio', 'Idea di brand', 'Moodboard', 'Concept di campagna', 'Serie di poster', 'Copywriting', 'Art direction', 'Narrazione della terra']
+      lavender: ['Ricerca sul territorio', 'Idea di brand', 'Moodboard', 'Concept di campagna', 'Serie di poster', 'Copywriting', 'Art direction', 'Narrazione della terra'],
+      saffron: ['Storia d’origine', 'Narrazione di prodotto', 'Serie in cucina', 'Direzione creativa', 'Copywriting', 'Formati ricorrenti'],
+      labiatae: ['Tavolo di ricerca', 'Moodboard', 'Direzione di brand', 'Concept di campagna', 'Copywriting']
     },
     by: {
       haircare: ['Аналіз канкурэнтаў', 'Маніфест брэнда', 'Пазіцыянаванне', 'Правілы камунікацыі', 'Майстар-план на 12 месяцаў', 'Кантэнт-рубрыкі', 'Пастаянныя фарматы', 'Бібліятэка хукаў', 'Архітэктура Highlights', 'Штомесячныя кантэнт-календары', 'Сістэма compliance', 'Вытворчы працэс'],
       optics: ['Аналіз канкурэнтаў', 'Маніфест', 'Tone of voice', 'Пазіцыянаванне', 'Кантэнт-рубрыкі', 'Візуальны напрамак', 'Сістэма хукаў', 'Рэдакцыйны рытм', 'KPI-фрэймворк', 'Кантэнт-каляндар'],
       fashion: ['Партрэт аўдыторыі', 'Пазіцыянаванне', 'Сезонны наратыў', 'Правілы камунікацыі', 'Кантэнт-матрыца', 'Кантэнт-рубрыкі', 'Паўтаральныя фарматы', 'Гадавы майстар-план', 'Вытворчы каляндар', 'Брыфы гісторый'],
-      lavender: ['Даследаванне тэрыторыі', 'Ідэя брэнда', 'Мудборды', 'Канцэпцыя кампаніі', 'Серыя постэраў', 'Капірайтынг', 'Арт-дырэкшн', 'Наратыў зямлі']
+      lavender: ['Даследаванне тэрыторыі', 'Ідэя брэнда', 'Мудборды', 'Канцэпцыя кампаніі', 'Серыя постэраў', 'Капірайтынг', 'Арт-дырэкшн', 'Наратыў зямлі'],
+      saffron: ['Гісторыя паходжання', 'Наратыў прадукту', 'Кухонная серыя', 'Крэатыўны напрамак', 'Капірайтынг', 'Паўтаральныя фарматы'],
+      labiatae: ['Даследчы стол', 'Мудборд', 'Напрамак брэнда', 'Канцэпцыя кампаніі', 'Капірайтынг']
     }
   };
 
@@ -467,8 +482,71 @@
     </article>`;
   }
 
-  function renderReel(src, poster, titleKey, roleKey) {
-    return `<figure class="reel-card reveal"><div class="reel-media"><video controls muted playsinline preload="none" poster="${poster}" aria-label="${en[titleKey]}"><source src="${src}" type="video/mp4"></video></div><figcaption><span class="reel-title" data-i18n="${titleKey}">${en[titleKey]}</span><span class="reel-role" data-i18n="${roleKey}">${en[roleKey]}</span></figcaption></figure>`;
+
+  const CASES = [
+    { n: 1, tags: 'haircare', cover: 'assets/img/cases/hair-loss/Slider-1-1.webp', metrics: [{ value: '200+', key: 'case1Metric1' }, { value: '12', key: 'case1Metric2' }, { value: '6+', key: 'case1Metric3' }], testimonial: true, media: ['assets/img/cases/hair-loss/Slider-1-1.webp', 'assets/img/cases/hair-loss/Slider-4-1.webp', 'assets/img/cases/hair-loss/Slider-4-4.webp'] },
+    { n: 2, tags: 'optics', cover: 'assets/img/cases/sunglasses/6-1.webp', metrics: [{ value: '150+', key: 'case2Metric1' }], media: ['assets/img/cases/sunglasses/Carusel-cover.webp', 'assets/img/cases/sunglasses/99.webp', 'assets/img/cases/sunglasses/post3_feed.webp'] },
+    { n: 3, tags: 'fashion', cover: 'assets/img/cases/lifestyle/Holly-0.webp', metrics: null, media: ['assets/img/cases/lifestyle/Holly-0.webp', 'assets/img/cases/lifestyle/Slider-3-1.webp', 'assets/img/cases/lifestyle/LS-1.webp'] },
+    { n: 4, tags: 'lavender', cover: 'assets/img/cases/lavender/idea-02.webp', metrics: [{ value: '4', key: 'case4Metric1' }, { value: '13', key: 'case4Metric2' }], media: ['assets/img/cases/lavender/idea-01.webp', 'assets/img/cases/lavender/campaign-01.webp', 'assets/img/cases/lavender/land-01.webp'] },
+    { n: 5, tags: 'saffron', cover: 'assets/img/cases/saffron/origin-01.webp', metrics: [{ value: '2', key: 'metricSeries' }, { value: '18', key: 'metricVisuals' }], media: ['assets/img/cases/saffron/origin-01.webp', 'assets/img/cases/saffron/kitchen-01.webp', 'assets/img/cases/saffron/origin-03.webp'] },
+    { n: 6, tags: 'labiatae', cover: 'assets/img/cases/labiatae/campaign-01.webp', metrics: [{ value: '2', key: 'metricSeries' }, { value: '5', key: 'metricVisuals' }], media: ['assets/img/cases/labiatae/research-01.webp', 'assets/img/cases/labiatae/campaign-01.webp', 'assets/img/cases/labiatae/campaign-02.webp'] }
+  ];
+
+  // Add a video here to lengthen the motion strip: poster is a frame from the clip.
+  const REELS = [
+    { src: 'hair-loss/videos/identit.mp4', poster: 'hair-loss/posters/identit.webp', title: 'reelHair1', role: 'reelRoleFull' },
+    { src: 'sunglasses/videos/VampBest.mp4', poster: 'sunglasses/posters/VampBest.webp', title: 'reelOptics1', role: 'reelRoleFull' },
+    { src: 'lifestyle/videos/Llamas_1.mp4', poster: 'lifestyle/posters/Llamas_1.webp', title: 'reelFashion1', role: 'reelRoleFull' },
+    { src: 'hair-loss/videos/ClipHearSerum.mp4', poster: 'hair-loss/posters/ClipHearSerum.webp', title: 'reelHair2', role: 'reelRoleDirection' },
+    { src: 'sunglasses/videos/SG-9.mp4', poster: 'sunglasses/posters/SG-9.webp', title: 'reelOptics2', role: 'reelRoleDirection' },
+    { src: 'lifestyle/videos/Llama_Lifestyle_2.mp4', poster: 'lifestyle/posters/Llama_Lifestyle_2.webp', title: 'reelFashion2', role: 'reelRoleDirection' },
+    { src: 'hair-loss/videos/HearSerumNuar.mp4', poster: 'hair-loss/posters/HearSerumNuar.webp', title: 'gallery1Brand' },
+    { src: 'sunglasses/videos/SG-7.mp4', poster: 'sunglasses/posters/SG-7.webp', title: 'gallery3Brand' },
+    { src: 'lifestyle/videos/5.mp4', poster: 'lifestyle/posters/5.webp', title: 'gallery5Brand' },
+    { src: 'hair-loss/videos/video1.mp4', poster: 'hair-loss/posters/video1.webp', title: 'gallery1Brand' },
+    { src: 'sunglasses/videos/SG-10.mp4', poster: 'sunglasses/posters/SG-10.webp', title: 'gallery3Brand' },
+    { src: 'sunglasses/videos/SG-5.mp4', poster: 'sunglasses/posters/SG-5.webp', title: 'gallery3Brand' }
+  ];
+
+  function renderCaseCard(item) {
+    const n = item.n;
+    return `<article class="case-card" data-case-card="${n - 1}">
+      <div class="case-card-media"><img src="${item.cover}" loading="lazy" decoding="async" alt="${en[`case${n}Title`]}" data-i18n-alt="case${n}Title"></div>
+      <div class="case-card-body">
+        <div class="case-card-top"><span class="case-card-num" aria-hidden="true">0${n}</span><span class="case-card-category eyebrow" data-i18n="case${n}Category">${en[`case${n}Category`]}</span></div>
+        <h3 data-i18n="case${n}Title">${en[`case${n}Title`]}</h3>
+        <div class="case-card-idea"><span class="case-card-label" data-i18n="idea">${en.idea}</span><p data-i18n="case${n}Idea">${en[`case${n}Idea`]}</p></div>
+        <div class="case-card-result"><span class="case-card-label" data-i18n="result">${en.result}</span><p data-i18n="case${n}Result">${en[`case${n}Result`]}</p></div>
+        <div class="case-card-foot">
+          ${item.metrics ? `<div class="case-metrics">${item.metrics.map(metric => `<div class="case-metric"><strong>${metric.value}</strong><span data-i18n="${metric.key}">${en[metric.key]}</span></div>`).join('')}</div>` : '<span></span>'}
+          <button class="case-open" type="button" data-case-open="${n - 1}"><span data-i18n="caseOpen">${en.caseOpen}</span> &#8594;</button>
+        </div>
+      </div>
+    </article>`;
+  }
+
+  function renderWork() {
+    const words = ['idea', 'world', 'system', 'result'];
+    return `<section id="work">
+      <div class="work-stage">
+        <div class="work-eyebrow">${element('div', 'workLabel', 'section-label')}${element('h2', 'workTitle', 'work-title')}</div>
+        <div class="drum" aria-hidden="true">${words.map((key, index) => `<div class="face${index === 1 ? ' face--accent' : ''}" data-i18n="${key}">${en[key]}</div>`).join('')}</div>
+        ${CASES.map((item, index) => `<div class="orb${index === 0 ? ' orb--hero' : ''}" aria-hidden="true"><img src="${item.cover}" loading="lazy" decoding="async" alt=""></div>`).join('')}
+        <div class="case-reel" id="caseReel">${CASES.map(renderCaseCard).join('')}</div>
+        <div class="work-hint" aria-hidden="true"><span class="work-count" id="workCount">01 / 0${CASES.length}</span><span data-i18n="scrollWord">${en.scrollWord}</span></div>
+      </div>
+      <div class="case-panel" id="casePanel" role="dialog" aria-modal="true" hidden>
+        <div class="case-panel-bar"><button class="album-close case-close" type="button" id="caseClose"><span data-i18n="close">${en.close}</span> &#10005;</button></div>
+        <div class="case-panel-scroll">
+        ${CASES.map(item => renderCase(`0${item.n}`, `case${item.n}Category`, `case${item.n}Title`, `case${item.n}Problem`, `case${item.n}Idea`, `case${item.n}World`, `case${item.n}System`, `case${item.n}Result`, item.tags, item.metrics, Boolean(item.testimonial), item.media)).join('')}
+        </div>
+      </div>
+    </section>`;
+  }
+
+  function renderReel(item) {
+    const base = 'assets/img/cases/';
+    return `<figure class="reel-card"><div class="reel-media"><video controls muted playsinline preload="none" poster="${base}${item.poster}" aria-label="${en[item.title]}"><source src="${base}${item.src}" type="video/mp4"></video></div><figcaption>${item.role ? `<span class="reel-role" data-i18n="${item.role}">${en[item.role]}</span>` : ''}<span class="reel-title" data-i18n="${item.title}">${en[item.title]}</span></figcaption></figure>`;
   }
 
   function renderThinking() {
@@ -493,6 +571,7 @@
           ${element('p','thinkingSupport','thinking-support')}
         </div>
       </div>
+      <div class="text-band" aria-hidden="true"><div class="text-band-track">${[1,2,3,4].map(() => `<span data-i18n="thinkingApplications">${en.thinkingApplications}</span>`).join('')}</div></div>
     </section>`;
   }
 
@@ -505,23 +584,8 @@
       <section id="proof" aria-labelledby="proof-title"><div class="proof-heading eyebrow" id="proof-title" data-i18n="proofHeading">${en.proofHeading}</div><div class="metrics-grid">${metrics}</div></section>
       <section id="expertise">${sectionHead('expertiseLabel','expertiseTitle','expertiseIntro')}<div class="capability-list">${capabilities}</div></section>
       ${renderThinking()}
-      <section id="work">${sectionHead('workLabel','workTitle','workIntro')}
-        <div class="case-nav reveal"><div class="case-tabs" role="tablist">${[1,2,3,4].map(n => `<button class="case-tab" type="button" role="tab" data-case-index="${n-1}"><span class="case-tab-num">0${n}</span><span class="case-tab-name" data-i18n="case${n}Category">${en[`case${n}Category`]}</span></button>`).join('')}</div><div class="rail-arrows"><button class="rail-btn" type="button" data-case-dir="-1" data-i18n-aria-label="casePrev" aria-label="${en.casePrev}">&#8592;</button><button class="rail-btn" type="button" data-case-dir="1" data-i18n-aria-label="caseNext" aria-label="${en.caseNext}">&#8594;</button></div></div>
-        <div class="case-track">
-        ${renderCase('01','case1Category','case1Title','case1Problem','case1Idea','case1World','case1System','case1Result','haircare',[{value:'200+',key:'case1Metric1'},{value:'12',key:'case1Metric2'},{value:'6+',key:'case1Metric3'}],true,['assets/img/cases/hair-loss/Slider-1-1.webp','assets/img/cases/hair-loss/Slider-4-1.webp','assets/img/cases/hair-loss/Slider-4-4.webp'])}
-        ${renderCase('02','case2Category','case2Title','case2Problem','case2Idea','case2World','case2System','case2Result','optics',[{value:'150+',key:'case2Metric1'}],false,['assets/img/cases/sunglasses/Carusel-cover.webp','assets/img/cases/sunglasses/99.webp','assets/img/cases/sunglasses/post3_feed.webp'])}
-        ${renderCase('03','case3Category','case3Title','case3Problem','case3Idea','case3World','case3System','case3Result','fashion',null,false,['assets/img/cases/lifestyle/Holly-0.webp','assets/img/cases/lifestyle/Slider-3-1.webp','assets/img/cases/lifestyle/LS-1.webp'])}
-        ${renderCase('04','case4Category','case4Title','case4Problem','case4Idea','case4World','case4System','case4Result','lavender',[{value:'4',key:'case4Metric1'},{value:'13',key:'case4Metric2'}],false,['assets/img/cases/lavender/idea-01.webp','assets/img/cases/lavender/campaign-01.webp','assets/img/cases/lavender/land-01.webp'])}
-        </div>
-      </section>
-      <section id="reels">${sectionHead('reelsLabel','reelsTitle','reelsIntro')}<div class="reels-grid">
-        ${renderReel('assets/img/cases/hair-loss/videos/identit.mp4','assets/img/cases/hair-loss/posters/identit.webp','reelHair1','reelRoleFull')}
-        ${renderReel('assets/img/cases/hair-loss/videos/ClipHearSerum.mp4','assets/img/cases/hair-loss/posters/ClipHearSerum.webp','reelHair2','reelRoleDirection')}
-        ${renderReel('assets/img/cases/sunglasses/videos/VampBest.mp4','assets/img/cases/sunglasses/posters/VampBest.webp','reelOptics1','reelRoleFull')}
-        ${renderReel('assets/img/cases/sunglasses/videos/SG-9.mp4','assets/img/cases/sunglasses/posters/SG-9.webp','reelOptics2','reelRoleDirection')}
-        ${renderReel('assets/img/cases/lifestyle/videos/Llamas_1.mp4','assets/img/cases/lifestyle/posters/Llamas_1.webp','reelFashion1','reelRoleFull')}
-        ${renderReel('assets/img/cases/lifestyle/videos/Llama_Lifestyle_2.mp4','assets/img/cases/lifestyle/posters/Llama_Lifestyle_2.webp','reelFashion2','reelRoleDirection')}
-      </div></section>
+      ${renderWork()}
+      <section id="reels">${sectionHead('reelsLabel','reelsTitle','reelsIntro')}<div class="marquee" data-marquee-direction="-1"><div class="reels-grid marquee-track">${REELS.map(renderReel).join('')}</div></div></section>
       <section id="process">${sectionHead('processLabel','processTitle','processIntro')}<div class="process-line">${processes}</div></section>
       <section id="services">${sectionHead('servicesLabel','servicesTitle','servicesIntro')}<div class="offers">${offers}</div></section>
       <section id="about"><div class="about-layout"><div class="about-portrait reveal"><img src="assets/img/hero/Kat-editorial-bw.jpg" width="1086" height="1448" loading="lazy" decoding="async" alt="${en.heroAlt}" data-i18n-alt="heroAlt"></div><div class="about-copy reveal">${element('div','aboutLabel','section-label')}${element('h2','aboutTitle','')}<div class="about-story"><p class="about-rhythm">${[1,2,3].map(n => element('span',`aboutRhythm${n}`,'')).join('')}</p>${element('p','aboutDetails','about-details')}${element('p','aboutExperience','about-experience')}<p class="about-method">${[1,2,3].map(n => element('span',`aboutMethod${n}`,'')).join('')}</p></div>${element('p','aboutCredential','about-credentials')}</div><div class="about-proof reveal"><div class="credibility-list">${[1,2,3].map(n => `<div class="credibility-item"><strong data-i18n="cred${n}Title">${en[`cred${n}Title`]}</strong><span data-i18n="cred${n}Copy">${en[`cred${n}Copy`]}</span></div>`).join('')}</div>${element('p','aboutLanguages','about-languages')}</div></div></section>`;
@@ -631,7 +695,7 @@
         const titleKey = item.querySelector('.gallery-caption-title').dataset.i18n;
         return `<span class="album-title-line" data-i18n="${titleKey}">${en[titleKey]}</span>`;
       }).join('');
-      return `<button class="album-card reveal" type="button" data-album="${key}" data-brand-key="${brandKey}" aria-haspopup="dialog">
+      return `<button class="album-card" type="button" data-album="${key}" data-brand-key="${brandKey}" aria-haspopup="dialog">
         <span class="album-cover"><img src="${cover}" loading="lazy" decoding="async" alt=""></span>
         <span class="album-body">
           <span class="album-index">0${index + 1}</span>
@@ -642,7 +706,7 @@
         </span>
       </button>`;
     }).join('');
-    grid.insertAdjacentHTML('beforebegin', `<div class="rail-wrap"><div class="rail-arrows rail-arrows--light"><button class="rail-btn" type="button" data-rail-dir="-1" data-i18n-aria-label="previous" aria-label="${en.previous}">&#8592;</button><button class="rail-btn" type="button" data-rail-dir="1" data-i18n-aria-label="next" aria-label="${en.next}">&#8594;</button></div><div class="album-rail rail" id="albumRail">${cards}</div></div>
+    grid.insertAdjacentHTML('beforebegin', `<div class="marquee" data-marquee-direction="1"><div class="album-rail marquee-track" id="albumRail">${cards}</div></div>
       <div class="album-panel" id="albumPanel" role="dialog" aria-modal="true" aria-labelledby="albumPanelBrand" hidden>
         <div class="album-panel-bar"><div class="album-panel-brand" id="albumPanelBrand"></div><button class="album-close" type="button" id="albumClose"><span data-i18n="albumClose">${en.albumClose}</span> &#10005;</button></div>
       </div>`);
@@ -659,20 +723,23 @@
     let opener = null;
     const close = () => {
       panel.classList.remove('open');
-      document.body.classList.remove('album-open');
+      document.body.classList.remove('overlay-open');
       window.setTimeout(() => { if (!panel.classList.contains('open')) panel.hidden = true; }, 450);
       opener?.focus({ preventScroll: true });
     };
-    document.querySelectorAll('.album-card').forEach(card => card.addEventListener('click', () => {
+    if (panel.parentElement !== document.body) document.body.appendChild(panel);
+    document.getElementById('albumRail').addEventListener('click', event => {
+      const card = event.target.closest('.album-card');
+      if (!card || card.closest('.marquee')?.dataset.dragged === '1') return;
       opener = card;
       grid.querySelectorAll('.gallery-item').forEach(item => { item.hidden = item.dataset.case !== card.dataset.album; });
       brand.dataset.i18n = card.dataset.brandKey;
       brand.innerHTML = card.querySelector('.album-brand').innerHTML;
       panel.hidden = false;
       grid.scrollLeft = 0;
-      document.body.classList.add('album-open');
+      document.body.classList.add('overlay-open');
       window.requestAnimationFrame(() => { panel.classList.add('open'); document.getElementById('albumClose').focus({ preventScroll: true }); });
-    }));
+    });
     document.getElementById('albumClose').addEventListener('click', close);
     grid.addEventListener('wheel', event => {
       if (Math.abs(event.deltaY) <= Math.abs(event.deltaX) || grid.scrollWidth <= grid.clientWidth) return;
@@ -731,109 +798,261 @@
   }
 
 
-  function bindPinnedRails() {
-    const query = window.matchMedia('(min-width: 901px) and (prefers-reduced-motion: no-preference)');
-    const SPEED = .55;
-    const MIN_FIT = .78;
-    const panel = document.getElementById('albumPanel');
-    if (panel && panel.parentElement !== document.body) document.body.appendChild(panel);
-    const rails = [
-      { section: document.getElementById('work'), track: document.querySelector('.case-track'), direction: 1, focus: .045, settle: true },
-      { section: document.getElementById('gallery'), track: document.getElementById('albumRail'), direction: -1, focus: .04 }
-    ].filter(rail => rail.section && rail.track);
-    rails.forEach(rail => {
-      const inner = document.createElement('div');
-      inner.className = 'pin-inner';
-      while (rail.section.firstChild) inner.appendChild(rail.section.firstChild);
-      rail.section.appendChild(inner);
-      rail.inner = inner;
-      rail.items = [...rail.track.children];
-      rail.current = 0;
-      rail.active = false;
-      rail.track.pinGoTo = progress => {
-        const top = rail.section.getBoundingClientRect().top + window.scrollY - rail.navHeight;
-        window.scrollTo({ top: top + progress * rail.distance, behavior: 'smooth' });
-      };
+  function bindWorkStage() {
+    const section = document.getElementById('work');
+    const stage = section?.querySelector('.work-stage');
+    if (!stage) return;
+    const reel = document.getElementById('caseReel');
+    const cards = [...reel.children];
+    const drum = stage.querySelector('.drum');
+    const orbs = [...stage.querySelectorAll('.orb')];
+    const eyebrow = stage.querySelector('.work-eyebrow');
+    const hint = stage.querySelector('.work-hint');
+    const count = document.getElementById('workCount');
+    const panel = document.getElementById('casePanel');
+    const studies = [...panel.querySelectorAll('.case-study')];
+    const lightbox = document.getElementById('lightbox');
+    const query = window.matchMedia('(min-width: 901px) and (min-height: 560px) and (prefers-reduced-motion: no-preference)');
+    const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+    const smooth = t => t * t * (3 - 2 * t);
+    const A = .26;
+    const B = .38;
+    let active = false;
+    let opener = null;
+
+    if (panel.parentElement !== document.body) document.body.appendChild(panel);
+    studies.forEach(study => { study.classList.remove('reveal'); study.hidden = true; });
+    const closePanel = () => {
+      panel.classList.remove('open');
+      document.body.classList.remove('overlay-open');
+      window.setTimeout(() => { if (!panel.classList.contains('open')) panel.hidden = true; }, 450);
+      opener?.focus({ preventScroll: true });
+    };
+    reel.addEventListener('click', event => {
+      const button = event.target.closest('[data-case-open]');
+      if (!button) return;
+      opener = button;
+      studies.forEach((study, index) => { study.hidden = index !== Number(button.dataset.caseOpen); });
+      panel.hidden = false;
+      panel.querySelector('.case-panel-scroll').scrollTop = 0;
+      document.body.classList.add('overlay-open');
+      window.requestAnimationFrame(() => { panel.classList.add('open'); document.getElementById('caseClose').focus({ preventScroll: true }); });
+    });
+    document.getElementById('caseClose').addEventListener('click', closePanel);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && panel.classList.contains('open') && !lightbox.classList.contains('open')) closePanel();
     });
 
-    const measure = () => {
-      const navHeight = document.querySelector('nav')?.offsetHeight || 67;
-      rails.forEach(rail => {
-        rail.section.classList.remove('pin-on');
-        rail.track.classList.remove('is-pinned', 'is-reversed');
-        rail.inner.style.zoom = '';
-        rail.section.style.height = '';
-        rail.items.forEach(item => { item.style.transform = ''; });
-        rail.active = false;
-        if (!query.matches) { rail.track.dispatchEvent(new Event('pinchange')); return; }
-        rail.section.classList.add('pin-on');
-        rail.track.classList.add('is-pinned');
-        if (rail.direction < 0) rail.track.classList.add('is-reversed');
-        rail.track.dispatchEvent(new Event('pinchange'));
-        const available = window.innerHeight - navHeight;
-        const fit = Math.min(1, available / rail.inner.offsetHeight);
-        const overflow = rail.track.scrollWidth - rail.track.clientWidth;
-        if (fit < MIN_FIT || overflow < 8) {
-          rail.section.classList.remove('pin-on');
-          rail.track.classList.remove('is-pinned', 'is-reversed');
-          rail.track.dispatchEvent(new Event('pinchange'));
-          return;
-        }
-        if (fit < 1) rail.inner.style.zoom = String(fit);
-        rail.navHeight = navHeight;
-        rail.overflow = rail.track.scrollWidth - rail.track.clientWidth;
-        rail.distance = rail.overflow * SPEED;
-        rail.inner.style.top = `${navHeight / fit}px`;
-        rail.section.style.height = `${rail.inner.getBoundingClientRect().height + rail.distance}px`;
-        rail.active = true;
-        rail.current = -1;
-      });
-      update(true);
+    const setup = () => {
+      active = query.matches;
+      section.classList.toggle('stage-on', active);
+      if (!active) {
+        section.style.height = '';
+        [drum, reel, eyebrow, hint, ...orbs, ...cards].forEach(node => { node.style.cssText = ''; });
+        return;
+      }
+      section.style.height = `${window.innerHeight * (1 + 1.25 + (cards.length - 1) * .62)}px`;
+      tick();
     };
 
-    let frame = 0;
-    const update = immediate => {
-      let moving = false;
-      rails.forEach(rail => {
-        if (!rail.active) return;
-        const rect = rail.section.getBoundingClientRect();
-        if (!immediate && (rect.bottom < -200 || rect.top > window.innerHeight + 200)) return;
-        const progress = Math.max(0, Math.min(1, (rail.navHeight - rect.top) / rail.distance));
-        const target = (rail.direction > 0 ? progress : 1 - progress) * rail.overflow;
-        if (immediate || rail.current < 0) rail.current = target;
-        else rail.current += (target - rail.current) * .14;
-        if (Math.abs(target - rail.current) < .4) rail.current = target; else moving = true;
-        rail.track.scrollLeft = rail.current;
-        const box = rail.track.getBoundingClientRect();
+    function tick() {
+      if (!active) return;
+      const rect = section.getBoundingClientRect();
+      const total = section.offsetHeight - window.innerHeight;
+      if (rect.bottom < -100 || rect.top > window.innerHeight + 100) return;
+      const p = clamp(-rect.top / total, 0, 1);
+      const W = window.innerWidth;
+      const H = window.innerHeight;
+      const cx = W / 2;
+      const cy = H / 2 + 34;
+      const pa = clamp(p / A, 0, 1);
+      const pb = smooth(clamp((p - A) / (B - A), 0, 1));
+      const pc = clamp((p - B) / (1 - B), 0, 1);
+      const scale = Math.min(1, W / 1300, H / 760);
+
+      drum.style.setProperty('--r', `${drum.offsetHeight / 2}px`);
+      drum.style.transform = `rotateX(${-pa * 270}deg) scale(${1 - pb * .35})`;
+      drum.style.opacity = String(1 - pb);
+      eyebrow.style.opacity = String(1 - pb * .999);
+      eyebrow.style.transform = `translate(-50%, ${-pb * 30}px)`;
+
+      const first = cards[0].querySelector('.case-card-media');
+      const reelBox = reel.getBoundingClientRect();
+      const target = { x: reel.offsetLeft, y: reel.offsetTop, w: first.offsetWidth, h: first.offsetHeight };
+      const bw = 150 * scale;
+      const bh = 205 * scale;
+      orbs.forEach((orb, index) => {
+        const angle = index / orbs.length * Math.PI * 2 + pa * Math.PI * 1.5 - Math.PI / 3;
+        let x = cx + Math.cos(angle) * W * .40 - bw / 2;
+        let y = cy + Math.sin(angle) * H * .25 - bh / 2;
+        let w = bw;
+        let h = bh;
+        if (index === 0) {
+          x += (target.x - x) * pb; y += (target.y - y) * pb; w += (target.w - w) * pb; h += (target.h - h) * pb;
+          orb.style.opacity = pc > 0 ? '0' : '1';
+        } else {
+          x = cx + (x - cx) * (1 + pb * .9); y = cy + (y - cy) * (1 + pb * .9);
+          orb.style.opacity = String(1 - pb);
+        }
+        orb.style.width = `${w}px`;
+        orb.style.height = `${h}px`;
+        orb.style.transform = `translate(${x}px, ${y}px) rotate(${(pa - .5) * (index === 0 ? 0 : 10) * (1 - pb)}deg)`;
+      });
+
+      const step = cards[1].offsetLeft - cards[0].offsetLeft;
+      const shift = pc * step * (cards.length - 1);
+      reel.style.opacity = pb >= 1 ? '1' : '0';
+      reel.style.pointerEvents = pb >= 1 ? 'auto' : 'none';
+      reel.style.transform = `translateX(${-shift}px)`;
+      const focus = shift / step;
+      cards.forEach((card, index) => {
+        const distance = Math.min(1, Math.abs(index - focus));
+        card.style.transform = `scale(${1 - distance * .07}) rotateY(${clamp(index - focus, -1, 1) * -5}deg)`;
+        card.style.opacity = String(1 - distance * .45);
+      });
+      hint.style.opacity = String(pb);
+      count.textContent = `0${Math.round(focus) + 1} / 0${cards.length}`;
+    }
+
+    window.addEventListener('scroll', tick, { passive: true });
+    let timer = 0;
+    window.addEventListener('resize', () => { window.clearTimeout(timer); timer = window.setTimeout(setup, 150); });
+    window.addEventListener('load', setup);
+    setup();
+  }
+
+  function bindMarquees() {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const marquees = [...document.querySelectorAll('.marquee')].map(root => {
+      const track = root.querySelector('.marquee-track');
+      const originals = [...track.children];
+      const state = { root, track, originals, direction: Number(root.dataset.marqueeDirection) || -1, offset: 0, width: 0, paused: false, hover: false, drag: null, velocity: 0 };
+      const build = () => {
+        track.querySelectorAll('[data-clone]').forEach(node => node.remove());
+        const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+        state.width = originals.reduce((sum, node) => sum + node.offsetWidth + gap, 0);
+        if (reduced.matches || !state.width) { root.classList.remove('marquee-on'); track.style.transform = ''; return; }
+        root.classList.add('marquee-on');
+        const copies = Math.max(1, Math.ceil((root.offsetWidth * 1.4) / state.width));
+        for (let copy = 0; copy < copies; copy += 1) {
+          originals.forEach(node => {
+            const clone = node.cloneNode(true);
+            clone.dataset.clone = '1';
+            clone.setAttribute('aria-hidden', 'true');
+            clone.querySelectorAll('a, button, video').forEach(item => { item.tabIndex = -1; });
+            if (clone.matches('button')) clone.tabIndex = -1;
+            track.appendChild(clone);
+          });
+        }
+      };
+      state.build = build;
+      root.addEventListener('pointerenter', () => { state.hover = true; });
+      root.addEventListener('pointerleave', () => { state.hover = false; });
+      root.addEventListener('focusin', () => { state.hover = true; });
+      root.addEventListener('focusout', () => { state.hover = false; });
+      root.addEventListener('pointerdown', event => {
+        if (event.target.closest('video') && event.pointerType === 'mouse') return;
+        state.drag = { x: event.clientX, offset: state.offset, moved: 0 };
+        root.dataset.dragged = '0';
+      });
+      window.addEventListener('pointermove', event => {
+        if (!state.drag) return;
+        const delta = event.clientX - state.drag.x;
+        state.drag.moved = Math.max(state.drag.moved, Math.abs(delta));
+        if (state.drag.moved > 6) { root.dataset.dragged = '1'; root.classList.add('is-dragging'); }
+        state.offset = state.drag.offset - delta;
+      });
+      const release = () => {
+        if (!state.drag) return;
+        state.drag = null;
+        root.classList.remove('is-dragging');
+        window.setTimeout(() => { root.dataset.dragged = '0'; }, 60);
+      };
+      window.addEventListener('pointerup', release);
+      window.addEventListener('pointercancel', release);
+      build();
+      return state;
+    });
+    if (!marquees.length) return;
+
+    let last = performance.now();
+    const SPEED = 26;
+    const frame = now => {
+      const dt = Math.min(.05, (now - last) / 1000);
+      last = now;
+      marquees.forEach(state => {
+        if (!state.root.classList.contains('marquee-on')) return;
+        const box = state.root.getBoundingClientRect();
+        if (box.bottom < -50 || box.top > window.innerHeight + 50) return;
+        const playing = state.root.querySelector('video:not([data-idle])') && [...state.root.querySelectorAll('video')].some(video => !video.paused);
+        const goal = state.hover || state.drag || playing ? 0 : 1;
+        state.velocity += (goal - state.velocity) * Math.min(1, dt * 3);
+        if (!state.drag) state.offset += -state.direction * SPEED * state.velocity * dt;
+        state.offset = ((state.offset % state.width) + state.width) % state.width;
+        state.track.style.transform = `translate3d(${-state.offset}px, 0, 0)`;
         const centre = box.left + box.width / 2;
-        rail.items.forEach(item => {
-          const itemBox = item.getBoundingClientRect();
-          const offset = Math.min(1, Math.abs(itemBox.left + itemBox.width / 2 - centre) / (box.width * .55));
-          item.style.transform = `scale(${(1 - rail.focus + rail.focus * (1 - offset) * (1 - offset) + (rail.direction < 0 ? rail.focus * .5 : 0)).toFixed(4)})`;
+        const half = box.width / 2;
+        [...state.track.children].forEach(node => {
+          const rect = node.getBoundingClientRect();
+          if (rect.right < box.left - 80 || rect.left > box.right + 80) return;
+          const t = Math.max(-1.15, Math.min(1.15, (rect.left + rect.width / 2 - centre) / half));
+          const edge = Math.max(0, Math.abs(t) - .45) / .7;
+          node.style.transform = `perspective(1100px) rotateY(${(-t * edge * 26).toFixed(2)}deg) scale(${(1 - edge * edge * .12).toFixed(4)}) translateY(${(edge * edge * 14).toFixed(1)}px)`;
+          node.style.opacity = (1 - edge * edge * .5).toFixed(3);
         });
       });
-      frame = moving ? window.requestAnimationFrame(() => update(false)) : 0;
+      window.requestAnimationFrame(frame);
     };
-    const request = () => { if (!frame) frame = window.requestAnimationFrame(() => update(false)); };
-    let settleTimer = 0;
-    const settle = () => {
-      rails.forEach(rail => {
-        if (!rail.active || !rail.settle || rail.items.length < 2) return;
-        const top = rail.section.getBoundingClientRect().top + window.scrollY - rail.navHeight;
-        const progress = (window.scrollY - top) / rail.distance;
-        if (progress <= 0.01 || progress >= .99) return;
-        const steps = rail.items.length - 1;
-        const nearest = Math.round(progress * steps) / steps;
-        if (Math.abs(nearest - progress) * rail.distance > 3) window.scrollTo({ top: top + nearest * rail.distance, behavior: 'smooth' });
+    window.requestAnimationFrame(frame);
+    let timer = 0;
+    window.addEventListener('resize', () => { window.clearTimeout(timer); timer = window.setTimeout(() => marquees.forEach(state => state.build()), 200); });
+    window.addEventListener('load', () => marquees.forEach(state => state.build()));
+    reduced.addEventListener?.('change', () => marquees.forEach(state => state.build()));
+  }
+
+  function bindMotion() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.body.classList.add('motion-on');
+    const counters = [...document.querySelectorAll('.metric-value, #proof .metric strong')];
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const node = entry.target;
+        observer.unobserve(node);
+        const match = node.textContent.trim().match(/^(\d+)(.*)$/);
+        if (!match) return;
+        const end = Number(match[1]);
+        const start = performance.now();
+        (function step(now) {
+          const progress = Math.min(1, (now - start) / 1500);
+          node.textContent = `${Math.round(end * (1 - Math.pow(1 - progress, 3)))}${match[2]}`;
+          if (progress < 1) window.requestAnimationFrame(step);
+        })(start);
+      }), { threshold: .6 });
+      counters.forEach(node => observer.observe(node));
+    }
+    const heroPhoto = document.querySelector('.hero-photo img');
+    const aboutPhoto = document.querySelector('.about-portrait img');
+    const steps = [...document.querySelectorAll('.thinking-step')];
+    let queued = false;
+    const update = () => {
+      queued = false;
+      const H = window.innerHeight;
+      if (heroPhoto && window.scrollY < H * 1.2) heroPhoto.style.transform = `translateY(${(window.scrollY * .07).toFixed(1)}px) scale(1.04)`;
+      if (aboutPhoto) {
+        const box = aboutPhoto.parentElement.getBoundingClientRect();
+        if (box.bottom > 0 && box.top < H) aboutPhoto.style.transform = `translateY(${((box.top - H / 2) * -.05).toFixed(1)}px) scale(1.06)`;
+      }
+      steps.forEach((step, index) => {
+        const box = step.getBoundingClientRect();
+        const progress = Math.max(0, Math.min(1, (H * .92 - box.top) / (H * .38)));
+        const eased = progress * progress * (3 - 2 * progress);
+        step.style.opacity = eased.toFixed(3);
+        step.style.transform = `translateX(${((1 - eased) * (index % 2 ? 70 : -70)).toFixed(1)}px)`;
       });
     };
-    window.addEventListener('scroll', () => { request(); window.clearTimeout(settleTimer); settleTimer = window.setTimeout(settle, 260); }, { passive: true });
-    let resizeTimer = 0;
-    window.addEventListener('resize', () => { window.clearTimeout(resizeTimer); resizeTimer = window.setTimeout(measure, 180); });
-    window.addEventListener('load', measure);
-    document.querySelectorAll('.lang-btn').forEach(button => button.addEventListener('click', () => window.setTimeout(measure, 60)));
-    document.fonts?.ready.then(measure);
-    measure();
+    window.addEventListener('scroll', () => { if (!queued) { queued = true; window.requestAnimationFrame(update); } }, { passive: true });
+    update();
   }
 
   function renderContact() {
@@ -1050,6 +1269,8 @@
   bindInteractions();
   applyLanguage(localStorage.getItem('lang') || 'en');
   bindRails();
-  bindPinnedRails();
+  bindWorkStage();
+  bindMarquees();
+  bindMotion();
   document.body.classList.add('strategic-ready');
 })();
