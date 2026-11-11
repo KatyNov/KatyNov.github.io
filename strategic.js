@@ -926,7 +926,7 @@
     const marquees = [...document.querySelectorAll('.marquee')].map(root => {
       const track = root.querySelector('.marquee-track');
       const originals = [...track.children];
-      const state = { root, track, originals, direction: Number(root.dataset.marqueeDirection) || -1, offset: 0, width: 0, paused: false, hover: false, drag: null, velocity: 0 };
+      const state = { root, track, originals, direction: Number(root.dataset.marqueeDirection) || -1, offset: 0, width: 0, paused: false, hover: false, drag: null, velocity: 0, inertia: 0, pointerX: null };
       const build = () => {
         track.querySelectorAll('[data-clone]').forEach(node => node.remove());
         const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
@@ -947,12 +947,20 @@
       };
       state.build = build;
       root.addEventListener('pointerenter', () => { state.hover = true; });
-      root.addEventListener('pointerleave', () => { state.hover = false; });
+      root.addEventListener('pointerleave', () => { state.hover = false; state.pointerX = null; });
+      root.addEventListener('pointermove', event => { if (event.pointerType === 'mouse') state.pointerX = event.clientX; });
+      root.addEventListener('wheel', event => {
+        if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
+        event.preventDefault();
+        state.offset += event.deltaX;
+        state.inertia = event.deltaX * 6;
+      }, { passive: false });
       root.addEventListener('focusin', () => { state.hover = true; });
       root.addEventListener('focusout', () => { state.hover = false; });
       root.addEventListener('pointerdown', event => {
         if (event.target.closest('video') && event.pointerType === 'mouse') return;
-        state.drag = { x: event.clientX, offset: state.offset, moved: 0 };
+        state.drag = { x: event.clientX, offset: state.offset, moved: 0, lastX: event.clientX, lastT: performance.now(), speed: 0 };
+        state.inertia = 0;
         root.dataset.dragged = '0';
       });
       window.addEventListener('pointermove', event => {
@@ -961,9 +969,16 @@
         state.drag.moved = Math.max(state.drag.moved, Math.abs(delta));
         if (state.drag.moved > 6) { root.dataset.dragged = '1'; root.classList.add('is-dragging'); }
         state.offset = state.drag.offset - delta;
+        const stamp = performance.now();
+        if (stamp - state.drag.lastT > 12) {
+          state.drag.speed = (state.drag.lastX - event.clientX) / (stamp - state.drag.lastT) * 1000;
+          state.drag.lastX = event.clientX;
+          state.drag.lastT = stamp;
+        }
       });
       const release = () => {
         if (!state.drag) return;
+        if (state.drag.moved > 6 && performance.now() - state.drag.lastT < 120) state.inertia = Math.max(-2600, Math.min(2600, state.drag.speed));
         state.drag = null;
         root.classList.remove('is-dragging');
         window.setTimeout(() => { root.dataset.dragged = '0'; }, 60);
@@ -987,7 +1002,15 @@
         const playing = state.root.querySelector('video:not([data-idle])') && [...state.root.querySelectorAll('video')].some(video => !video.paused);
         const goal = state.hover || state.drag || playing ? 0 : 1;
         state.velocity += (goal - state.velocity) * Math.min(1, dt * 3);
-        if (!state.drag) state.offset += -state.direction * SPEED * state.velocity * dt;
+        let push = 0;
+        if (state.hover && !state.drag && state.pointerX !== null) {
+          const position = (state.pointerX - box.left) / box.width;
+          if (position < .24) push = -(.24 - position) / .24 * 420;
+          else if (position > .76) push = (position - .76) / .24 * 420;
+        }
+        state.inertia *= Math.pow(.045, dt);
+        if (Math.abs(state.inertia) < 2) state.inertia = 0;
+        if (!state.drag) state.offset += (-state.direction * SPEED * state.velocity + push + state.inertia) * dt;
         state.offset = ((state.offset % state.width) + state.width) % state.width;
         state.track.style.transform = `translate3d(${-state.offset}px, 0, 0)`;
         const centre = box.left + box.width / 2;
