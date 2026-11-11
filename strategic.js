@@ -699,12 +699,17 @@
       let current = -1;
       const sync = () => {
         const index = Math.max(0, Math.min(cases.length - 1, Math.round(track.scrollLeft / Math.max(1, track.clientWidth))));
-        track.style.height = `${cases[index].offsetHeight}px`;
+        track.style.height = track.classList.contains('is-pinned') ? `${Math.max(...cases.map(item => item.offsetHeight))}px` : `${cases[index].offsetHeight}px`;
         if (index === current) return;
         current = index;
         tabs.forEach((tab, n) => { tab.classList.toggle('active', n === index); tab.setAttribute('aria-selected', String(n === index)); });
       };
-      const go = index => track.scrollTo({ left: Math.max(0, Math.min(cases.length - 1, index)) * track.clientWidth, behavior: 'smooth' });
+      const go = index => {
+        const target = Math.max(0, Math.min(cases.length - 1, index));
+        if (track.classList.contains('is-pinned') && typeof track.pinGoTo === 'function') { track.pinGoTo(target / (cases.length - 1)); return; }
+        track.scrollTo({ left: target * track.clientWidth, behavior: 'smooth' });
+      };
+      track.addEventListener('pinchange', sync);
       let frame = 0;
       track.addEventListener('scroll', () => { window.cancelAnimationFrame(frame); frame = window.requestAnimationFrame(sync); }, { passive: true });
       tabs.forEach((tab, n) => tab.addEventListener('click', () => go(n)));
@@ -723,6 +728,112 @@
       window.addEventListener('scroll', update, { passive: true });
       update();
     }
+  }
+
+
+  function bindPinnedRails() {
+    const query = window.matchMedia('(min-width: 901px) and (prefers-reduced-motion: no-preference)');
+    const SPEED = .55;
+    const MIN_FIT = .78;
+    const panel = document.getElementById('albumPanel');
+    if (panel && panel.parentElement !== document.body) document.body.appendChild(panel);
+    const rails = [
+      { section: document.getElementById('work'), track: document.querySelector('.case-track'), direction: 1, focus: .045, settle: true },
+      { section: document.getElementById('gallery'), track: document.getElementById('albumRail'), direction: -1, focus: .04 }
+    ].filter(rail => rail.section && rail.track);
+    rails.forEach(rail => {
+      const inner = document.createElement('div');
+      inner.className = 'pin-inner';
+      while (rail.section.firstChild) inner.appendChild(rail.section.firstChild);
+      rail.section.appendChild(inner);
+      rail.inner = inner;
+      rail.items = [...rail.track.children];
+      rail.current = 0;
+      rail.active = false;
+      rail.track.pinGoTo = progress => {
+        const top = rail.section.getBoundingClientRect().top + window.scrollY - rail.navHeight;
+        window.scrollTo({ top: top + progress * rail.distance, behavior: 'smooth' });
+      };
+    });
+
+    const measure = () => {
+      const navHeight = document.querySelector('nav')?.offsetHeight || 67;
+      rails.forEach(rail => {
+        rail.section.classList.remove('pin-on');
+        rail.track.classList.remove('is-pinned', 'is-reversed');
+        rail.inner.style.zoom = '';
+        rail.section.style.height = '';
+        rail.items.forEach(item => { item.style.transform = ''; });
+        rail.active = false;
+        if (!query.matches) { rail.track.dispatchEvent(new Event('pinchange')); return; }
+        rail.section.classList.add('pin-on');
+        rail.track.classList.add('is-pinned');
+        if (rail.direction < 0) rail.track.classList.add('is-reversed');
+        rail.track.dispatchEvent(new Event('pinchange'));
+        const available = window.innerHeight - navHeight;
+        const fit = Math.min(1, available / rail.inner.offsetHeight);
+        const overflow = rail.track.scrollWidth - rail.track.clientWidth;
+        if (fit < MIN_FIT || overflow < 8) {
+          rail.section.classList.remove('pin-on');
+          rail.track.classList.remove('is-pinned', 'is-reversed');
+          rail.track.dispatchEvent(new Event('pinchange'));
+          return;
+        }
+        if (fit < 1) rail.inner.style.zoom = String(fit);
+        rail.navHeight = navHeight;
+        rail.overflow = rail.track.scrollWidth - rail.track.clientWidth;
+        rail.distance = rail.overflow * SPEED;
+        rail.inner.style.top = `${navHeight / fit}px`;
+        rail.section.style.height = `${rail.inner.getBoundingClientRect().height + rail.distance}px`;
+        rail.active = true;
+        rail.current = -1;
+      });
+      update(true);
+    };
+
+    let frame = 0;
+    const update = immediate => {
+      let moving = false;
+      rails.forEach(rail => {
+        if (!rail.active) return;
+        const rect = rail.section.getBoundingClientRect();
+        if (!immediate && (rect.bottom < -200 || rect.top > window.innerHeight + 200)) return;
+        const progress = Math.max(0, Math.min(1, (rail.navHeight - rect.top) / rail.distance));
+        const target = (rail.direction > 0 ? progress : 1 - progress) * rail.overflow;
+        if (immediate || rail.current < 0) rail.current = target;
+        else rail.current += (target - rail.current) * .14;
+        if (Math.abs(target - rail.current) < .4) rail.current = target; else moving = true;
+        rail.track.scrollLeft = rail.current;
+        const box = rail.track.getBoundingClientRect();
+        const centre = box.left + box.width / 2;
+        rail.items.forEach(item => {
+          const itemBox = item.getBoundingClientRect();
+          const offset = Math.min(1, Math.abs(itemBox.left + itemBox.width / 2 - centre) / (box.width * .55));
+          item.style.transform = `scale(${(1 - rail.focus + rail.focus * (1 - offset) * (1 - offset) + (rail.direction < 0 ? rail.focus * .5 : 0)).toFixed(4)})`;
+        });
+      });
+      frame = moving ? window.requestAnimationFrame(() => update(false)) : 0;
+    };
+    const request = () => { if (!frame) frame = window.requestAnimationFrame(() => update(false)); };
+    let settleTimer = 0;
+    const settle = () => {
+      rails.forEach(rail => {
+        if (!rail.active || !rail.settle || rail.items.length < 2) return;
+        const top = rail.section.getBoundingClientRect().top + window.scrollY - rail.navHeight;
+        const progress = (window.scrollY - top) / rail.distance;
+        if (progress <= 0.01 || progress >= .99) return;
+        const steps = rail.items.length - 1;
+        const nearest = Math.round(progress * steps) / steps;
+        if (Math.abs(nearest - progress) * rail.distance > 3) window.scrollTo({ top: top + nearest * rail.distance, behavior: 'smooth' });
+      });
+    };
+    window.addEventListener('scroll', () => { request(); window.clearTimeout(settleTimer); settleTimer = window.setTimeout(settle, 260); }, { passive: true });
+    let resizeTimer = 0;
+    window.addEventListener('resize', () => { window.clearTimeout(resizeTimer); resizeTimer = window.setTimeout(measure, 180); });
+    window.addEventListener('load', measure);
+    document.querySelectorAll('.lang-btn').forEach(button => button.addEventListener('click', () => window.setTimeout(measure, 60)));
+    document.fonts?.ready.then(measure);
+    measure();
   }
 
   function renderContact() {
@@ -939,5 +1050,6 @@
   bindInteractions();
   applyLanguage(localStorage.getItem('lang') || 'en');
   bindRails();
+  bindPinnedRails();
   document.body.classList.add('strategic-ready');
 })();

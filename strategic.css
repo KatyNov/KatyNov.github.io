@@ -1439,3 +1439,24 @@ body.album-open { overflow: hidden; }
   .case-track .case-media::-webkit-scrollbar { display: none; }
   .case-track .case-media-frame { flex: 0 0 46%; scroll-snap-align: start; }
 }
+
+/* Vertical scroll drives horizontal rails (desktop) */
+html, body { overflow-x: clip; }
+.pin-on { padding-top: 0; padding-bottom: 0; }
+.pin-on > .pin-inner { position: sticky; padding: 26px 0 28px; }
+.pin-on .section-head { margin-bottom: 22px; }
+.pin-on .rail-arrows { display: none; }
+.pin-on .case-nav { margin-bottom: 20px; }
+.is-pinned { overflow: hidden; scroll-snap-type: none; }
+.case-track.is-pinned { transition: none; }
+.is-pinned > * { transform-origin: center center; will-change: transform; transition: none; }
+.album-rail.is-pinned { padding: 10px 0 12px; }
+.album-rail.is-reversed > :nth-child(1) { order: 8; }
+.album-rail.is-reversed > :nth-child(2) { order: 7; }
+.album-rail.is-reversed > :nth-child(3) { order: 6; }
+.album-rail.is-reversed > :nth-child(4) { order: 5; }
+.album-rail.is-reversed > :nth-child(5) { order: 4; }
+.album-rail.is-reversed > :nth-child(6) { order: 3; }
+.album-rail.is-reversed > :nth-child(7) { order: 2; }
+.album-rail.is-reversed > :nth-child(8) { order: 1; }
+.album-card.reveal { transition: opacity 1s var(--ease-quiet); }
