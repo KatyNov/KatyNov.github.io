@@ -109,6 +109,10 @@
       gallery8Brand: 'Azafranes Manchegos · Independent concept', gallery8Title: 'Saffron that doesn’t wait for a special occasion.', gallery8Role: 'Kitchen story · Strategy + creative direction + copy',
       gallery9Brand: 'Labiatae · Strategic brand exercise', gallery9Title: 'How a brand story is built from photos and research.', gallery9Role: 'Research desk + moodboard · Brand direction',
       gallery10Brand: 'Labiatae · Strategic brand exercise', gallery10Title: 'A bottle is never just a bottle.', gallery10Role: 'Campaign posters · Concept + copy',
+      gallery11Brand: 'Palentina de Aromáticas · Independent concept', gallery11Title: 'One flower. Many industries.', gallery11Role: 'Brand idea · Strategy + concept',
+      gallery12Brand: 'Palentina de Aromáticas · Independent concept', gallery12Title: 'Lavender is more than a scent.', gallery12Role: 'Territory moodboards · Research + art direction',
+      gallery13Brand: 'Palentina de Aromáticas · Independent concept', gallery13Title: 'A purple flower. A golden story.', gallery13Role: 'Campaign posters · Concept + copy',
+      gallery14Brand: 'Palentina de Aromáticas · Independent concept', gallery14Title: 'Beauty is not always delicate.', gallery14Role: 'Land series · Art direction + storytelling',
       contactLabel: 'Start a project', contactTitle: 'Have an idea that hasn\'t found its shape yet?', contactSupport: 'Tell me what feels unclear, stuck or too much like everyone else. I’ll look at the problem and come back with the most useful next step.', contactButton: 'Tell me about it',
       footer: 'Brand Content Strategy · Creative Direction · Content Systems · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
@@ -165,6 +169,10 @@
       gallery8Brand: 'Azafranes Manchegos · Независимый концепт', gallery8Title: 'Шафран, который не ждёт особого случая.', gallery8Role: 'Кухонная история · Стратегия + креативное направление + текст',
       gallery9Brand: 'Labiatae · Стратегическое упражнение для бренда', gallery9Title: 'Как история бренда складывается из фотографий и исследования.', gallery9Role: 'Исследование + мудборд · Направление бренда',
       gallery10Brand: 'Labiatae · Стратегическое упражнение для бренда', gallery10Title: 'Флакон — никогда не просто флакон.', gallery10Role: 'Постеры кампании · Концепция + текст',
+      gallery11Brand: 'Palentina de Aromáticas · Независимый концепт', gallery11Title: 'Один цветок. Много индустрий.', gallery11Role: 'Идея бренда · Стратегия + концепция',
+      gallery12Brand: 'Palentina de Aromáticas · Независимый концепт', gallery12Title: 'Лаванда — больше, чем аромат.', gallery12Role: 'Мудборды территорий · Исследование + арт-дирекшн',
+      gallery13Brand: 'Palentina de Aromáticas · Независимый концепт', gallery13Title: 'Фиолетовый цветок. Золотая история.', gallery13Role: 'Постеры кампании · Концепция + текст',
+      gallery14Brand: 'Palentina de Aromáticas · Независимый концепт', gallery14Title: 'Красота не всегда хрупкая.', gallery14Role: 'Серия о земле · Арт-дирекшн + сторителлинг',
       contactLabel: 'Начать проект', contactTitle: 'Есть идея, которая пока не нашла свою форму?', contactSupport: 'Расскажите, что кажется неясным, застряло или слишком похоже на всех остальных. Я посмотрю на задачу и предложу самый полезный следующий шаг.', contactButton: 'Расскажите о ней', footer: 'Стратегия бренд-контента · Креативное руководство · Контент-системы · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
@@ -212,6 +220,10 @@
       gallery8Brand: 'Azafranes Manchegos · Concepto independiente', gallery8Title: 'Un azafrán que no espera a una ocasión especial.', gallery8Role: 'Historia de cocina · Estrategia + dirección creativa + copy',
       gallery9Brand: 'Labiatae · Ejercicio estratégico de marca', gallery9Title: 'Cómo se construye la historia de una marca a partir de fotos e investigación.', gallery9Role: 'Investigación + moodboard · Dirección de marca',
       gallery10Brand: 'Labiatae · Ejercicio estratégico de marca', gallery10Title: 'Un frasco nunca es solo un frasco.', gallery10Role: 'Pósters de campaña · Concepto + copy',
+      gallery11Brand: 'Palentina de Aromáticas · Concepto independiente', gallery11Title: 'Una flor. Muchas industrias.', gallery11Role: 'Idea de marca · Estrategia + concepto',
+      gallery12Brand: 'Palentina de Aromáticas · Concepto independiente', gallery12Title: 'La lavanda es más que un aroma.', gallery12Role: 'Moodboards de territorios · Investigación + dirección de arte',
+      gallery13Brand: 'Palentina de Aromáticas · Concepto independiente', gallery13Title: 'Una flor púrpura. Una historia dorada.', gallery13Role: 'Pósters de campaña · Concepto + copy',
+      gallery14Brand: 'Palentina de Aromáticas · Concepto independiente', gallery14Title: 'La belleza no siempre es delicada.', gallery14Role: 'Serie sobre la tierra · Dirección de arte + storytelling',
       contactLabel: 'Iniciar un proyecto', contactTitle: '¿Tienes una idea que todavía no ha encontrado su forma?', contactSupport: 'Cuéntame qué se siente poco claro, bloqueado o demasiado parecido a todo lo demás. Analizaré el problema y volveré con el siguiente paso más útil.', contactButton: 'Cuéntame', footer: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
@@ -257,6 +269,10 @@
       gallery8Brand: 'Azafranes Manchegos · Concept indipendente', gallery8Title: 'Uno zafferano che non aspetta un’occasione speciale.', gallery8Role: 'Storia in cucina · Strategia + direzione creativa + copy',
       gallery9Brand: 'Labiatae · Esercizio strategico di brand', gallery9Title: 'Come la storia di un brand nasce da foto e ricerca.', gallery9Role: 'Ricerca + moodboard · Direzione di brand',
       gallery10Brand: 'Labiatae · Esercizio strategico di brand', gallery10Title: 'Una bottiglia non è mai solo una bottiglia.', gallery10Role: 'Poster di campagna · Concept + copy',
+      gallery11Brand: 'Palentina de Aromáticas · Concept indipendente', gallery11Title: 'Un fiore. Molte industrie.', gallery11Role: 'Idea di brand · Strategia + concept',
+      gallery12Brand: 'Palentina de Aromáticas · Concept indipendente', gallery12Title: 'La lavanda è più di un profumo.', gallery12Role: 'Moodboard dei territori · Ricerca + art direction',
+      gallery13Brand: 'Palentina de Aromáticas · Concept indipendente', gallery13Title: 'Un fiore viola. Una storia dorata.', gallery13Role: 'Poster di campagna · Concept + copy',
+      gallery14Brand: 'Palentina de Aromáticas · Concept indipendente', gallery14Title: 'La bellezza non è sempre delicata.', gallery14Role: 'Serie sulla terra · Art direction + storytelling',
       contactLabel: 'Avvia un progetto', contactTitle: 'Hai un’idea che non ha ancora trovato la sua forma?', contactSupport: 'Raccontami cosa non è chiaro, cosa si è bloccato o cosa assomiglia troppo a tutto il resto. Guarderò il problema e tornerò con il passo successivo più utile.', contactButton: 'Raccontamela', footer: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuti · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
@@ -302,6 +318,10 @@
       gallery8Brand: 'Azafranes Manchegos · Незалежны канцэпт', gallery8Title: 'Шафран, які не чакае асаблівай нагоды.', gallery8Role: 'Кухонная гісторыя · Стратэгія + крэатыўны напрамак + тэкст',
       gallery9Brand: 'Labiatae · Стратэгічнае практыкаванне для брэнда', gallery9Title: 'Як гісторыя брэнда складаецца з фотаздымкаў і даследавання.', gallery9Role: 'Даследаванне + мудборд · Напрамак брэнда',
       gallery10Brand: 'Labiatae · Стратэгічнае практыкаванне для брэнда', gallery10Title: 'Флакон — ніколі не проста флакон.', gallery10Role: 'Постэры кампаніі · Канцэпцыя + тэкст',
+      gallery11Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery11Title: 'Адна кветка. Шмат індустрый.', gallery11Role: 'Ідэя брэнда · Стратэгія + канцэпцыя',
+      gallery12Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery12Title: 'Лаванда — больш, чым водар.', gallery12Role: 'Мудборды тэрыторый · Даследаванне + арт-дырэкшн',
+      gallery13Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery13Title: 'Фіялетавая кветка. Залатая гісторыя.', gallery13Role: 'Постэры кампаніі · Канцэпцыя + тэкст',
+      gallery14Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery14Title: 'Прыгажосць не заўсёды кволая.', gallery14Role: 'Серыя пра зямлю · Арт-дырэкшн + сторытэлінг',
       contactLabel: 'Пачаць праект', contactTitle: 'Ёсць ідэя, якая пакуль не знайшла сваю форму?', contactSupport: 'Раскажыце, што застаецца няясным, затрымалася або занадта падобнае да ўсяго астатняга. Я пагляджу на задачу і прапаную найбольш карысны наступны крок.', contactButton: 'Раскажыце пра яе', footer: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
     }
   };
