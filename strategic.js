@@ -113,6 +113,7 @@
       gallery12Brand: 'Palentina de Aromáticas · Independent concept', gallery12Title: 'Lavender is more than a scent.', gallery12Role: 'Territory moodboards · Research + art direction',
       gallery13Brand: 'Palentina de Aromáticas · Independent concept', gallery13Title: 'A purple flower. A golden story.', gallery13Role: 'Campaign posters · Concept + copy',
       gallery14Brand: 'Palentina de Aromáticas · Independent concept', gallery14Title: 'Beauty is not always delicate.', gallery14Role: 'Land series · Art direction + storytelling',
+      case4Category: 'Aromatic plants · Independent concept', case4Title: 'One flower, many industries: a brand world for a lavender cooperative.', case4Problem: 'A farmers’ cooperative in Castile distils lavender into essential oil and sells it as raw material. The story ends where the oil leaves the still.', case4Idea: 'Lavender is more than a scent.', case4World: 'One flower read through four territories — food, drink, material and what remains after distillation — rooted in the dry, wind-swept land it grows on.', case4System: 'A brand idea, four territory moodboards, a poster campaign and a land series that can keep producing stories.', case4Result: 'A self-initiated concept: a research-led brand territory ready to extend into campaigns, packaging and editorial content.', case4Metric1: 'content territories', case4Metric2: 'key visuals', albumOpen: 'Open album', albumClose: 'Close album', albumSeries: 'series', albumImages: 'images', caseNext: 'Next case', casePrev: 'Previous case', scrollHint: 'Scroll sideways',
       contactLabel: 'Start a project', contactTitle: 'Have an idea that hasn\'t found its shape yet?', contactSupport: 'Tell me what feels unclear, stuck or too much like everyone else. I’ll look at the problem and come back with the most useful next step.', contactButton: 'Tell me about it',
       footer: 'Brand Content Strategy · Creative Direction · Content Systems · Europe', lightboxClose: 'Close media', previous: 'Previous media', next: 'Next media'
     },
@@ -173,6 +174,7 @@
       gallery12Brand: 'Palentina de Aromáticas · Независимый концепт', gallery12Title: 'Лаванда — больше, чем аромат.', gallery12Role: 'Мудборды территорий · Исследование + арт-дирекшн',
       gallery13Brand: 'Palentina de Aromáticas · Независимый концепт', gallery13Title: 'Фиолетовый цветок. Золотая история.', gallery13Role: 'Постеры кампании · Концепция + текст',
       gallery14Brand: 'Palentina de Aromáticas · Независимый концепт', gallery14Title: 'Красота не всегда хрупкая.', gallery14Role: 'Серия о земле · Арт-дирекшн + сторителлинг',
+      case4Category: 'Ароматические растения · Независимый концепт', case4Title: 'Один цветок, много индустрий: мир бренда для лавандового кооператива.', case4Problem: 'Фермерский кооператив в Кастилии перегоняет лаванду в эфирное масло и продаёт его как сырьё. История заканчивается там, где масло покидает перегонный куб.', case4Idea: 'Лаванда — больше, чем аромат.', case4World: 'Один цветок, прочитанный через четыре территории — еда, напитки, материал и то, что остаётся после дистилляции, — и укоренённый в сухой, продуваемой ветром земле, на которой он растёт.', case4System: 'Идея бренда, четыре мудборда территорий, постерная кампания и серия о земле, из которых можно продолжать делать истории.', case4Result: 'Самостоятельный концепт: территория бренда, выросшая из исследования и готовая продолжиться в кампаниях, упаковке и редакционном контенте.', case4Metric1: 'контент-территории', case4Metric2: 'ключевых визуалов', albumOpen: 'Открыть альбом', albumClose: 'Закрыть альбом', albumSeries: 'серии', albumImages: 'изображений', caseNext: 'Следующий кейс', casePrev: 'Предыдущий кейс', scrollHint: 'Листайте в сторону',
       contactLabel: 'Начать проект', contactTitle: 'Есть идея, которая пока не нашла свою форму?', contactSupport: 'Расскажите, что кажется неясным, застряло или слишком похоже на всех остальных. Я посмотрю на задачу и предложу самый полезный следующий шаг.', contactButton: 'Расскажите о ней', footer: 'Стратегия бренд-контента · Креативное руководство · Контент-системы · Европа', lightboxClose: 'Закрыть медиа', previous: 'Предыдущее медиа', next: 'Следующее медиа'
     },
     es: {
@@ -224,6 +226,7 @@
       gallery12Brand: 'Palentina de Aromáticas · Concepto independiente', gallery12Title: 'La lavanda es más que un aroma.', gallery12Role: 'Moodboards de territorios · Investigación + dirección de arte',
       gallery13Brand: 'Palentina de Aromáticas · Concepto independiente', gallery13Title: 'Una flor púrpura. Una historia dorada.', gallery13Role: 'Pósters de campaña · Concepto + copy',
       gallery14Brand: 'Palentina de Aromáticas · Concepto independiente', gallery14Title: 'La belleza no siempre es delicada.', gallery14Role: 'Serie sobre la tierra · Dirección de arte + storytelling',
+      case4Category: 'Plantas aromáticas · Concepto independiente', case4Title: 'Una flor, muchas industrias: un mundo de marca para una cooperativa de lavanda.', case4Problem: 'Una cooperativa de agricultores de Castilla destila lavanda en aceite esencial y lo vende como materia prima. La historia termina donde el aceite sale del alambique.', case4Idea: 'La lavanda es más que un aroma.', case4World: 'Una flor leída a través de cuatro territorios — comida, bebida, material y lo que queda tras la destilación — y arraigada en la tierra seca y ventosa donde crece.', case4System: 'Una idea de marca, cuatro moodboards de territorio, una campaña de pósters y una serie sobre la tierra que puede seguir generando historias.', case4Result: 'Un concepto de iniciativa propia: un territorio de marca nacido de la investigación, listo para extenderse a campañas, packaging y contenido editorial.', case4Metric1: 'territorios de contenido', case4Metric2: 'visuales clave', albumOpen: 'Abrir álbum', albumClose: 'Cerrar álbum', albumSeries: 'series', albumImages: 'imágenes', caseNext: 'Caso siguiente', casePrev: 'Caso anterior', scrollHint: 'Desliza hacia un lado',
       contactLabel: 'Iniciar un proyecto', contactTitle: '¿Tienes una idea que todavía no ha encontrado su forma?', contactSupport: 'Cuéntame qué se siente poco claro, bloqueado o demasiado parecido a todo lo demás. Analizaré el problema y volveré con el siguiente paso más útil.', contactButton: 'Cuéntame', footer: 'Estrategia de contenido de marca · Dirección creativa · Sistemas de contenido · Europa', lightboxClose: 'Cerrar contenido', previous: 'Contenido anterior', next: 'Contenido siguiente'
     },
     it: {
@@ -273,6 +276,7 @@
       gallery12Brand: 'Palentina de Aromáticas · Concept indipendente', gallery12Title: 'La lavanda è più di un profumo.', gallery12Role: 'Moodboard dei territori · Ricerca + art direction',
       gallery13Brand: 'Palentina de Aromáticas · Concept indipendente', gallery13Title: 'Un fiore viola. Una storia dorata.', gallery13Role: 'Poster di campagna · Concept + copy',
       gallery14Brand: 'Palentina de Aromáticas · Concept indipendente', gallery14Title: 'La bellezza non è sempre delicata.', gallery14Role: 'Serie sulla terra · Art direction + storytelling',
+      case4Category: 'Piante aromatiche · Concept indipendente', case4Title: 'Un fiore, molte industrie: un mondo di marca per una cooperativa di lavanda.', case4Problem: 'Una cooperativa di agricoltori in Castiglia distilla la lavanda in olio essenziale e lo vende come materia prima. La storia finisce dove l’olio lascia l’alambicco.', case4Idea: 'La lavanda è più di un profumo.', case4World: 'Un fiore letto attraverso quattro territori — cibo, bevande, materiali e ciò che resta dopo la distillazione — e radicato nella terra secca e ventosa in cui cresce.', case4System: 'Un’idea di brand, quattro moodboard di territorio, una campagna di poster e una serie sulla terra che può continuare a generare storie.', case4Result: 'Un concept di iniziativa personale: un territorio di marca nato dalla ricerca, pronto a estendersi a campagne, packaging e contenuti editoriali.', case4Metric1: 'territori di contenuto', case4Metric2: 'visual chiave', albumOpen: 'Apri l’album', albumClose: 'Chiudi l’album', albumSeries: 'serie', albumImages: 'immagini', caseNext: 'Caso successivo', casePrev: 'Caso precedente', scrollHint: 'Scorri di lato',
       contactLabel: 'Avvia un progetto', contactTitle: 'Hai un’idea che non ha ancora trovato la sua forma?', contactSupport: 'Raccontami cosa non è chiaro, cosa si è bloccato o cosa assomiglia troppo a tutto il resto. Guarderò il problema e tornerò con il passo successivo più utile.', contactButton: 'Raccontamela', footer: 'Strategia dei contenuti di brand · Direzione creativa · Sistemi di contenuti · Europa', lightboxClose: 'Chiudi media', previous: 'Media precedente', next: 'Media successivo'
     },
     by: {
@@ -322,6 +326,7 @@
       gallery12Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery12Title: 'Лаванда — больш, чым водар.', gallery12Role: 'Мудборды тэрыторый · Даследаванне + арт-дырэкшн',
       gallery13Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery13Title: 'Фіялетавая кветка. Залатая гісторыя.', gallery13Role: 'Постэры кампаніі · Канцэпцыя + тэкст',
       gallery14Brand: 'Palentina de Aromáticas · Незалежны канцэпт', gallery14Title: 'Прыгажосць не заўсёды кволая.', gallery14Role: 'Серыя пра зямлю · Арт-дырэкшн + сторытэлінг',
+      case4Category: 'Араматычныя расліны · Незалежны канцэпт', case4Title: 'Адна кветка, шмат індустрый: свет брэнда для лавандавага кааператыва.', case4Problem: 'Фермерскі кааператыў у Кастыліі пераганяе лаванду ў эфірны алей і прадае яго як сыравіну. Гісторыя заканчваецца там, дзе алей пакідае перагонны куб.', case4Idea: 'Лаванда — больш, чым водар.', case4World: 'Адна кветка, прачытаная праз чатыры тэрыторыі — ежа, напоі, матэрыял і тое, што застаецца пасля дыстыляцыі, — і ўкаранёная ў сухой, ветранай зямлі, на якой яна расце.', case4System: 'Ідэя брэнда, чатыры мудборды тэрыторый, постэрная кампанія і серыя пра зямлю, з якіх можна працягваць рабіць гісторыі.', case4Result: 'Самастойны канцэпт: тэрыторыя брэнда, якая вырасла з даследавання і гатовая працягнуцца ў кампаніях, упакоўцы і рэдакцыйным кантэнце.', case4Metric1: 'кантэнт-тэрыторыі', case4Metric2: 'ключавых візуалаў', albumOpen: 'Адкрыць альбом', albumClose: 'Закрыць альбом', albumSeries: 'серыі', albumImages: 'выяў', caseNext: 'Наступны кейс', casePrev: 'Папярэдні кейс', scrollHint: 'Гартайце ўбок',
       contactLabel: 'Пачаць праект', contactTitle: 'Ёсць ідэя, якая пакуль не знайшла сваю форму?', contactSupport: 'Раскажыце, што застаецца няясным, затрымалася або занадта падобнае да ўсяго астатняга. Я пагляджу на задачу і прапаную найбольш карысны наступны крок.', contactButton: 'Раскажыце пра яе', footer: 'Стратэгія брэнд-кантэнту · Крэатыўнае кіраўніцтва · Кантэнт-сістэмы · Еўропа', lightboxClose: 'Закрыць медыя', previous: 'Папярэдняе медыя', next: 'Наступнае медыя'
     }
   };
@@ -363,27 +368,32 @@
     en: {
       haircare: ['Competitor intelligence', 'Brand manifesto', 'Positioning', 'Communication rules', '12-month masterplan', 'Content pillars', 'Evergreen formats', 'Hook library', 'Highlights architecture', 'Monthly content calendars', 'Compliance framework', 'Production workflow'],
       optics: ['Competitor analysis', 'Manifesto', 'Tone of voice', 'Positioning', 'Content pillars', 'Visual direction', 'Hook system', 'Editorial rhythm', 'KPI framework', 'Content calendar'],
-      fashion: ['Audience portrait', 'Positioning', 'Seasonal narrative', 'Communication rules', 'Content matrix', 'Content pillars', 'Repeatable formats', 'Annual masterplan', 'Production calendar', 'Story briefs']
+      fashion: ['Audience portrait', 'Positioning', 'Seasonal narrative', 'Communication rules', 'Content matrix', 'Content pillars', 'Repeatable formats', 'Annual masterplan', 'Production calendar', 'Story briefs'],
+      lavender: ['Territory research', 'Brand idea', 'Moodboards', 'Campaign concept', 'Poster series', 'Copywriting', 'Art direction', 'Land narrative']
     },
     ru: {
       haircare: ['Анализ конкурентов', 'Манифест бренда', 'Позиционирование', 'Правила коммуникации', 'Мастер-план на 12 месяцев', 'Контент-рубрики', 'Постоянные форматы', 'Библиотека хуков', 'Архитектура Highlights', 'Ежемесячные контент-календари', 'Система compliance', 'Процесс производства'],
       optics: ['Анализ конкурентов', 'Манифест', 'Tone of voice', 'Позиционирование', 'Контент-рубрики', 'Визуальное направление', 'Система хуков', 'Редакционный ритм', 'KPI-фреймворк', 'Контент-календарь'],
-      fashion: ['Портрет аудитории', 'Позиционирование', 'Сезонный нарратив', 'Правила коммуникации', 'Контент-матрица', 'Контент-рубрики', 'Повторяемые форматы', 'Годовой мастер-план', 'Производственный календарь', 'Брифы историй']
+      fashion: ['Портрет аудитории', 'Позиционирование', 'Сезонный нарратив', 'Правила коммуникации', 'Контент-матрица', 'Контент-рубрики', 'Повторяемые форматы', 'Годовой мастер-план', 'Производственный календарь', 'Брифы историй'],
+      lavender: ['Исследование территории', 'Идея бренда', 'Мудборды', 'Концепция кампании', 'Серия постеров', 'Копирайтинг', 'Арт-дирекшн', 'Нарратив земли']
     },
     es: {
       haircare: ['Inteligencia competitiva', 'Manifiesto de marca', 'Posicionamiento', 'Reglas de comunicación', 'Plan de 12 meses', 'Pilares de contenido', 'Formatos evergreen', 'Biblioteca de hooks', 'Arquitectura de Highlights', 'Calendarios mensuales', 'Marco de compliance', 'Flujo de producción'],
       optics: ['Análisis competitivo', 'Manifiesto', 'Tono de voz', 'Posicionamiento', 'Pilares de contenido', 'Dirección visual', 'Sistema de hooks', 'Ritmo editorial', 'Marco de KPIs', 'Calendario de contenido'],
-      fashion: ['Perfil de audiencia', 'Posicionamiento', 'Narrativa estacional', 'Reglas de comunicación', 'Matriz de contenido', 'Pilares de contenido', 'Formatos repetibles', 'Plan anual', 'Calendario de producción', 'Briefs narrativos']
+      fashion: ['Perfil de audiencia', 'Posicionamiento', 'Narrativa estacional', 'Reglas de comunicación', 'Matriz de contenido', 'Pilares de contenido', 'Formatos repetibles', 'Plan anual', 'Calendario de producción', 'Briefs narrativos'],
+      lavender: ['Investigación del territorio', 'Idea de marca', 'Moodboards', 'Concepto de campaña', 'Serie de pósters', 'Copywriting', 'Dirección de arte', 'Narrativa de la tierra']
     },
     it: {
       haircare: ['Analisi competitiva', 'Manifesto di marca', 'Posizionamento', 'Regole di comunicazione', 'Masterplan di 12 mesi', 'Content pillar', 'Formati evergreen', 'Libreria di hook', 'Architettura Highlights', 'Calendari mensili', 'Framework di compliance', 'Flusso di produzione'],
       optics: ['Analisi competitiva', 'Manifesto', 'Tone of voice', 'Posizionamento', 'Content pillar', 'Direzione visiva', 'Sistema di hook', 'Ritmo editoriale', 'Framework KPI', 'Calendario editoriale'],
-      fashion: ['Profilo del pubblico', 'Posizionamento', 'Narrazione stagionale', 'Regole di comunicazione', 'Matrice dei contenuti', 'Content pillar', 'Formati ripetibili', 'Masterplan annuale', 'Calendario di produzione', 'Brief narrativi']
+      fashion: ['Profilo del pubblico', 'Posizionamento', 'Narrazione stagionale', 'Regole di comunicazione', 'Matrice dei contenuti', 'Content pillar', 'Formati ripetibili', 'Masterplan annuale', 'Calendario di produzione', 'Brief narrativi'],
+      lavender: ['Ricerca sul territorio', 'Idea di brand', 'Moodboard', 'Concept di campagna', 'Serie di poster', 'Copywriting', 'Art direction', 'Narrazione della terra']
     },
     by: {
       haircare: ['Аналіз канкурэнтаў', 'Маніфест брэнда', 'Пазіцыянаванне', 'Правілы камунікацыі', 'Майстар-план на 12 месяцаў', 'Кантэнт-рубрыкі', 'Пастаянныя фарматы', 'Бібліятэка хукаў', 'Архітэктура Highlights', 'Штомесячныя кантэнт-календары', 'Сістэма compliance', 'Вытворчы працэс'],
       optics: ['Аналіз канкурэнтаў', 'Маніфест', 'Tone of voice', 'Пазіцыянаванне', 'Кантэнт-рубрыкі', 'Візуальны напрамак', 'Сістэма хукаў', 'Рэдакцыйны рытм', 'KPI-фрэймворк', 'Кантэнт-каляндар'],
-      fashion: ['Партрэт аўдыторыі', 'Пазіцыянаванне', 'Сезонны наратыў', 'Правілы камунікацыі', 'Кантэнт-матрыца', 'Кантэнт-рубрыкі', 'Паўтаральныя фарматы', 'Гадавы майстар-план', 'Вытворчы каляндар', 'Брыфы гісторый']
+      fashion: ['Партрэт аўдыторыі', 'Пазіцыянаванне', 'Сезонны наратыў', 'Правілы камунікацыі', 'Кантэнт-матрыца', 'Кантэнт-рубрыкі', 'Паўтаральныя фарматы', 'Гадавы майстар-план', 'Вытворчы каляндар', 'Брыфы гісторый'],
+      lavender: ['Даследаванне тэрыторыі', 'Ідэя брэнда', 'Мудборды', 'Канцэпцыя кампаніі', 'Серыя постэраў', 'Капірайтынг', 'Арт-дырэкшн', 'Наратыў зямлі']
     }
   };
 
@@ -496,9 +506,13 @@
       <section id="expertise">${sectionHead('expertiseLabel','expertiseTitle','expertiseIntro')}<div class="capability-list">${capabilities}</div></section>
       ${renderThinking()}
       <section id="work">${sectionHead('workLabel','workTitle','workIntro')}
+        <div class="case-nav reveal"><div class="case-tabs" role="tablist">${[1,2,3,4].map(n => `<button class="case-tab" type="button" role="tab" data-case-index="${n-1}"><span class="case-tab-num">0${n}</span><span class="case-tab-name" data-i18n="case${n}Category">${en[`case${n}Category`]}</span></button>`).join('')}</div><div class="rail-arrows"><button class="rail-btn" type="button" data-case-dir="-1" data-i18n-aria-label="casePrev" aria-label="${en.casePrev}">&#8592;</button><button class="rail-btn" type="button" data-case-dir="1" data-i18n-aria-label="caseNext" aria-label="${en.caseNext}">&#8594;</button></div></div>
+        <div class="case-track">
         ${renderCase('01','case1Category','case1Title','case1Problem','case1Idea','case1World','case1System','case1Result','haircare',[{value:'200+',key:'case1Metric1'},{value:'12',key:'case1Metric2'},{value:'6+',key:'case1Metric3'}],true,['assets/img/cases/hair-loss/Slider-1-1.webp','assets/img/cases/hair-loss/Slider-4-1.webp','assets/img/cases/hair-loss/Slider-4-4.webp'])}
         ${renderCase('02','case2Category','case2Title','case2Problem','case2Idea','case2World','case2System','case2Result','optics',[{value:'150+',key:'case2Metric1'}],false,['assets/img/cases/sunglasses/Carusel-cover.webp','assets/img/cases/sunglasses/99.webp','assets/img/cases/sunglasses/post3_feed.webp'])}
         ${renderCase('03','case3Category','case3Title','case3Problem','case3Idea','case3World','case3System','case3Result','fashion',null,false,['assets/img/cases/lifestyle/Holly-0.webp','assets/img/cases/lifestyle/Slider-3-1.webp','assets/img/cases/lifestyle/LS-1.webp'])}
+        ${renderCase('04','case4Category','case4Title','case4Problem','case4Idea','case4World','case4System','case4Result','lavender',[{value:'4',key:'case4Metric1'},{value:'13',key:'case4Metric2'}],false,['assets/img/cases/lavender/idea-01.webp','assets/img/cases/lavender/campaign-01.webp','assets/img/cases/lavender/land-01.webp'])}
+        </div>
       </section>
       <section id="reels">${sectionHead('reelsLabel','reelsTitle','reelsIntro')}<div class="reels-grid">
         ${renderReel('assets/img/cases/hair-loss/videos/identit.mp4','assets/img/cases/hair-loss/posters/identit.webp','reelHair1','reelRoleFull')}
@@ -533,7 +547,8 @@
     const lightboxCounter = document.getElementById('lb-counter');
     const lightboxPrevious = document.getElementById('lb-prev');
     const lightboxNext = document.getElementById('lb-next');
-    const slides = [...document.querySelectorAll('#galleryGrid .carousel-slide')];
+    const allSlides = [...document.querySelectorAll('#galleryGrid .carousel-slide')];
+    let slides = allSlides;
     let currentLightboxIndex = 0;
 
     const showLightboxItem = () => {
@@ -547,6 +562,7 @@
     };
 
     const openLightbox = slide => {
+      slides = allSlides.filter(item => !item.closest('.gallery-item').hidden);
       const index = slides.indexOf(slide);
       if (index < 0) return;
       currentLightboxIndex = index;
@@ -575,7 +591,7 @@
       if (event.key === 'ArrowLeft') moveLightbox(-1);
       if (event.key === 'ArrowRight') moveLightbox(1);
     });
-    slides.forEach(slide => slide.addEventListener('click', () => openLightbox(slide)));
+    allSlides.forEach(slide => slide.addEventListener('click', () => openLightbox(slide)));
 
     document.querySelectorAll('.carousel').forEach(carousel => {
       const track = carousel.querySelector('.carousel-track');
@@ -594,6 +610,119 @@
         if (event.key === 'ArrowRight') { event.preventDefault(); goTo(currentIndex + 1); }
       });
     });
+  }
+
+
+  function buildAlbums() {
+    const gallery = document.getElementById('gallery');
+    const grid = document.getElementById('galleryGrid');
+    const groups = new Map();
+    grid.querySelectorAll('.gallery-item').forEach(item => {
+      const key = item.dataset.case;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(item);
+    });
+    const cards = [...groups].map(([key, items], index) => {
+      const first = items[0];
+      const cover = first.querySelector('.carousel-slide').getAttribute('src');
+      const brandKey = first.querySelector('.gallery-caption-brand').dataset.i18n;
+      const count = items.reduce((sum, item) => sum + item.querySelectorAll('.carousel-slide').length, 0);
+      const titles = items.map(item => {
+        const titleKey = item.querySelector('.gallery-caption-title').dataset.i18n;
+        return `<span class="album-title-line" data-i18n="${titleKey}">${en[titleKey]}</span>`;
+      }).join('');
+      return `<button class="album-card reveal" type="button" data-album="${key}" data-brand-key="${brandKey}" aria-haspopup="dialog">
+        <span class="album-cover"><img src="${cover}" loading="lazy" decoding="async" alt=""></span>
+        <span class="album-body">
+          <span class="album-index">0${index + 1}</span>
+          <span class="album-brand" data-i18n="${brandKey}">${en[brandKey]}</span>
+          <span class="album-titles">${titles}</span>
+          <span class="album-meta">${items.length} <span data-i18n="albumSeries">${en.albumSeries}</span> · ${count} <span data-i18n="albumImages">${en.albumImages}</span></span>
+          <span class="album-open"><span data-i18n="albumOpen">${en.albumOpen}</span> &#8594;</span>
+        </span>
+      </button>`;
+    }).join('');
+    grid.insertAdjacentHTML('beforebegin', `<div class="rail-wrap"><div class="rail-arrows rail-arrows--light"><button class="rail-btn" type="button" data-rail-dir="-1" data-i18n-aria-label="previous" aria-label="${en.previous}">&#8592;</button><button class="rail-btn" type="button" data-rail-dir="1" data-i18n-aria-label="next" aria-label="${en.next}">&#8594;</button></div><div class="album-rail rail" id="albumRail">${cards}</div></div>
+      <div class="album-panel" id="albumPanel" role="dialog" aria-modal="true" aria-labelledby="albumPanelBrand" hidden>
+        <div class="album-panel-bar"><div class="album-panel-brand" id="albumPanelBrand"></div><button class="album-close" type="button" id="albumClose"><span data-i18n="albumClose">${en.albumClose}</span> &#10005;</button></div>
+      </div>`);
+    document.getElementById('albumPanel').appendChild(grid);
+    grid.querySelectorAll('.gallery-item').forEach(item => { item.hidden = true; });
+  }
+
+  function bindAlbums() {
+    const panel = document.getElementById('albumPanel');
+    if (!panel) return;
+    const grid = document.getElementById('galleryGrid');
+    const brand = document.getElementById('albumPanelBrand');
+    const lightbox = document.getElementById('lightbox');
+    let opener = null;
+    const close = () => {
+      panel.classList.remove('open');
+      document.body.classList.remove('album-open');
+      window.setTimeout(() => { if (!panel.classList.contains('open')) panel.hidden = true; }, 450);
+      opener?.focus({ preventScroll: true });
+    };
+    document.querySelectorAll('.album-card').forEach(card => card.addEventListener('click', () => {
+      opener = card;
+      grid.querySelectorAll('.gallery-item').forEach(item => { item.hidden = item.dataset.case !== card.dataset.album; });
+      brand.dataset.i18n = card.dataset.brandKey;
+      brand.innerHTML = card.querySelector('.album-brand').innerHTML;
+      panel.hidden = false;
+      grid.scrollLeft = 0;
+      document.body.classList.add('album-open');
+      window.requestAnimationFrame(() => { panel.classList.add('open'); document.getElementById('albumClose').focus({ preventScroll: true }); });
+    }));
+    document.getElementById('albumClose').addEventListener('click', close);
+    grid.addEventListener('wheel', event => {
+      if (Math.abs(event.deltaY) <= Math.abs(event.deltaX) || grid.scrollWidth <= grid.clientWidth) return;
+      event.preventDefault();
+      grid.scrollLeft += event.deltaY;
+    }, { passive: false });
+    panel.addEventListener('click', event => { if (event.target === panel || event.target === grid) close(); });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && panel.classList.contains('open') && !lightbox.classList.contains('open')) close();
+    });
+  }
+
+  function bindRails() {
+    document.querySelectorAll('.rail-wrap').forEach(wrap => {
+      const rail = wrap.querySelector('.rail');
+      wrap.querySelectorAll('[data-rail-dir]').forEach(button => button.addEventListener('click', () => {
+        rail.scrollBy({ left: Number(button.dataset.railDir) * rail.clientWidth * .8, behavior: 'smooth' });
+      }));
+    });
+    const track = document.querySelector('.case-track');
+    if (track) {
+      const tabs = [...document.querySelectorAll('.case-tab')];
+      const cases = [...track.children];
+      let current = -1;
+      const sync = () => {
+        const index = Math.max(0, Math.min(cases.length - 1, Math.round(track.scrollLeft / Math.max(1, track.clientWidth))));
+        track.style.height = `${cases[index].offsetHeight}px`;
+        if (index === current) return;
+        current = index;
+        tabs.forEach((tab, n) => { tab.classList.toggle('active', n === index); tab.setAttribute('aria-selected', String(n === index)); });
+      };
+      const go = index => track.scrollTo({ left: Math.max(0, Math.min(cases.length - 1, index)) * track.clientWidth, behavior: 'smooth' });
+      let frame = 0;
+      track.addEventListener('scroll', () => { window.cancelAnimationFrame(frame); frame = window.requestAnimationFrame(sync); }, { passive: true });
+      tabs.forEach((tab, n) => tab.addEventListener('click', () => go(n)));
+      document.querySelectorAll('[data-case-dir]').forEach(button => button.addEventListener('click', () => go(current + Number(button.dataset.caseDir))));
+      window.addEventListener('resize', sync);
+      window.addEventListener('load', sync);
+      document.querySelectorAll('.lang-btn').forEach(button => button.addEventListener('click', () => window.requestAnimationFrame(sync)));
+      sync();
+    }
+    const progress = document.querySelector('.scroll-progress');
+    if (progress) {
+      const update = () => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        progress.style.transform = `scaleX(${max > 0 ? Math.min(1, window.scrollY / max) : 0})`;
+      };
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    }
   }
 
   function renderContact() {
@@ -620,9 +749,9 @@
         </div>
         <form class="brief-form" id="project-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
           <input type="hidden" name="access_key" value="d33b0ee1-7cf1-4c89-ae7a-bca71d29fdc1">
-          <input type="hidden" name="subject" value="New project brief — katynov.github.io">
+          <input type="hidden" name="subject" value="New project brief — portfolio.katokanovitski.com">
           <input type="hidden" name="from_name" value="Ekaterina Novitskaia — Project Brief">
-          <input type="hidden" name="Source" value="https://katynov.github.io/#project-brief">
+          <input type="hidden" name="Source" value="https://portfolio.katokanovitski.com/#project-brief">
           <input type="hidden" name="Language" id="project-language" value="EN">
           <label class="brief-field"><span data-form-i18n="name">${FORM_COPY.en.name}</span><input type="text" name="Name" autocomplete="name" required></label>
           <label class="brief-field"><span data-form-i18n="email">${FORM_COPY.en.email}</span><input type="email" name="email" autocomplete="email" required></label>
@@ -787,17 +916,28 @@
     });
   }
 
-  document.body.insertAdjacentHTML('afterbegin', `<a class="skip-link" href="#main-content" data-i18n="skip">${en.skip}</a>`);
-  renderNavigation();
-  renderHero();
-  renderStrategicSections();
-  upgradeGallery();
+  const PRERENDERED = document.documentElement.hasAttribute('data-prerendered');
+  const PRERENDER_MODE = new URLSearchParams(window.location.search).get('prerender') === '1';
+  if (!PRERENDERED) {
+    document.body.insertAdjacentHTML('afterbegin', `<div class="scroll-progress" aria-hidden="true"></div><a class="skip-link" href="#main-content" data-i18n="skip">${en.skip}</a>`);
+    renderNavigation();
+    renderHero();
+    renderStrategicSections();
+    upgradeGallery();
+    buildAlbums();
+    renderContact();
+    createMainLandmark();
+  }
+  if (PRERENDER_MODE) {
+    document.documentElement.setAttribute('data-prerendered', '');
+    return;
+  }
   bindGalleryInteractions();
-  renderContact();
+  bindAlbums();
   bindProjectForm();
-  createMainLandmark();
   upgradeLightbox();
   bindInteractions();
   applyLanguage(localStorage.getItem('lang') || 'en');
+  bindRails();
   document.body.classList.add('strategic-ready');
 })();
