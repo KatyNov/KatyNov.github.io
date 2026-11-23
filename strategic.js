@@ -484,12 +484,12 @@
 
 
   const CASES = [
-    { n: 1, tags: 'haircare', cover: 'assets/img/cases/hair-loss/Slider-1-1.webp', metrics: [{ value: '200+', key: 'case1Metric1' }, { value: '12', key: 'case1Metric2' }, { value: '6+', key: 'case1Metric3' }], testimonial: true, media: ['assets/img/cases/hair-loss/Slider-1-1.webp', 'assets/img/cases/hair-loss/Slider-4-1.webp', 'assets/img/cases/hair-loss/Slider-4-4.webp'] },
-    { n: 2, tags: 'optics', cover: 'assets/img/cases/sunglasses/6-1.webp', metrics: [{ value: '150+', key: 'case2Metric1' }], media: ['assets/img/cases/sunglasses/Carusel-cover.webp', 'assets/img/cases/sunglasses/99.webp', 'assets/img/cases/sunglasses/post3_feed.webp'] },
-    { n: 3, tags: 'fashion', cover: 'assets/img/cases/lifestyle/Holly-0.webp', metrics: null, media: ['assets/img/cases/lifestyle/Holly-0.webp', 'assets/img/cases/lifestyle/Slider-3-1.webp', 'assets/img/cases/lifestyle/LS-1.webp'] },
-    { n: 4, tags: 'lavender', cover: 'assets/img/cases/lavender/idea-02.webp', metrics: [{ value: '4', key: 'case4Metric1' }, { value: '13', key: 'case4Metric2' }], media: ['assets/img/cases/lavender/idea-01.webp', 'assets/img/cases/lavender/campaign-01.webp', 'assets/img/cases/lavender/land-01.webp'] },
-    { n: 5, tags: 'saffron', cover: 'assets/img/cases/saffron/origin-01.webp', metrics: [{ value: '2', key: 'metricSeries' }, { value: '18', key: 'metricVisuals' }], media: ['assets/img/cases/saffron/origin-01.webp', 'assets/img/cases/saffron/kitchen-01.webp', 'assets/img/cases/saffron/origin-03.webp'] },
-    { n: 6, tags: 'labiatae', cover: 'assets/img/cases/labiatae/campaign-01.webp', metrics: [{ value: '2', key: 'metricSeries' }, { value: '5', key: 'metricVisuals' }], media: ['assets/img/cases/labiatae/research-01.webp', 'assets/img/cases/labiatae/campaign-01.webp', 'assets/img/cases/labiatae/campaign-02.webp'] }
+    { n: 1, tags: 'haircare', cover: 'assets/img/cases/hair-loss/Slider-1-1.webp', coverSize: [1547, 1920], metrics: [{ value: '200+', key: 'case1Metric1' }, { value: '12', key: 'case1Metric2' }, { value: '6+', key: 'case1Metric3' }], testimonial: true, media: ['assets/img/cases/hair-loss/Slider-1-1.webp', 'assets/img/cases/hair-loss/Slider-4-1.webp', 'assets/img/cases/hair-loss/Slider-4-4.webp'] },
+    { n: 2, tags: 'optics', cover: 'assets/img/cases/sunglasses/6-1.webp', coverSize: [853, 1280], metrics: [{ value: '150+', key: 'case2Metric1' }], media: ['assets/img/cases/sunglasses/Carusel-cover.webp', 'assets/img/cases/sunglasses/99.webp', 'assets/img/cases/sunglasses/post3_feed.webp'] },
+    { n: 3, tags: 'fashion', cover: 'assets/img/cases/lifestyle/Holly-0.webp', coverSize: [1000, 1500], metrics: null, media: ['assets/img/cases/lifestyle/Holly-0.webp', 'assets/img/cases/lifestyle/Slider-3-1.webp', 'assets/img/cases/lifestyle/LS-1.webp'] },
+    { n: 4, tags: 'lavender', cover: 'assets/img/cases/lavender/idea-02.webp', coverSize: [859, 1280], metrics: [{ value: '4', key: 'case4Metric1' }, { value: '13', key: 'case4Metric2' }], media: ['assets/img/cases/lavender/idea-01.webp', 'assets/img/cases/lavender/campaign-01.webp', 'assets/img/cases/lavender/land-01.webp'] },
+    { n: 5, tags: 'saffron', cover: 'assets/img/cases/saffron/origin-01.webp', coverSize: [859, 1280], metrics: [{ value: '2', key: 'metricSeries' }, { value: '18', key: 'metricVisuals' }], media: ['assets/img/cases/saffron/origin-01.webp', 'assets/img/cases/saffron/kitchen-01.webp', 'assets/img/cases/saffron/origin-03.webp'] },
+    { n: 6, tags: 'labiatae', cover: 'assets/img/cases/labiatae/campaign-01.webp', coverSize: [848, 1264], metrics: [{ value: '2', key: 'metricSeries' }, { value: '5', key: 'metricVisuals' }], media: ['assets/img/cases/labiatae/research-01.webp', 'assets/img/cases/labiatae/campaign-01.webp', 'assets/img/cases/labiatae/campaign-02.webp'] }
   ];
 
   // Add a video here to lengthen the motion strip: poster is a frame from the clip.
@@ -511,7 +511,7 @@
   function renderCaseCard(item) {
     const n = item.n;
     return `<article class="case-card" data-case-card="${n - 1}">
-      <div class="case-card-media"><img src="${item.cover}" loading="lazy" decoding="async" alt="${en[`case${n}Title`]}" data-i18n-alt="case${n}Title"></div>
+      <div class="case-card-media"><img src="${item.cover}" width="${item.coverSize[0]}" height="${item.coverSize[1]}" loading="lazy" decoding="async" alt="${en[`case${n}Title`]}" data-i18n-alt="case${n}Title"></div>
       <div class="case-card-body">
         <div class="case-card-top"><span class="case-card-num" aria-hidden="true">0${n}</span><span class="case-card-category eyebrow" data-i18n="case${n}Category">${en[`case${n}Category`]}</span></div>
         <h3 data-i18n="case${n}Title">${en[`case${n}Title`]}</h3>
