@@ -137,7 +137,7 @@ nav {
   color: var(--cream);
   cursor: pointer;
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 11px;
   letter-spacing: 0.12em;
   text-decoration: none;
   text-transform: uppercase;
@@ -575,7 +575,7 @@ section {
   border-bottom: 1px solid currentColor;
   color: inherit;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: .12em;
   text-decoration: none;
   text-transform: uppercase;
@@ -1595,4 +1595,10 @@ html, body { overflow-x: clip; }
 #work:not(.stage-on) .case-card-foot .case-metric { padding-right: 14px; }
 @media (max-height: 820px) {
   .stage-on .case-card-result { display: none; }
+}
+
+/* Phones: label above the value, so long addresses and translated labels never wrap. */
+@media (max-width: 600px) {
+  .contact-link { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .contact-link-label { width: auto; }
 }
