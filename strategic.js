@@ -1130,7 +1130,7 @@
         </div>
       </div>
     </div>`;
-    document.querySelector('footer').innerHTML = `<span class="footer-copy">© 2026 Ekaterina Novitskaia</span><span class="footer-copy" data-i18n="footer">${en.footer}</span>`;
+    document.querySelector('footer').innerHTML = `<span class="footer-copy">© 2026 Ekaterina Novitskaia</span><a class="footer-photo" href="https://katokanovitski.com/"><span data-i18n="photoLabel">${en.photoLabel}</span> · <b>katokanovitski.com</b></a><span class="footer-copy" data-i18n="footer">${en.footer}</span>`;
   }
 
   function bindProjectForm() {
