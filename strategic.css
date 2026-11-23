@@ -1489,8 +1489,8 @@ html, body { overflow-x: clip; }
 .case-reel { display: flex; gap: 16px; margin-top: 28px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
 .case-reel::-webkit-scrollbar { display: none; }
 .case-card { display: flex; flex: 0 0 86vw; flex-direction: column; max-width: 520px; background: var(--dark-soft); scroll-snap-align: start; }
-.case-card-media { aspect-ratio: 4 / 3; overflow: hidden; background: #111; }
-.case-card-media img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.case-card-media { overflow: hidden; background: #111; }
+.case-card-media img { width: 100%; height: auto; display: block; }
 .case-card-body { display: flex; flex: 1; flex-direction: column; gap: 14px; min-width: 0; padding: 22px; }
 .case-card-top { display: flex; align-items: baseline; gap: 14px; }
 .case-card-num { color: #686158; font-family: var(--serif); font-size: clamp(30px, 3vw, 46px); line-height: .8; }
