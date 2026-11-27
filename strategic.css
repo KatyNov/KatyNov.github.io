@@ -1305,6 +1305,8 @@ footer { padding: 27px var(--page-pad); }
 .album-panel.open .gallery-item { transform: none; opacity: 1; }
 .album-panel .gallery-item[hidden] { display: none; }
 .album-panel .carousel-slide { max-height: calc(100svh - 230px); object-fit: cover; }
+/* Landscape posters and photos inside portrait carousels: show whole, on a dark ground. */
+.carousel-slide--wide, .album-panel .carousel-slide--wide { object-fit: contain; background: #14110f; }
 .album-panel .gallery-caption { min-height: 0; padding: 12px 0 0; }
 .album-panel .gallery-caption-title { max-width: none; font-size: clamp(19px, 1.5vw, 24px); }
 .album-panel .gallery-caption-role { margin-top: 7px; }
